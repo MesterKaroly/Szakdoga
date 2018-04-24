@@ -1,5 +1,5 @@
 # Szakdoga
-<h1>Étterem</h1>
+<h2>Étterem</h2>
 
 <p>Ez a projekt egy étteremnek a wboldala lesz, ez egy dinamikus weboldal lesz, ahol lehet:
   <ul>
