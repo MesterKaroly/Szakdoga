@@ -19,10 +19,13 @@
     </li>
   </ul>
 </p>
-  <p> Az oldalon belül 4 felhasználó: 
-<ul>
-  <li>GUEST-Vendég</li>
-  <li>PINCÉR</li>
-  <li>SZAKÁCS</li>
-  <li>ADMIN-ő tudja felvenni az alkalmazottakat az adott munkacsoportba.</li>
-</ul></p>
+<p> Az oldalon belül 4 felhasználó: 
+  <ul>
+    <li>GUEST-Vendég</li>
+    <li>PINCÉR</li>
+    <li>SZAKÁCS</li>
+    <li>ADMIN-ő tudja felvenni az alkalmazottakat az adott munkacsoportba.</li>
+  </ul>
+</p>
+
+<p>A backendet spring-boottal szeretném megoldani, illetve a frontendet pedig Angular5-el</p>
