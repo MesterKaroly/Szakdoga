@@ -3,12 +3,15 @@
 
 <p>Ez a projekt egy étteremnek a wboldala lesz, ez egy dinamikus weboldal lesz, ahol lehet:
   <ul>
-    <li>rendelni</li>
-    <li>foglalni</li>
-    <li>megnézni hogy éppen hányan vannak bent az étteremben</li>
-    <li>rendezvényre foglalni</li>
-    <li>étlapot megnézni</li>
-    <li>értékelni
+    <li>Rendelés</li>
+    <li>Foglalás
+        <ul>
+          <li>Rendezvények foglalása</li>
+        </ul>
+      </li>
+    <li>Vendégek száma</li>
+    <li>Étlapot</li>
+    <li>Értékelés
       <ul>
         <li>Éttermet</li>
         <li>Menüt</li>
