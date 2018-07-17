@@ -1,14 +1,22 @@
 # Szakdoga
 <h2>Étterem</h2>
 
-<p>Ez a projekt egy étteremnek a wboldala lesz, ez egy dinamikus weboldal lesz, ahol lehet:
+<p>Ez a projekt egy étteremnek a weboldala lesz, ahol lehet:
   <ul>
-    <li>rendelni</li>
-    <li>foglalni</li>
-    <li>megnézni hogy éppen hányan vannak bent az étteremben</li>
-    <li>rendezvényre foglalni</li>
-    <li>étlapot megnézni</li>
-    <li>értékelni
+    <li>Rendelés
+      <ul>
+        <li>Felvétel</li>
+      </ul>
+    </li>
+    <li>Elkészítendő ételek</li>
+    <li>Foglalás
+        <ul>
+          <li>Rendezvények foglalása</li>
+        </ul>
+      </li>
+    <li>Vendégek száma</li>
+    <li>Étlapot</li>
+    <li>Értékelés
       <ul>
         <li>Éttermet</li>
         <li>Menüt</li>
@@ -28,4 +36,4 @@
   </ul>
 </p>
 
-<p>A backendet spring-boottal szeretném megoldani, illetve a frontendet pedig Angular5-el</p>
+<p>A backendet spring-gel szeretném megoldani, illetve a frontendet pedig Angular-al</p>
