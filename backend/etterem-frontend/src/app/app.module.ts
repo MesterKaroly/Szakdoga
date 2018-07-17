@@ -4,17 +4,24 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
 import { RegistrationComponent } from './registration/registration.component';
-import { AppRoutingModule } from './/app-routing.module';
+import {FormsModule} from "@angular/forms";
+import {RouterModule} from "@angular/router";
+import {appRoutes} from "./routes";
+import {MaterialItemsModule} from "./MaterialItemsModule";
+import { MenuComponent } from './menu/menu.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
-    RegistrationComponent
+    RegistrationComponent,
+    MenuComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    FormsModule,
+    RouterModule.forRoot(appRoutes),
+    MaterialItemsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
