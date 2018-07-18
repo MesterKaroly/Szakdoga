@@ -1,0 +1,16 @@
+#login-page{
+  border: 1px gainsboro solid;
+  text-align: center;
+  margin-inside: 2px;
+  padding: 2px;
+  width: 30%;
+  height: auto;
+  border-radius: 5px;
+  box-shadow: 5px 5px gainsboro;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5px;
+}
+form{
+  padding: 10px;
+}

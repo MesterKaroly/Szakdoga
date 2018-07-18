@@ -4,11 +4,13 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
 import { RegistrationComponent } from './registration/registration.component';
-import {FormsModule} from "@angular/forms";
+import {FormsModule, ReactiveFormsModule} from "@angular/forms";
 import {RouterModule} from "@angular/router";
 import {appRoutes} from "./routes";
 import {MaterialItemsModule} from "./MaterialItemsModule";
 import { MenuComponent } from './menu/menu.component';
+import {HttpModule} from "@angular/http";
+import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
 
 @NgModule({
   declarations: [
@@ -20,7 +22,10 @@ import { MenuComponent } from './menu/menu.component';
   imports: [
     BrowserModule,
     FormsModule,
+    ReactiveFormsModule,
+    HttpModule,
     RouterModule.forRoot(appRoutes),
+    BrowserAnimationsModule,
     MaterialItemsModule
   ],
   providers: [],

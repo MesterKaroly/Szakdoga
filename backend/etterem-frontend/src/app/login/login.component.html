@@ -1,4 +1,26 @@
 <div class="page-body" id="login-page">
-  <h2 class="mat-h2">Login</h2>
+  <h2 class="mat-h2">Belépés</h2>
 
+  <form class="container" [formGroup]="loginForm" novalidate>
+    <div class="form-control">
+      <mat-form-field>
+        <input matInput placeholder="Felhasználónév" formControlName="username">
+        <mat-error *ngIf="username.hasError('required')">
+          Felhasználónév megadása <strong>kötelező</strong>
+        </mat-error>
+      </mat-form-field>
+    </div>
+
+    <div class="form-control">
+      <mat-form-field>
+        <input matInput placeholder="Jelszó" formControlName="password" type="password">
+        <mat-error *ngIf="password.hasError('required')">
+          Jelszó megadása<strong>kötelező</strong>
+        </mat-error>
+      </mat-form-field>
+    </div>
+
+    <button mat-raised-button class="mat-primary" (click)="submit()" >Belépés</button>
+    <button mat-raised-button class="mat-primary" routerLink="/registration">Regisztráció</button>
+  </form>
 </div>

@@ -1,3 +1,53 @@
-<p>
-  registration works!
-</p>
+<div class="page-body" id="login-page">
+  <h2 class="mat-h2">Regisztráció</h2>
+
+  <form class="container" [formGroup]="registrationForm" novalidate>
+
+    <div class="form-control">
+      <mat-form-field>
+        <input matInput placeholder="Teljes név" formControlName="fullname">
+        <mat-error *ngIf="fullname.hasError('required')">
+          Teljes név megadása <strong>kötelező</strong>
+        </mat-error>
+      </mat-form-field>
+    </div>
+
+    <div class="form-control">
+      <mat-form-field>
+        <input matInput placeholder="Felhasználónév" formControlName="username">
+        <mat-error *ngIf="username.hasError('required')">
+          Felhasználónév megadása <strong>kötelező</strong>
+        </mat-error>
+      </mat-form-field>
+    </div>
+
+    <div class="form-control">
+      <mat-form-field>
+        <input matInput placeholder="Jelszó" formControlName="password" type="password">
+        <mat-error *ngIf="password.hasError('required')">
+          Jelszó megadása <strong>kötelező</strong>
+        </mat-error>
+      </mat-form-field>
+    </div>
+
+    <div class="form-control">
+      <mat-form-field>
+        <input matInput placeholder="E-mail" formControlName="email">
+        <mat-error *ngIf="email.hasError('required')">
+          E-mail megadása <strong>kötelező</strong>
+        </mat-error>
+      </mat-form-field>
+    </div>
+
+    <div class="form-control">
+      <mat-form-field>
+          <mat-select placeholder="Beosztás" formControlName="selected" (change)="setRole($event)">
+            <mat-option value="WAITER">Pincér</mat-option>
+            <mat-option value="CHEF">Séf</mat-option>
+            <mat-option value="ADMIN">Főnök</mat-option>
+          </mat-select>
+      </mat-form-field>
+    </div>
+    <button mat-raised-button class="mat-primary" (click)="submit()">Regisztráció</button>
+  </form>
+</div>
