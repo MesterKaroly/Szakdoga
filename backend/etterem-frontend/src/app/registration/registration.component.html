@@ -1,7 +1,7 @@
 <div class="page-body" id="login-page">
   <h2 class="mat-h2">Regisztráció</h2>
 
-  <form class="container" [formGroup]="registrationForm" novalidate>
+  <form [formGroup]="registrationForm" novalidate>
 
     <div class="form-control">
       <mat-form-field>
@@ -41,7 +41,7 @@
 
     <div class="form-control">
       <mat-form-field>
-          <mat-select placeholder="Beosztás" formControlName="selected" (change)="setRole($event)">
+          <mat-select placeholder="Beosztás" (selectionChange)="setRole($event)">
             <mat-option value="WAITER">Pincér</mat-option>
             <mat-option value="CHEF">Séf</mat-option>
             <mat-option value="ADMIN">Főnök</mat-option>

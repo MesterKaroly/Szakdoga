@@ -11,13 +11,25 @@ import {MaterialItemsModule} from "./MaterialItemsModule";
 import { MenuComponent } from './menu/menu.component';
 import {HttpModule} from "@angular/http";
 import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
+import { ErrorComponent } from './error/error.component';
+import { CarteComponent } from './carte/carte.component';
+import { OrderComponent } from './order/order.component';
+import { ReservationComponent } from './reservation/reservation.component';
+import { OrdersComponent } from './orders/orders.component';
+import { RatingComponent } from './rating/rating.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
     RegistrationComponent,
-    MenuComponent
+    MenuComponent,
+    ErrorComponent,
+    CarteComponent,
+    OrderComponent,
+    ReservationComponent,
+    OrdersComponent,
+    RatingComponent
   ],
   imports: [
     BrowserModule,
