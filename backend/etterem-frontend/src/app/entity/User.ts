@@ -12,6 +12,6 @@ export class User{
     this.username = username || "";
     this.password = password || "";
     this.email = email || "";
-    this.role = role || Role.GUEST;
+    this.role = role || Role.USER;
   }
 }

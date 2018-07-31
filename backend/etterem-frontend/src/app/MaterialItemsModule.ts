@@ -4,7 +4,7 @@ import {
   MatInputModule,
   MatSelectModule,
   MatTableModule,
-  MatToolbarModule
+  MatToolbarModule,
 } from '@angular/material';
 import {NgModule} from "@angular/core";
 

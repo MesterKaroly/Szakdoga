@@ -17,6 +17,13 @@ import { OrderComponent } from './order/order.component';
 import { ReservationComponent } from './reservation/reservation.component';
 import { OrdersComponent } from './orders/orders.component';
 import { RatingComponent } from './rating/rating.component';
+import {AuthService} from "./services/auth.service";
+import {CarteService} from "./services/carte.service";
+import {OrderService} from "./services/order.service";
+import {OrdersService} from "./services/orders.service";
+import {RatingService} from "./services/rating.service";
+import {ReservationService} from "./services/reservation.service";
+import {RouteGuard} from "./route.guard";
 
 @NgModule({
   declarations: [
@@ -40,7 +47,7 @@ import { RatingComponent } from './rating/rating.component';
     BrowserAnimationsModule,
     MaterialItemsModule
   ],
-  providers: [],
+  providers: [AuthService,CarteService,OrderService,OrdersService,RatingService,ReservationService,RouteGuard],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
