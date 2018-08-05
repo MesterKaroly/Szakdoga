@@ -31,7 +31,7 @@ const ELEMENT_DATA: PeriodicElement[] = [
 })
 export class OrderComponent implements OnInit {
 
-  displayedColumns: string[] = ['position', 'name', 'weight', 'symbol'];
+  displayedColumns: string[] = ['position', 'name', 'weight', 'symbol','edit'];
   dataSource = new MatTableDataSource<PeriodicElement>(ELEMENT_DATA);
 
   orderForm: FormGroup = new FormGroup({
@@ -50,6 +50,9 @@ export class OrderComponent implements OnInit {
 
   }
 
+  add(id: number){
+
+  }
 
   applyFilter(filterValue: string) {
     this.dataSource.filter = filterValue.trim().toLowerCase();

@@ -1,0 +1,33 @@
+h1{
+  text-align: center;
+}
+#top-panel{
+  padding:0;
+  border: 0.1rem solid gray;
+  border-radius: 10px;
+  width: 70%;
+}
+#megjegyzes{
+  width: 100%;
+}
+.adatok{
+  width: 100%;
+}
+#cardok{
+  padding:0;
+  border: 0.1rem solid gray;
+  border-radius: 10px;
+  width: 100%;
+}
+mat-card{
+  -ms-word-break: break-all;
+  word-break: break-all;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  hyphens: auto;
+}
+.comments{
+  max-height: 400px;
+  border-radius: 10px;
+  border: 1px solid gray;
+}
