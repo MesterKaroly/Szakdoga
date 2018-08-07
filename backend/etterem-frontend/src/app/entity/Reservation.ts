@@ -2,16 +2,12 @@ export class Reservation{
 
   private name:String;
   private phoneNumber:String;
-  private email:String;
-  private event:String;
-  private reservNumber:Number;
+  private comment: String;
 
 
-  constructor(name?: String, phoneNumber?: String, email?: String, event?: String, reservNumber?: Number) {
+  constructor(name?: String, phoneNumber?: String,comment?: String) {
     this.name = name || "";
     this.phoneNumber = phoneNumber || "";
-    this.email = email || "";
-    this.event = event || "";
-    this.reservNumber = reservNumber || 0;
+    this.comment=comment || "";
   }
 }

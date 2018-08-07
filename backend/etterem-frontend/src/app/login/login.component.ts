@@ -1,5 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import {AbstractControl, FormControl, FormGroup, Validators} from "@angular/forms";
+import {AuthService} from "../services/auth.service";
+import {Router} from "@angular/router";
+import {User} from "../entity/User";
 
 @Component({
   selector: 'app-login',
@@ -13,12 +16,18 @@ export class LoginComponent implements OnInit {
     password: new FormControl('', [Validators.required])
   });
 
-  constructor() { }
+  constructor(private authService: AuthService,private router:Router) {
+  }
 
   ngOnInit() {
   }
 
-  submit(){}
+  submit(){
+    this.authService.login(new User(this.username.value, this.password.value))
+      .subscribe(
+      res => this.router.navigate(['/raiting']),
+      err => console.log(err))
+  }
 
 
   get username(): AbstractControl{

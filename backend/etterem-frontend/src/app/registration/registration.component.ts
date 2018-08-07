@@ -1,5 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 import {AbstractControl, FormControl, FormGroup, Validators} from "@angular/forms";
+import {AuthService} from "../services/auth.service";
+import {Router} from "@angular/router";
+import {User} from "../entity/User";
+import {Role} from "../entity/Role";
 
 @Component({
   selector: 'app-registration',
@@ -16,14 +20,20 @@ export class RegistrationComponent implements OnInit {
   });
 
   role: String='';
-
-  constructor() { }
+  realRole: Role;
+  Admin:Role=Role.ADMIN;
+  constructor(private authService: AuthService,private router: Router) {
+    this.realRole=this.authService.user.role
+  }
 
   ngOnInit() {
   }
 
   submit(){
-
+    this.authService.register(new User(this.fullname.value,this.username.value,this.password.value,this.email.value,this.role))
+      .subscribe(
+      res => this.router.navigate(['/login']),
+      err => console.log(err))
   }
 
   get fullname(): AbstractControl{

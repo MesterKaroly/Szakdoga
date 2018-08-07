@@ -5,3 +5,4 @@ export class Role{
   static CHEF: String="CHEF";
   static ADMIN: String="ADMIN";
 }
+

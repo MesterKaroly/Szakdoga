@@ -1,10 +1,19 @@
 import {Component, OnInit} from '@angular/core';
 import {MatTableDataSource} from "@angular/material";
+import {DataSource} from "@angular/cdk/table";
+import {CarteService} from "../services/carte.service";
+import {Observable} from "rxjs";
+import {Food} from "../entity/Food";
 
 export interface PeriodicElement {
   name: string;
   position: number;
   weight: number;
+  symbol: string;
+}
+export interface PeriodicElements {
+  name: string;
+  position: number;
   symbol: string;
 }
 
@@ -29,18 +38,30 @@ const ELEMENT_DATA: PeriodicElement[] = [
 })
 export class CarteComponent implements OnInit {
   displayedColumns: string[] = ['position', 'name', 'weight', 'symbol'];
+  realdisplayedColumns: string[] = ['name', 'ingredients', 'price'];
   dataSource = new MatTableDataSource<PeriodicElement>(ELEMENT_DATA);
+  realdataSource: DataSource<any> = new CarteDataSource(this.carteService);
 
-  constructor() { }
+  constructor(private carteService: CarteService) { }
 
 
   ngOnInit() {
   }
 
-
-
   applyFilter(filterValue: string) {
     this.dataSource.filter = filterValue.trim().toLowerCase();
   }
 
+}
+export class CarteDataSource extends DataSource<any> {
+  constructor(private carteService: CarteService) {
+    super();
+  }
+
+  connect(): Observable<Food[]> {
+    return this.carteService.getCarte();
+  }
+
+  disconnect() {
+  }
 }
