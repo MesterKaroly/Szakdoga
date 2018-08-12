@@ -1,6 +1,13 @@
 import { Component, OnInit } from '@angular/core';
 import {MatTableDataSource} from "@angular/material";
-import {AbstractControl, FormControl, FormGroup, Validators} from "@angular/forms";
+import {AbstractControl, FormControl, FormGroup} from "@angular/forms";
+import {DataSource} from "@angular/cdk/table";
+import {CarteService} from "../services/carte.service";
+import {Observable} from "rxjs";
+import {Food} from "../entity/Food";
+import {OrderService} from "../services/order.service";
+import {Order} from "../entity/Order";
+import {AuthService} from "../services/auth.service";
 
 
 export interface PeriodicElement {
@@ -32,41 +39,50 @@ const ELEMENT_DATA: PeriodicElement[] = [
 export class OrderComponent implements OnInit {
 
   displayedColumns: string[] = ['position', 'name', 'weight', 'symbol','edit'];
+  realdisplayedColumns: string[] = ['name', 'ingredients', 'price','edit'];
   dataSource = new MatTableDataSource<PeriodicElement>(ELEMENT_DATA);
+  asddataSource: DataSource<any> = new OrderDataSource(this.carteService);
 
   orderForm: FormGroup = new FormGroup({
-    username: new FormControl('', [Validators.required]),
-    phonenumber: new FormControl('',[Validators.required]),
     comment: new FormControl('')
   });
 
+  order: Order;
 
-  constructor() { }
+  constructor(private orderService:OrderService,
+              private carteService: CarteService,
+              private authService: AuthService) {
+    this.order=new Order(this.authService.user);
+    this.orderService.add(this.order);
+  }
 
   ngOnInit() {
   }
 
-  order(){
-
-  }
-
-  add(id: number){
-
+  add(id: number,name: String,ingredients: String,price: number){
+    this.order.addFood(new Food(name,ingredients,price));
+    this.order.comments=this.comment.value;
+    this.orderService.update(this.order);
   }
 
   applyFilter(filterValue: string) {
     this.dataSource.filter = filterValue.trim().toLowerCase();
   }
 
-  get username(): AbstractControl{
-    return this.orderForm.get('username')
-  }
-
-  get phonenumber(): AbstractControl{
-    return this.orderForm.get('phonenumber')
-  }
   get comment(): AbstractControl{
     return this.orderForm.get('comment');
   }
 
+}
+export class OrderDataSource extends DataSource<any> {
+  constructor(private carteService: CarteService) {
+    super();
+  }
+
+  connect(): Observable<Food[]> {
+    return this.carteService.getCarte();
+  }
+
+  disconnect() {
+  }
 }

@@ -2,23 +2,7 @@
 <div id="top-panel">
   <div id="adatok">
     <form class="container" [formGroup]="orderForm" novalidate>
-      <h2>Személyes adatok</h2>
-      <div class="form-control">
-        <mat-form-field>
-          <input matInput placeholder="Felhasználónév" formControlName="username">
-          <mat-error *ngIf="username.hasError('required')">
-            Felhasználónév megadása <strong>kötelező</strong>
-          </mat-error>
-        </mat-form-field>
-      </div>
-      <div class="form-control">
-        <mat-form-field>
-          <input matInput placeholder="Telefonszám" formControlName="phonenumber">
-          <mat-error *ngIf="phonenumber.hasError('required')">
-            Telefonszám megadása <strong>kötelező</strong>
-          </mat-error>
-        </mat-form-field>
-      </div>
+      <h2>Egyéb tudnivaló</h2>
       <div id="megjegyzes" class="form-control">
         <mat-form-field>
           <textarea matInput rows="3" placeholder="Megjegyzés" formControlName="comment"></textarea>
@@ -65,7 +49,7 @@
       <ng-container matColumnDef="edit">
         <th mat-header-cell *matHeaderCellDef> Rendelés </th>
         <td mat-cell *matCellDef="let element">
-        <button mat-button="asd" (click)="add(element.id)">Rendelés</button>
+        <button mat-button="asd" (click)="add(element.id,element.name,element.weight,element.symbol)">Rendelés</button>
         </td>
       </ng-container>
 

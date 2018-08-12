@@ -18,17 +18,18 @@ export class AuthService {
   login(user:User): Observable<User> {
     return this.http.post(Server.routeTo(Routes.LOGIN),user)
       .map(res => {
-      this.isLoggedIn = true;
-      this.user = res.json();
-      return this.user;
-    })
+        this.isLoggedIn = true;
+        this.user = res.json();
+        return this.user;
+    });
   }
   register(user: User): Observable<User> {
-    return this.http.post(Server.routeTo(Routes.REGISTER), user).map(res=>{
-      this.isLoggedIn=true;
-      this.user=res.json();
-      return this.user;
-    })
+    return this.http.post(Server.routeTo(Routes.REGISTER), user)
+      .map(res=>{
+        this.isLoggedIn=true;
+        this.user=res.json();
+        return this.user;
+    });
 
   }
 }
