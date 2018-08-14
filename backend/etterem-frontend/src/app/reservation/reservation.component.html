@@ -1,5 +1,5 @@
 <h1>Foglalások</h1>
-<div id="top-panel">
+<div id="top-panel" *ngIf="!isloggedin">
   <div id="adatok">
     <form class="container" [formGroup]="reservationForm" novalidate>
       <h2>Személyes adatok</h2>
@@ -31,7 +31,7 @@
 
 </div>
 
-<div class="mat-elevation-z8">
+<div class="mat-elevation-z8" *ngIf="isloggedin">
 
   <mat-form-field>
     <input matInput (keyup)="applyFilter($event.target.value)" placeholder="Filter">
@@ -67,7 +67,7 @@
     <ng-container matColumnDef="edit">
       <th mat-header-cell *matHeaderCellDef> Módosítás </th>
       <td mat-cell *matCellDef="let element">
-        <button mat-button="asd" (click)="add(element.id)">Törlés</button>
+        <button mat-button="asd" (click)="delete(element.id)">Törlés</button>
       </td>
     </ng-container>
 

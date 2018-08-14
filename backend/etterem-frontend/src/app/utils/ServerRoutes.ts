@@ -5,7 +5,12 @@ export class Routes {
   static ORDERS: String = 'orders/all';
   static ADDORDER: String = 'order/add';
   static UPDATEORDER: String = 'order/update';
-  static DELETEORDER: String = 'orders/delete';
+  static DELETEORDER: String = 'order/delete';
+  static DELETERESERVATION: String='reservation/delete';
+  static RESERVATIONS: String='reservation/all';
+  static RESERVATIONADD: String='reservation/add';
+  static RATINGADD: String='rating/add';
+  static RATINGGET: String='rating/get';
 }
 
 export class Server {

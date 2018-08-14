@@ -39,7 +39,7 @@
       </mat-form-field>
     </div>
 
-    <div class="form-control" *ngIf="realRole==Admin">
+    <div class="form-control" *ngIf="realRole===Admin">
       <mat-form-field>
           <mat-select placeholder="Beosztás" (selectionChange)="setRole($event)">
             <mat-option value="WAITER">Pincér</mat-option>

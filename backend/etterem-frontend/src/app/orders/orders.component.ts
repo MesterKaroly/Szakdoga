@@ -1,8 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import {DataSource} from "../../../node_modules/@angular/cdk/table";
-import {CarteService} from "../services/carte.service";
 import {Observable} from "rxjs";
-import {Food} from "../entity/Food";
 import {OrdersService} from "../services/orders.service";
 import {Order} from "../entity/Order";
 
@@ -36,7 +34,7 @@ const ELEMENT_DATA: PeriodicElement[] = [
 })
 export class OrdersComponent implements OnInit {
   displayedColumns: string[] = ['position', 'name', 'weight', 'symbol','edit'];
-  realdisplayedColumns: string[] = ['name', 'food','edit'];
+  realdisplayedColumns: string[] = ['position','name', 'food','edit'];
   dataSource = ELEMENT_DATA;
   realdataSource: DataSource<any> =new OrdersDataSource(this.ordersService);
 

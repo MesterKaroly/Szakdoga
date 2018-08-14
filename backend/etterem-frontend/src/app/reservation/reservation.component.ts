@@ -1,6 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 import {MatTableDataSource} from "@angular/material";
 import {AbstractControl, FormControl, FormGroup, Validators} from "@angular/forms";
+import {AuthService} from "../services/auth.service";
+import {ReservationService} from "../services/reservation.service";
+import {DataSource} from "../../../node_modules/@angular/cdk/table";
+import {Observable} from "rxjs";
+import {Reservation} from "../entity/Reservation";
 
 export interface PeriodicElement {
   name: string;
@@ -30,7 +35,9 @@ const ELEMENT_DATA: PeriodicElement[] = [
 export class ReservationComponent implements OnInit {
 
   displayedColumns: string[] = ['position', 'name', 'weight', 'symbol','edit'];
+  realdisplayedColumns: string[] = ['position','fullname', 'phonenumber', 'comment','edit'];
   dataSource = new MatTableDataSource<PeriodicElement>(ELEMENT_DATA);
+  realdataSource: DataSource<any> = new ReservationDataSource(this.reservationService);
 
   reservationForm: FormGroup = new FormGroup({
     username: new FormControl('', [Validators.required]),
@@ -38,16 +45,24 @@ export class ReservationComponent implements OnInit {
     comment: new FormControl('')
   });
 
-  constructor() { }
+  isloggedin:boolean;
+
+  constructor(private authService: AuthService,private reservationService: ReservationService) {
+    this.isloggedin=this.authService.isLoggedIn;
+  }
 
   ngOnInit() {
   }
 
-  order(){
-
+  add(){
+    this.reservationService.update(new Reservation(this.username.value,this.phonenumber.value,this.comment.value))
   }
 
-  add(id: number){
+  delete(id: number){
+    this.reservationService.deleteReserv(id).subscribe(
+      res=> console.log(res),
+      err=> console.log(err)
+    );
 
   }
 
@@ -67,4 +82,16 @@ export class ReservationComponent implements OnInit {
   }
 
 
+}
+export class ReservationDataSource extends DataSource<any> {
+  constructor(private reservationService: ReservationService) {
+    super();
+  }
+
+  connect(): Observable<Reservation[]> {
+    return this.reservationService.getReserv();
+  }
+
+  disconnect() {
+  }
 }

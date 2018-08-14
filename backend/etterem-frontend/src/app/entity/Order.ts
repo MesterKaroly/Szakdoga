@@ -3,15 +3,17 @@ import {User} from "./User";
 
 export class Order {
 
+  private  id:number;
   private _user:User;
   private _comments: String;
   private foods:Food[];
 
 
-  constructor(user:User, comments?: String) {
+  constructor(user:User, comments?: String,id?:number) {
     this._user=user;
     this._comments = comments || "";
     this.foods=[];
+    this.id=id;
   }
 
   get user(): User {

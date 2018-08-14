@@ -23,7 +23,7 @@ export class RegistrationComponent implements OnInit {
   realRole: Role;
   Admin:Role=Role.ADMIN;
   constructor(private authService: AuthService,private router: Router) {
-    this.realRole=this.authService.user.role
+    this.realRole=this.authService.user.role;
   }
 
   ngOnInit() {
@@ -33,21 +33,21 @@ export class RegistrationComponent implements OnInit {
     this.authService.register(new User(this.fullname.value,this.username.value,this.password.value,this.email.value,this.role))
       .subscribe(
       res => this.router.navigate(['/login']),
-      err => console.log(err))
+      err => console.log(err));
   }
 
   get fullname(): AbstractControl{
-    return this.registrationForm.get('fullname')
+    return this.registrationForm.get('fullname');
   }
 
   get username(): AbstractControl{
-    return this.registrationForm.get('username')
+    return this.registrationForm.get('username');
   }
   get password(): AbstractControl{
-    return this.registrationForm.get('password')
+    return this.registrationForm.get('password');
   }
   get email(): AbstractControl{
-    return this.registrationForm.get('email')
+    return this.registrationForm.get('email');
   }
 
   setRole(event){
