@@ -4,3 +4,10 @@
   background-color: #ccccc9;
   color: white;
 }
+mat-toolbar {
+  justify-content: flex-end;
+}
+
+.center {
+  flex: 1 1 auto;
+}
