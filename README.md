@@ -8,23 +8,14 @@
         <li>Felvétel</li>
       </ul>
     </li>
-    <li>Elkészítendő ételek</li>
+    <li>Rendelések</li>
     <li>Foglalás
         <ul>
           <li>Rendezvények foglalása</li>
         </ul>
       </li>
-    <li>Vendégek száma</li>
     <li>Étlapot</li>
-    <li>Értékelés
-      <ul>
-        <li>Éttermet</li>
-        <li>Menüt</li>
-        <li>Árakat</li>
-        <li>Kiszolgálás</li>
-        <li>Ételt</li>
-      </ul>
-    </li>
+    <li>Értékelés</li>
   </ul>
 </p>
 <p> Az oldalon belül 4 felhasználó: 
