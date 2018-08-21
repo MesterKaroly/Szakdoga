@@ -12,14 +12,14 @@ import {Role} from "./entity/Role";
 
 export const appRoutes: Routes = [{
   path:'',
-  canActivateChild:[RouteGuard],
+  //canActivateChild:[RouteGuard],
   children:[
     {path: '', redirectTo: 'rating', pathMatch:'full'},
     {path: 'login', component: LoginComponent},
     {path: 'registration', component: RegistrationComponent},
     {path: 'carte', component: CarteComponent,data:{roles:[Role.GUEST,Role.USER,Role.WAITER,Role.ADMIN]}},
     {path: 'order', component: OrderComponent,data: {roles:[Role.USER,Role.ADMIN,Role.WAITER]}},
-    {path: 'orders', component: OrdersComponent, data:{roles: [Role.CHEF,Role.ADMIN]}},
+    {path: 'orders', component: OrdersComponent, data:{roles: [Role.CHEF,Role.ADMIN,Role.GUEST]}},
     {path: 'reservation', component: ReservationComponent,data: {roles: [Role.USER,Role.ADMIN,Role.WAITER,Role.GUEST]}},
     {path: 'rating', component: RatingComponent,data:{roles: [Role.USER,Role.ADMIN, Role.GUEST]}},
     {path: '**', component: ErrorComponent}

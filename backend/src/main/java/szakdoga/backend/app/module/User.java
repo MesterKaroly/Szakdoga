@@ -9,13 +9,11 @@ import javax.persistence.*;
 
 @Entity
 @Table(name = "USERS")
-@Data
 @AllArgsConstructor
 @NoArgsConstructor
 @EqualsAndHashCode(callSuper = true)
+@Data
 public class User extends BaseEntity {
-
-
 
     @Column(nullable = false, unique = true)
     private String username;
@@ -33,7 +31,8 @@ public class User extends BaseEntity {
     @Column(nullable = false, unique = true)
     private Role role;
 
-    private enum Role {
-        GUEST, USER, ADMIN
+
+    public enum Role {
+        GUEST, USER, ADMIN, WAITER, CHEF
     }
 }

@@ -4,12 +4,14 @@ export class Reservation{
   private name:String;
   private phoneNumber:String;
   private comment: String;
+  private date: Date;
 
 
-  constructor(name?: String, phoneNumber?: String,comment?: String,id?: number) {
-    this.name = name || "";
-    this.phoneNumber = phoneNumber || "";
-    this.comment=comment || "";
-    this.id=id;
+  constructor(id?: number, name?: String, phoneNumber?: String, comment?: String, date?: Date) {
+    this.id = id;
+    this.name = name;
+    this.phoneNumber = phoneNumber;
+    this.comment = comment || "";
+    this.date = date;
   }
 }

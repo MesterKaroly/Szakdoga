@@ -2,7 +2,7 @@ export class Routes {
   static LOGIN: String = 'user/login';
   static REGISTER: String = 'user/register';
   static CARTE: String = 'carte/all';
-  static ORDERS: String = 'orders/all';
+  static ORDERS: String = 'order/all';
   static ADDORDER: String = 'order/add';
   static UPDATEORDER: String = 'order/update';
   static DELETEORDER: String = 'order/delete';

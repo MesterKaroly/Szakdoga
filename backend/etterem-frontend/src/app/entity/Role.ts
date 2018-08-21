@@ -1,5 +1,5 @@
 export class Role{
-  static GUEST: String="GUSET";
+  static GUEST: String="GUEST";
   static USER: String="USER";
   static WAITER: String="WAITER";
   static CHEF: String="CHEF";

@@ -15,6 +15,6 @@ export class OrderService {
   }
 
   update(order: Order) {
-    this.http.post(Server.routeTo(Routes.UPDATEORDER),order);
+    this.http.post(Server.routeTo(Routes.UPDATEORDER)+'/'+order.id,order);
   }
 }

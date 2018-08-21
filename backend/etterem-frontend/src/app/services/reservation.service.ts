@@ -21,7 +21,7 @@ export class ReservationService {
   }
 
   deleteReserv(id: number): Observable<Reservation> {
-    return this.http.delete(`${Server.routeTo(Routes.DELETERESERVATION)}/${id}`)
+    return this.http.delete(`${Server.routeTo(Routes.DELETERESERVATION)}+'/'+${id}`)
       .map(res=> res.json());
   }
 }

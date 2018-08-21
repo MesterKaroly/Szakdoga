@@ -3,7 +3,7 @@ import {User} from "./User";
 
 export class Order {
 
-  private  id:number;
+  private _id:number;
   private _user:User;
   private _comments: String;
   private foods:Food[];
@@ -13,7 +13,7 @@ export class Order {
     this._user=user;
     this._comments = comments || "";
     this.foods=[];
-    this.id=id;
+    this._id=id;
   }
 
   get user(): User {
@@ -30,5 +30,9 @@ export class Order {
 
   set comments(value: String) {
     this._comments = value;
+  }
+
+  get id(): number {
+    return this._id;
   }
 }

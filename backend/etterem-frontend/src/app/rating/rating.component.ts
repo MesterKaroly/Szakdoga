@@ -28,6 +28,7 @@ export class RatingComponent implements OnInit {
   submit(){
     this.date=new Date();
     this.ratingService.add(new Ratings(this.authService.user.fullname,this.date,this.comment.value));
+    this.comments=this.comment.value;
   }
 
   get comment(): AbstractControl{
