@@ -9,10 +9,10 @@ import lombok.NoArgsConstructor;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Table;
-import java.util.Date;
+import java.sql.Timestamp;
 
 @Entity
-@Table(name = "USERS")
+@Table(name = "RATINGS")
 @AllArgsConstructor
 @NoArgsConstructor
 @EqualsAndHashCode(callSuper = true)
@@ -21,11 +21,11 @@ public class Ratings extends BaseEntity {
 
 
     @Column(nullable = false)
-    private String fullName;
+    private String fullname;
     @Column(nullable = false)
-    private Date date;
+    private Timestamp dates;
     @Column(nullable = false)
     private String comments;
     @Column(nullable = false)
-    private int ratingPoint;
+    private int ratingpoint;
 }

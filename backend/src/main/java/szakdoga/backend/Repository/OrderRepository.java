@@ -5,5 +5,5 @@ import org.springframework.stereotype.Repository;
 import szakdoga.backend.app.module.Order;
 
 @Repository
-public interface OrderRepository extends CrudRepository<Order, Integer> {
+public interface OrderRepository extends CrudRepository<Order, Long> {
 }

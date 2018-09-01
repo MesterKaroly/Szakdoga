@@ -6,11 +6,11 @@ import javax.persistence.*;
 
 @Data
 @MappedSuperclass
-public class BaseEntity {
+class BaseEntity {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.SEQUENCE)
-    private String id;
+    @GeneratedValue(strategy = GenerationType.AUTO)
+    private Long id;
 
     @Version
     private int version;

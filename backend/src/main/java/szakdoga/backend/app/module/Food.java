@@ -5,12 +5,10 @@ import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Table;
+import javax.persistence.*;
 
 @Entity
-@Table(name = "USERS")
+@Table(name = "FOOD")
 @AllArgsConstructor
 @NoArgsConstructor
 @EqualsAndHashCode(callSuper = true)
@@ -18,11 +16,14 @@ import javax.persistence.Table;
 public class Food  extends BaseEntity{
 
     @Column(nullable = false)
-    private String name;
+    private String names;
     @Column(nullable = false)
     private String ingredients;
     @Column(nullable = false)
     private int price;
 
+    @JoinColumn
+    @ManyToOne(targetEntity = Order.class)
+    private Order order;
 
 }

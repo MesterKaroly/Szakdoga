@@ -6,24 +6,31 @@ import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Table;
-import java.util.ArrayList;
+import javax.persistence.*;
+import java.util.List;
 
 @Entity
-@Table(name = "USERS")
+@Table(name = "ORDERS")
 @AllArgsConstructor
 @NoArgsConstructor
 @EqualsAndHashCode(callSuper = true)
 @Data
 public class Order extends BaseEntity {
 
-    @Column(nullable = false)
-    private  User user;
+    @Column
+    private  String fullname;
+
+    @Column
+    private String phonenumber;
+
     @Column(nullable = false)
     private String comments;
-    @Column(nullable = false)
-    private ArrayList<Food> foods;
+
+    @Column
+    private int tablenumber;
+
+    @JoinColumn
+    @OneToMany(cascade = CascadeType.ALL, orphanRemoval = true, targetEntity = Food.class)
+    private List<Food> foods;
 
 }

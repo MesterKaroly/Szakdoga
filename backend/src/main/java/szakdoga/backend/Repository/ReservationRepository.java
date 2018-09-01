@@ -5,5 +5,5 @@ import org.springframework.stereotype.Repository;
 import szakdoga.backend.app.module.Reservation;
 
 @Repository
-public interface ReservationRepository extends CrudRepository<Reservation, Integer> {
+public interface ReservationRepository extends CrudRepository<Reservation, Long> {
 }

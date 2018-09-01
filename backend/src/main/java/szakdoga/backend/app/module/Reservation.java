@@ -9,10 +9,10 @@ import lombok.NoArgsConstructor;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Table;
-import java.util.Date;
+import java.sql.Timestamp;
 
 @Entity
-@Table(name = "USERS")
+@Table(name = "RESERVATION")
 @AllArgsConstructor
 @NoArgsConstructor
 @EqualsAndHashCode(callSuper = true)
@@ -20,13 +20,13 @@ import java.util.Date;
 public class Reservation extends BaseEntity {
 
     @Column(nullable = false)
-    private String name;
+    private String fullname;
     @Column(nullable = false)
-    private String phoneNumber;
+    private String phonenumber;
     @Column
     private String comments;
     @Column(nullable = false)
-    private Date date;
+    private Timestamp dates;
     @Column
-    private int tableNumber;
+    private int tablenumber;
 }
