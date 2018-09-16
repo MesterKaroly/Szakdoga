@@ -10,12 +10,12 @@ export class Routes {
   static RESERVATIONS: String='reservation/all';
   static RESERVATIONADD: String='reservation/add';
   static RATINGADD: String='rating/add';
-  static RATINGGET: String='rating/get';
+  static RATINGGET: String='rating/all';
 }
 
 export class Server {
   private static address: String = 'localhost';
-  private static port: String = '4200';
+  private static port: String = '8080';
   private static prefix: String = 'api';
 
   static routeTo(route: String) {

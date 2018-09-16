@@ -22,7 +22,7 @@ public class RatingController {
         this.ratingService = ratingService;
     }
 
-    @GetMapping("/get")
+    @GetMapping("/all")
     public ResponseEntity<Iterable<Ratings>> getAllRatings(){
         Iterable<Ratings> list=ratingService.getAll();
         return ResponseEntity.ok(list);
