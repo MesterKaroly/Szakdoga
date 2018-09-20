@@ -1,17 +1,21 @@
+
+
+
 export class Reservation{
 
   private id:number;
-  private name:String;
+  private fullname:String;
   private phoneNumber:String;
-  private comment: String;
-  private date: Date;
+  private comments: String;
+  private dates:Date;
+  private tablenumber: number;
 
 
   constructor(id?: number, name?: String, phoneNumber?: String, comment?: String, date?: Date) {
     this.id = id;
-    this.name = name;
+    this.fullname = name;
     this.phoneNumber = phoneNumber;
-    this.comment = comment || "";
-    this.date = date;
+    this.comments = comment || "";
+    this.dates = date;
   }
 }

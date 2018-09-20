@@ -38,10 +38,8 @@ const ELEMENT_DATA: PeriodicElement[] = [
 })
 export class OrderComponent implements OnInit {
 
-  displayedColumns: string[] = ['position', 'name', 'weight', 'symbol','edit'];
   realdisplayedColumns: string[] = ['name', 'ingredients', 'price','edit'];
-  dataSource = new MatTableDataSource<PeriodicElement>(ELEMENT_DATA);
-  asddataSource: DataSource<any> = new OrderDataSource(this.carteService);
+  realdataSource: DataSource<any> = new OrderDataSource(this.carteService);
 
   orderForm: FormGroup = new FormGroup({
     comment: new FormControl('')
@@ -52,7 +50,7 @@ export class OrderComponent implements OnInit {
   constructor(private orderService:OrderService,
               private carteService: CarteService,
               private authService: AuthService) {
-    this.order=new Order(this.authService.user);
+    this.order=new Order(this.authService.user.fullname);
     this.orderService.add(this.order);
   }
 
@@ -63,10 +61,6 @@ export class OrderComponent implements OnInit {
     this.order.addFood(new Food(name,ingredients,price));
     this.order.comments=this.comment.value;
     this.orderService.update(this.order);
-  }
-
-  applyFilter(filterValue: string) {
-    this.dataSource.filter = filterValue.trim().toLowerCase();
   }
 
   get comment(): AbstractControl{

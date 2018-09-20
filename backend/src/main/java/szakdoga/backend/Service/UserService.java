@@ -31,19 +31,25 @@ public class UserService {
         return user;
     }
 
-    public boolean isValid(User user) {
+    private boolean isValid(User user) {
         return userRepoitory.findByUsernameAndPassword(user.getUsername(), user.getPassword()).isPresent();
     }
 
     public User login(User user) throws UserNotValidException {
         if (isValid(user)){
-            return this.user=userRepoitory.findByUsername(user.getUsername()).get();
+            return this.user=userRepoitory.findByUsername(user.getUsername()).orElse(user);
+        }else{
+            throw new UserNotValidException();
         }
-        throw new UserNotValidException();
+
     }
 
     public boolean isLoggedIn() {
         return user != null;
+    }
+
+    public Iterable<User> getAll() {
+        return userRepoitory.findAll();
     }
 }
 

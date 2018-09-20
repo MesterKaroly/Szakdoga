@@ -1,32 +1,26 @@
 import {Food} from "./Food";
-import {User} from "./User";
 
 export class Order {
 
   private _id:number;
-  private _user:User;
+  private fullname:String;
+  private phonenumber: String;
   private _comments: String;
+  private tablenumber: number;
   private foods:Food[];
 
 
-  constructor(user:User, comments?: String,id?:number) {
-    this._user=user;
+  constructor(fullname:String, comments?: String,id?:number) {
+    this.fullname=fullname;
     this._comments = comments || "";
     this.foods=[];
     this._id=id;
   }
 
-  get user(): User {
-    return this._user;
-  }
-
-  get comments(): String {
-    return this._comments;
-  }
-
   addFood(food:Food){
     this.foods.push(food);
   }
+
 
   set comments(value: String) {
     this._comments = value;

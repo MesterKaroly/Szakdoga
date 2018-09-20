@@ -33,7 +33,7 @@ public class ReservationController {
         return ResponseEntity.ok().build();
     }
     @PostMapping("/add")
-    public ResponseEntity<Reservation> create(@RequestParam Reservation reservation){
+    public ResponseEntity<Reservation> create(@RequestBody Reservation reservation){
         Reservation saved=reservationService.create(reservation);
         return ResponseEntity.ok(saved);
     }
