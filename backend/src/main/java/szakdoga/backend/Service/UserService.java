@@ -32,16 +32,14 @@ public class UserService {
     }
 
     private boolean isValid(User user) {
-        return userRepoitory.findByUsernameAndPassword(user.getUsername(), user.getPassword()).isPresent();
+        return userRepoitory.findByUsername(user.getUsername()).isPresent();
     }
 
     public User login(User user) throws UserNotValidException {
         if (isValid(user)){
-            return this.user=userRepoitory.findByUsername(user.getUsername()).orElse(user);
-        }else{
-            throw new UserNotValidException();
+            return this.user=userRepoitory.findByUsername(user.getUsername()).get();
         }
-
+        throw new UserNotValidException();
     }
 
     public boolean isLoggedIn() {

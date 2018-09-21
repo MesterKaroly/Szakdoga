@@ -12,7 +12,7 @@ import {Role} from "./entity/Role";
 
 export const appRoutes: Routes = [{
   path:'',
-  //canActivateChild:[RouteGuard],
+  canActivateChild:[RouteGuard],
   children:[
     {path: '', redirectTo: 'rating', pathMatch:'full'},
     {path: 'login', component: LoginComponent},

@@ -25,7 +25,7 @@ export class LoginComponent implements OnInit {
   submit(){
     this.authService.login(new User(this.username.value, this.password.value))
       .subscribe(
-      res => this.router.navigate(['/raiting']),
+      res => this.router.navigate(['/rating']),
       err => console.log(err))
   }
 
