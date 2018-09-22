@@ -15,8 +15,8 @@ export const appRoutes: Routes = [{
   canActivateChild:[RouteGuard],
   children:[
     {path: '', redirectTo: 'rating', pathMatch:'full'},
-    {path: 'login', component: LoginComponent},
-    {path: 'registration', component: RegistrationComponent},
+    {path: 'login', component: LoginComponent,data:{roles:[Role.USER]}},
+    {path: 'registration', component: RegistrationComponent,data:{roles:[Role.USER,Role.ADMIN]}},
     {path: 'carte', component: CarteComponent,data:{roles:[Role.GUEST,Role.USER,Role.WAITER,Role.ADMIN]}},
     {path: 'order', component: OrderComponent,data: {roles:[Role.USER,Role.ADMIN,Role.WAITER]}},
     {path: 'orders', component: OrdersComponent, data:{roles: [Role.CHEF,Role.ADMIN,Role.GUEST]}},

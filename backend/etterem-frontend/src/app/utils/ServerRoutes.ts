@@ -9,6 +9,8 @@ export class Routes {
   static DELETERESERVATION: String='reservation/delete';
   static RESERVATIONS: String='reservation/all';
   static RESERVATIONADD: String='reservation/add';
+  static GETRESERVATIONER:String='reservation/find';
+  static RESERVATIONSAVE:String='reservation/save';
   static RATINGADD: String='rating/add';
   static RATINGGET: String='rating/all';
 }

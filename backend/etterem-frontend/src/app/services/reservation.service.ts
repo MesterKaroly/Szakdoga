@@ -3,6 +3,7 @@ import {Http} from "@angular/http";
 import {Reservation} from "../entity/Reservation";
 import {Observable} from "rxjs";
 import {Routes, Server} from "../utils/ServerRoutes";
+import {$} from "protractor";
 
 @Injectable({
   providedIn: 'root'
@@ -21,7 +22,16 @@ export class ReservationService {
   }
 
   deleteReserv(id: number): Observable<Reservation> {
-    return this.http.delete(`${Server.routeTo(Routes.DELETERESERVATION)}+'/'+${id}`)
+    return this.http.delete(`${Server.routeTo(Routes.DELETERESERVATION)}+ '/'+${id}`)
       .map(res=> res.json());
+  }
+
+  getReservationer(id: number): Observable<Reservation> {
+    return this.http.get(`${Server.routeTo(Routes.GETRESERVATIONER)}+'/'${id}`)
+      .map(res=> res.json());
+  }
+
+  save(id: number, tablenumber: number) {
+    this.http.post(`${Server.routeTo(Routes.RESERVATIONSAVE)}+'/'+${id}`,tablenumber);
   }
 }

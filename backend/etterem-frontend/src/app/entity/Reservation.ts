@@ -3,19 +3,40 @@
 
 export class Reservation{
 
-  private id:number;
-  private fullname:String;
-  private phoneNumber:String;
-  private comments: String;
-  private dates:Date;
+  private _id:number;
+  private _fullname:String;
+  private _phoneNumber:String;
+  private _comments: String;
+  private _dates:Date;
   private tablenumber: number;
 
 
   constructor(id?: number, name?: String, phoneNumber?: String, comment?: String, date?: Date) {
-    this.id = id;
-    this.fullname = name;
-    this.phoneNumber = phoneNumber;
-    this.comments = comment || "";
-    this.dates = date;
+    this._id = id;
+    this._fullname = name;
+    this._phoneNumber = phoneNumber;
+    this._comments = comment || "";
+    this._dates = date;
+  }
+
+
+  get id(): number {
+    return this._id;
+  }
+
+  get fullname(): String {
+    return this._fullname;
+  }
+
+  get phoneNumber(): String {
+    return this._phoneNumber;
+  }
+
+  get comments(): String {
+    return this._comments;
+  }
+
+  get dates(): Date {
+    return this._dates;
   }
 }

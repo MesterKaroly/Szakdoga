@@ -1,7 +1,7 @@
 import {
   MatButtonModule,
   MatFormFieldModule,
-  MatInputModule,
+  MatInputModule, MatNativeDateModule,
   MatSelectModule,
   MatTableModule,
   MatToolbarModule,
@@ -9,10 +9,11 @@ import {
 import {NgModule} from "@angular/core";
 import {MatGridListModule} from '@angular/material/grid-list';
 import {MatCardModule} from '@angular/material/card';
+import {MatDatepickerModule} from '@angular/material/datepicker';
 
 @NgModule({
-  imports: [MatFormFieldModule, MatInputModule, MatButtonModule, MatToolbarModule, MatTableModule, MatSelectModule,MatGridListModule,MatCardModule],
-  exports: [MatFormFieldModule, MatInputModule, MatButtonModule, MatToolbarModule, MatTableModule, MatSelectModule,MatGridListModule,MatCardModule],
+  imports: [MatFormFieldModule, MatInputModule, MatButtonModule, MatToolbarModule, MatTableModule, MatSelectModule, MatGridListModule, MatCardModule, MatDatepickerModule, MatNativeDateModule],
+  exports: [MatFormFieldModule, MatInputModule, MatButtonModule, MatToolbarModule, MatTableModule, MatSelectModule, MatGridListModule, MatCardModule, MatDatepickerModule, MatNativeDateModule],
 })
 export class MaterialItemsModule {
 }
