@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>szakdoga.backend.Repository</OriginalElement>
+  <nodes>
+    <node x="0.0" y="0.0">szakdoga.backend.Repository.UserRepository</node>
+    <node x="0.0" y="244.0">szakdoga.backend.Repository.OrderRepository</node>
+    <node x="0.0" y="96.0">szakdoga.backend.Repository.ReservationRepository</node>
+    <node x="180.0" y="244.0">szakdoga.backend.Repository.FoodRepository</node>
+    <node x="0.0" y="170.0">szakdoga.backend.Repository.RatingRepository</node>
+  </nodes>
+  <notes />
+  <edges />
+  <settings layout="Hierarchic Group" zoom="1.0" x="152.5" y="125.5" />
+  <SelectedNodes>
+    <node>szakdoga.backend.Repository.UserRepository</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Properties</Category>
+    <Category>Methods</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

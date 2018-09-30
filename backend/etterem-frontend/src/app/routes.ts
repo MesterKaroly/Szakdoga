@@ -19,7 +19,7 @@ export const appRoutes: Routes = [{
     {path: 'registration', component: RegistrationComponent,data:{roles:[Role.USER,Role.ADMIN]}},
     {path: 'carte', component: CarteComponent,data:{roles:[Role.GUEST,Role.USER,Role.WAITER,Role.ADMIN]}},
     {path: 'order', component: OrderComponent,data: {roles:[Role.USER,Role.ADMIN,Role.WAITER]}},
-    {path: 'orders', component: OrdersComponent, data:{roles: [Role.CHEF,Role.ADMIN,Role.GUEST]}},
+    {path: 'orders', component: OrdersComponent, data:{roles: [Role.CHEF,Role.ADMIN]}},
     {path: 'reservation', component: ReservationComponent,data: {roles: [Role.USER,Role.ADMIN,Role.WAITER,Role.GUEST]}},
     {path: 'rating', component: RatingComponent,data:{roles: [Role.USER,Role.ADMIN, Role.GUEST]}},
     {path: '**', component: ErrorComponent}

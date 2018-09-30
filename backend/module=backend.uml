@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>SpringLocalModels</ID>
+  <OriginalElement>module=backend</OriginalElement>
+  <nodes>
+    <node x="0.0" y="90.0">module=backend</node>
+    <node x="148.0" y="90.0">fileset=backend/Spring Application Context</node>
+    <node x="633.0" y="180.0">szakdoga.backend.BackendApplication</node>
+    <node x="625.5" y="0.0">org.springframework.boot.autoconfigure.SpringBootApplication</node>
+    <node x="659.0" y="60.0">org.springframework.boot.autoconfigure.domain.EntityScan</node>
+    <node x="605.0" y="120.0">org.springframework.boot.context.properties.EnableConfigurationProperties</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="fileset=backend/Spring Application Context" target="szakdoga.backend.BackendApplication">
+      <point x="83.5" y="-0.0" />
+      <point x="-65.0" y="-0.0" />
+    </edge>
+    <edge source="szakdoga.backend.BackendApplication" target="org.springframework.boot.autoconfigure.SpringBootApplication">
+      <point x="65.0" y="-7.5" />
+      <point x="605.0" y="10.0" />
+      <point x="-72.5" y="-0.0" />
+    </edge>
+    <edge source="szakdoga.backend.BackendApplication" target="org.springframework.boot.autoconfigure.domain.EntityScan">
+      <point x="65.0" y="-2.5" />
+      <point x="605.0" y="70.0" />
+      <point x="-39.0" y="-0.0" />
+    </edge>
+    <edge source="szakdoga.backend.BackendApplication" target="org.springframework.boot.context.properties.EnableConfigurationProperties">
+      <point x="65.0" y="2.5" />
+      <point x="-93.0" y="-0.0" />
+    </edge>
+    <edge source="module=backend" target="fileset=backend/Spring Application Context">
+      <point x="34.0" y="-0.0" />
+      <point x="-83.5" y="-0.0" />
+    </edge>
+    <edge source="szakdoga.backend.BackendApplication" target="szakdoga.backend.BackendApplication">
+      <point x="65.0" y="7.5" />
+      <point x="605.0" y="190.0" />
+      <point x="-65.0" y="-0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="395.5" y="100.0" />
+  <SelectedNodes>
+    <node>szakdoga.backend.BackendApplication</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Show filesets as groups</Category>
+  </Categories>
+</Diagram>
+

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>szakdoga.backend.controller</OriginalElement>
+  <nodes>
+    <node x="-480.0" y="55.0">szakdoga.backend.controller.UserController</node>
+    <node x="165.0" y="52.0">szakdoga.backend.controller.FoodController</node>
+    <node x="-75.0" y="-161.0">szakdoga.backend.controller.ReservationController</node>
+    <node x="-450.0" y="-167.0">szakdoga.backend.controller.OrderController</node>
+    <node x="-165.0" y="52.0">szakdoga.backend.controller.RatingController</node>
+  </nodes>
+  <notes />
+  <edges />
+  <settings layout="Hierarchic Group" zoom="1.0" x="148.5" y="125.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

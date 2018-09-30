@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>szakdoga.backend.app.module</OriginalElement>
+  <nodes>
+    <node x="879.5" y="235.0">szakdoga.backend.app.module.User</node>
+    <node x="254.51718749999992" y="558.0">szakdoga.backend.app.module.Order</node>
+    <node x="594.5" y="246.0">szakdoga.backend.app.module.Ratings</node>
+    <node x="10.5" y="235.0">szakdoga.backend.app.module.Reservation</node>
+    <node x="1016.1666666666666" y="23.0">szakdoga.backend.app.module.User.Role</node>
+    <node x="351.5" y="246.0">szakdoga.backend.app.module.Food</node>
+    <node x="361.5" y="0.0">szakdoga.backend.app.module.BaseEntity</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="szakdoga.backend.app.module.Ratings" target="szakdoga.backend.app.module.BaseEntity">
+      <point x="0.0" y="-125.5" />
+      <point x="727.0" y="215.0" />
+      <point x="503.5999999999999" y="215.0" />
+      <point x="40.59999999999991" y="92.5" />
+    </edge>
+    <edge source="szakdoga.backend.app.module.Order" target="szakdoga.backend.app.module.BaseEntity">
+      <point x="-116.39999999999998" y="-136.5" />
+      <point x="283.61718749999994" y="533.0" />
+      <point x="0.0" y="533.0" />
+      <point x="0.0" y="205.0" />
+      <point x="381.79999999999995" y="205.0" />
+      <point x="-81.20000000000005" y="92.5" />
+    </edge>
+    <edge source="szakdoga.backend.app.module.User" target="szakdoga.backend.app.module.User.Role">
+      <point x="0.0" y="-136.5" />
+      <point x="1012.0" y="215.0" />
+      <point x="1036.1666666666665" y="215.0" />
+      <point x="-20.0" y="69.5" />
+    </edge>
+    <edge source="szakdoga.backend.app.module.User" target="szakdoga.backend.app.module.BaseEntity">
+      <point x="-88.33333333333331" y="-136.5" />
+      <point x="923.6666666666667" y="205.0" />
+      <point x="544.1999999999999" y="205.0" />
+      <point x="81.19999999999993" y="92.5" />
+    </edge>
+    <edge source="szakdoga.backend.app.module.Reservation" target="szakdoga.backend.app.module.BaseEntity">
+      <point x="0.0" y="-136.5" />
+      <point x="171.0" y="215.0" />
+      <point x="422.4" y="215.0" />
+      <point x="-40.60000000000002" y="92.5" />
+    </edge>
+    <edge source="szakdoga.backend.app.module.Food" target="szakdoga.backend.app.module.BaseEntity">
+      <point x="0.0" y="-125.5" />
+      <point x="0.0" y="92.5" />
+    </edge>
+    <edge source="szakdoga.backend.app.module.Order" target="szakdoga.backend.app.module.Food">
+      <point x="-58.19999999999993" y="-136.5" />
+      <point x="341.8171875" y="533.0" />
+      <point x="379.375" y="533.0" />
+      <point x="-83.625" y="125.5" />
+    </edge>
+    <edge source="szakdoga.backend.app.module.User.Role" target="szakdoga.backend.app.module.User">
+      <point x="20.0" y="69.5" />
+      <point x="1076.1666666666665" y="215.0" />
+      <point x="1100.3333333333333" y="215.0" />
+      <point x="88.33333333333326" y="-136.5" />
+    </edge>
+    <edge source="szakdoga.backend.app.module.Food" target="szakdoga.backend.app.module.Order">
+      <point x="83.625" y="125.5" />
+      <point x="546.625" y="533.0" />
+      <point x="516.4171875" y="533.0" />
+      <point x="116.40000000000009" y="-136.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.8" x="665.5000000000001" y="374.375" />
+  <SelectedNodes>
+    <node>szakdoga.backend.app.module.User.Role</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Inner Classes</Category>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

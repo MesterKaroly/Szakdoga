@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>szakdoga.backend.Service</OriginalElement>
+  <nodes>
+    <node x="350.0" y="419.0">szakdoga.backend.Service.RatingService</node>
+    <node x="0.0" y="79.0">szakdoga.backend.Service.UserService</node>
+    <node x="0.0" y="606.0">szakdoga.backend.Service.FoodService</node>
+    <node x="265.0" y="0.0">szakdoga.backend.Service.OrderService</node>
+    <node x="44.5" y="0.0">szakdoga.backend.Service.Exception</node>
+    <node x="283.0" y="606.0">szakdoga.backend.Service.Annotation</node>
+    <node x="0.0" y="419.0">szakdoga.backend.Service.ReservationService</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="szakdoga.backend.Service.UserService" target="szakdoga.backend.Service.Exception">
+      <point x="0.0" y="-147.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="148.0" y="295.5" />
+  <SelectedNodes>
+    <node>szakdoga.backend.Service.ReservationService</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
