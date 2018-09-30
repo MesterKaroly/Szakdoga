@@ -1,6 +1,6 @@
 <div>
   <h1>Értékelés</h1>
-  <div id="top-panel">
+  <div id="top-panel" *ngIf="authService.isLoggedIn">
     <form class="container" [formGroup]="raitingForm">
     <div id="megjegyzes" class="form-control">
       <mat-form-field class="adatok">

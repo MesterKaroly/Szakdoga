@@ -32,7 +32,7 @@ export class RegistrationComponent implements OnInit {
   submit(){
     this.authService.register(new User(this.fullname.value,this.username.value,this.password.value,this.email.value,this.role))
       .subscribe(
-      res => this.router.navigate(['/login']),
+      res => this.router.navigate(['/carte']),
       err => console.log(err));
   }
 

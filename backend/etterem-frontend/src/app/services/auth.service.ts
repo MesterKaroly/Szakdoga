@@ -10,7 +10,7 @@ import "rxjs-compat/add/operator/map";
 })
 export class AuthService {
   user: User;
-  isLoggedIn:boolean=false;
+  public isLoggedIn:boolean=false;
 
   constructor(private http: Http) {
     this.user=new User();
