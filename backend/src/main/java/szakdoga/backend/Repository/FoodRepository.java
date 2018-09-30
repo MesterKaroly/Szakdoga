@@ -5,5 +5,5 @@ import org.springframework.stereotype.Repository;
 import szakdoga.backend.app.module.Food;
 
 @Repository
-public interface FoodRepository extends CrudRepository<Food, String> {
+public interface FoodRepository extends CrudRepository<Food, Long> {
 }
