@@ -17,18 +17,23 @@ export class RatingComponent implements OnInit {
     comments: string='';
     date:Date;
     public ratings:Array<Ratings>;
+
   constructor(private ratingService: RatingService,private authService: AuthService) {
   }
 
   ngOnInit() {
     this.ratingService.getRating().subscribe(rat=>this.ratings=rat);
+
   }
 
 
   submit(){
     this.date=new Date();
     this.ratingService.add(new Ratings(this.authService.user.fullname,this.date,this.comment.value));
-    this.comments=this.comment.value;
+  }
+
+  toDate(timestamp: number): Date {
+    return new Date(timestamp)
   }
 
   get comment(): AbstractControl{

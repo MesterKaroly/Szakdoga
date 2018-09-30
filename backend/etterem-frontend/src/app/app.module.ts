@@ -24,6 +24,7 @@ import {OrdersService} from "./services/orders.service";
 import {RatingService} from "./services/rating.service";
 import {ReservationService} from "./services/reservation.service";
 import {RouteGuard} from "./route.guard";
+import {OwlDateTimeModule, OwlNativeDateTimeModule} from "ng-pick-datetime";
 
 @NgModule({
   declarations: [
@@ -40,6 +41,9 @@ import {RouteGuard} from "./route.guard";
   ],
   imports: [
     BrowserModule,
+    BrowserAnimationsModule,
+    OwlDateTimeModule,
+    OwlNativeDateTimeModule,
     FormsModule,
     ReactiveFormsModule,
     HttpModule,

@@ -30,7 +30,6 @@ export class ReservationComponent implements OnInit {
   role: Role;
   waiterRole: Role= Role.WAITER;
   adminRole: Role=Role.ADMIN;
-  someDate: Date;
   reservationer: Reservation;
 
 

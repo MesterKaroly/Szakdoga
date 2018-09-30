@@ -1,14 +1,14 @@
 export class Ratings{
 
   private _fullname: String;
-  private _date:Date;
+  private _dates:Date;
   private _comments:String;
   private _ratingpoint:number;
 
 
   constructor(fullname?: String, date?: Date, comments?: String, ratingpoint?: number) {
     this._fullname = fullname;
-    this._date = date;
+    this._dates = date;
     this._comments = comments || "";
     this._ratingpoint = ratingpoint;
   }
@@ -21,12 +21,12 @@ export class Ratings{
     this._fullname = value;
   }
 
-  get date(): Date {
-    return this._date;
+  get dates(): Date {
+    return this._dates;
   }
 
-  set date(value: Date) {
-    this._date = value;
+  set dates(value: Date) {
+    this._dates = value;
   }
 
   get comments(): String {

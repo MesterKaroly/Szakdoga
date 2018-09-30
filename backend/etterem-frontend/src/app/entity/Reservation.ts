@@ -11,8 +11,7 @@ export class Reservation{
   private tablenumber: number;
 
 
-  constructor(id?: number, name?: String, phoneNumber?: String, comment?: String, date?: Date) {
-    this._id = id;
+  constructor(name?: String, phoneNumber?: String, comment?: String, date?: Date) {
     this._fullname = name;
     this._phoneNumber = phoneNumber;
     this._comments = comment || "";

@@ -21,12 +21,21 @@
         </mat-form-field>
       </div>
 
-      <div class="form-control">
+      <!--<div class="form-control">
         <mat-form-field>
           <input matInput [matDatepicker]="picker" placeholder="Válassz dátumot" formControlName="picker">
           <mat-datepicker-toggle matSuffix [for]="picker">
           </mat-datepicker-toggle>
           <mat-datepicker #picker></mat-datepicker>
+        </mat-form-field>
+      </div>-->
+
+      <div class="date-picker">
+        <mat-form-field>
+          <input matInput placeholder="Foglalás Időpontja:"
+                 formControlName="picker"
+                 [owlDateTimeTrigger]="dt" [owlDateTime]="dt">
+          <owl-date-time #dt></owl-date-time>
         </mat-form-field>
       </div>
 
@@ -36,7 +45,7 @@
         </mat-form-field>
       </div>
 
-      <div class="form-control">
+      <div class="form-control" *ngIf="role == waiterRole || role == adminRole">
         <mat-form-field>
           <input matInput placeholder="Asztalszám" formControlName="tablenumber">
         </mat-form-field>
