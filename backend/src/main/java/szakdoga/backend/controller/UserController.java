@@ -4,7 +4,10 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.*;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 import szakdoga.backend.Service.Annotation.Role;
 import szakdoga.backend.Service.Exception.UserNotValidException;
@@ -25,7 +28,6 @@ public class UserController {
         this.userService=userService;
     }
 
-
     @GetMapping
     public ResponseEntity<Iterable<User>> getall(){
         Iterable<User> list = userService.getAll();
@@ -42,6 +44,11 @@ public class UserController {
     public ResponseEntity<User> registration(@RequestBody User user){
         return ResponseEntity.ok(userService.register(user));
     }
-
+    @Role({User.Role.GUEST, User.Role.ADMIN, User.Role.CHEF,User.Role.USER, User.Role.WAITER})
+    @GetMapping("/logout")
+    public ResponseEntity logout() {
+        this.userService.setUser(null);
+        return ResponseEntity.ok().build();
+    }
 
 }

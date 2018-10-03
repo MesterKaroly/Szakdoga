@@ -1,5 +1,4 @@
-import { Component, OnInit } from '@angular/core';
-import {MatTableDataSource} from "@angular/material";
+import {Component, OnInit} from '@angular/core';
 import {AbstractControl, FormControl, FormGroup} from "@angular/forms";
 import {DataSource} from "@angular/cdk/table";
 import {CarteService} from "../services/carte.service";
@@ -51,16 +50,18 @@ export class OrderComponent implements OnInit {
               private carteService: CarteService,
               private authService: AuthService) {
     this.order=new Order(this.authService.user.fullname);
-    this.orderService.add(this.order);
   }
 
   ngOnInit() {
+    this.realdataSource = new OrderDataSource(this.carteService);
   }
 
   add(id: number,name: String,ingredients: String,price: number){
     this.order.addFood(new Food(name,ingredients,price));
     this.order.comments=this.comment.value;
+    console.log(this.order);
     this.orderService.update(this.order);
+    this.ngOnInit();
   }
 
   get comment(): AbstractControl{

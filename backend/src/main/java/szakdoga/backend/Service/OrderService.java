@@ -9,8 +9,6 @@ import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 import szakdoga.backend.Repository.OrderRepository;
 import szakdoga.backend.app.module.Order;
 
-import java.util.Optional;
-
 @Service
 @Component
 @SessionScope
@@ -31,15 +29,8 @@ public class OrderService {
         return orderRepository.findAll();
     }
 
-    public Order create(Order order) {
+    public Order update(Order order) {
         return orderRepository.save(order);
-    }
-
-    public Order update(Long id, Order order) {
-        Optional<Order> current=orderRepository.findById(id);
-        Order currentOrder=current.get();
-        currentOrder.setFoods(order.getFoods());
-        return orderRepository.save(currentOrder);
     }
 
     public void delete(Long id) {

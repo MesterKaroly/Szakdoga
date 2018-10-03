@@ -1,4 +1,4 @@
-import { Injectable } from '@angular/core';
+import {Injectable} from '@angular/core';
 import {Observable} from "rxjs";
 import {Order} from "../entity/Order";
 import {Http} from "@angular/http";
@@ -17,8 +17,9 @@ export class OrdersService {
   }
 
   deleteOrder(id: number): Observable<Order> {
-    return this.http.delete(Server.routeTo(Routes.DELETEORDER)+'/'+id)
+    return this.http.delete(Server.routeTo(Routes.DELETEORDER)+'/'+id.toString())
       .map(res=> res.json());
 
   }
+
 }

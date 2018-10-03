@@ -1,9 +1,8 @@
-import { Injectable } from '@angular/core';
+import {Injectable} from '@angular/core';
 import {Http} from "@angular/http";
 import {Reservation} from "../entity/Reservation";
 import {Observable} from "rxjs";
 import {Routes, Server} from "../utils/ServerRoutes";
-import {$} from "protractor";
 
 @Injectable({
   providedIn: 'root'

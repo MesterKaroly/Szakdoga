@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 import {DataSource} from "@angular/cdk/table";
 import {Observable} from "rxjs";
 import {OrdersService} from "../services/orders.service";
@@ -18,6 +18,7 @@ export class OrdersComponent implements OnInit {
   constructor(private ordersService: OrdersService) { }
 
   ngOnInit() {
+    this.realdataSource=new OrdersDataSource(this.ordersService);
   }
 
   delete(id: number){

@@ -15,5 +15,9 @@
       <a mat-button routerLink="/rating" >Értékelések</a>
     </div>
   </div>-->
+  <div class="right" *ngIf="isloggedin">
+    Üdvözöllek : {{authService.user.fullname}}
+    <a mat-button (click)="logout()" >Kijelentkezés</a>
+  </div>
 
 </mat-toolbar>

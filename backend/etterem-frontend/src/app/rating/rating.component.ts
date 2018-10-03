@@ -1,8 +1,9 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 import {AbstractControl, FormControl, FormGroup, Validators} from "@angular/forms";
 import {RatingService} from "../services/rating.service";
 import {AuthService} from "../services/auth.service";
 import {Ratings} from "../entity/Ratings";
+import {Router} from "@angular/router";
 
 @Component({
   selector: 'app-rating',
@@ -17,19 +18,25 @@ export class RatingComponent implements OnInit {
     comments: string='';
     date:Date;
     public ratings:Array<Ratings>;
+  private rat: Ratings;
 
-  constructor(private ratingService: RatingService,private authService: AuthService) {
+  constructor(private ratingService: RatingService,private authService: AuthService,private router:Router) {
   }
 
   ngOnInit() {
     this.ratingService.getRating().subscribe(rat=>this.ratings=rat);
-
   }
 
 
   submit(){
     this.date=new Date();
-    this.ratingService.add(new Ratings(this.authService.user.fullname,this.date,this.comment.value));
+    console.log(1);
+    this.rat=new Ratings(this.authService.user.fullname,this.date,this.comment.value,5);
+    this.ratingService.create(this.rat)
+      .subscribe(
+        res=>this.router.navigate['/rating'],
+        err => console.log(err));
+    this.ngOnInit()
   }
 
   toDate(timestamp: number): Date {

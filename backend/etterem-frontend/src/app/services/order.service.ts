@@ -1,4 +1,4 @@
-import { Injectable } from '@angular/core';
+import {Injectable} from '@angular/core';
 import {Order} from "../entity/Order";
 import {Http} from "@angular/http";
 import {Routes, Server} from "../utils/ServerRoutes";
@@ -10,11 +10,10 @@ export class OrderService {
 
   constructor(private http:Http) { }
 
-  add(order: Order) {
-    this.http.post(Server.routeTo(Routes.ADDORDER),order);
-  }
-
   update(order: Order) {
-    this.http.post(Server.routeTo(Routes.UPDATEORDER)+'/'+order.id,order);
+    console.log(order);
+    this.http.post(Server.routeTo(Routes.UPDATEORDER),order)
+      .map(res=>res.json(),
+        err=>console.log(err));
   }
 }

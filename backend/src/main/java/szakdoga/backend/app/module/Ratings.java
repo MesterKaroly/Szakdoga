@@ -26,6 +26,6 @@ public class Ratings extends BaseEntity {
     private Timestamp dates;
     @Column(nullable = false)
     private String comments;
-    @Column(nullable = false)
+    @Column
     private int ratingpoint;
 }

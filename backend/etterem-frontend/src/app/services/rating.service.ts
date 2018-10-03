@@ -1,4 +1,4 @@
-import { Injectable } from '@angular/core';
+import {Injectable} from '@angular/core';
 import {Ratings} from "../entity/Ratings";
 import {Http} from "@angular/http";
 import {Routes, Server} from "../utils/ServerRoutes";
@@ -11,8 +11,9 @@ export class RatingService {
 
   constructor(private http:Http) { }
 
-  add(ratings: Ratings) {
-      this.http.post(Server.routeTo(Routes.RATINGADD),ratings);
+  create(ratings: Ratings): Observable<Ratings> {
+       return this.http.post(Server.routeTo(Routes.RATINGADD),ratings)
+         .map(res => res.json());
   }
   getRating(): Observable<Ratings[]>{
     return this.http.get(Server.routeTo(Routes.RATINGGET))

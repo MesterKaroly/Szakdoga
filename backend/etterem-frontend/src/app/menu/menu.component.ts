@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 import {Role} from "../entity/Role";
 import {AuthService} from "../services/auth.service";
 import {NavigationEnd, Router} from "@angular/router";
@@ -24,10 +24,11 @@ export class MenuComponent implements OnInit {
       {link:'/order',title:'Rendelés'},{link:'/orders',title:'Rendelések'},{link:'/reservation',title:'Foglalás'},
       {link:'/rating',title:'Értékelés'}]],
     [Role.WAITER,[{link:'/carte',title:'Étlap'},{link:'/order',title:'Rendelés'},{link:'/reservation',title:'Foglalás'}]],
-    [Role.CHEF,[{link:'/orders',title:'Rendelések'}]]
+    [Role.CHEF,[{link:'/orders',title:'Rendelések'},{link:'/carte',title:'Étlap'},{link:'/rating',title:'Értékelés'}]]
   ]);
 
   menus: MenuItem[];
+  isloggedin: boolean;
 
 
 
@@ -47,6 +48,14 @@ export class MenuComponent implements OnInit {
     } else {
       this.menus = this.roleMenus.get(Role.GUEST)
     }
+    this.isloggedin=this.authService.isLoggedIn;
   }
 
+  logout() {
+    this.authService.logout().subscribe(
+      res => this.router.navigate(['/login']),
+      err => err
+    );
+
+  }
 }

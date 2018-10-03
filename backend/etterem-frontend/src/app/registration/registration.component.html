@@ -42,9 +42,8 @@
     <div class="form-control" *ngIf="realRole===Admin">
       <mat-form-field>
           <mat-select placeholder="Beosztás" (selectionChange)="setRole($event)">
-            <mat-option value="WAITER">Pincér</mat-option>
-            <mat-option value="CHEF">Séf</mat-option>
-            <mat-option value="ADMIN">Főnök</mat-option>
+            <mat-option *ngFor="let role of Roles" value="Role">{{role}}
+            </mat-option>
           </mat-select>
       </mat-form-field>
     </div>

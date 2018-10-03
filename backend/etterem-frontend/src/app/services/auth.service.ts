@@ -1,4 +1,4 @@
-import { Injectable } from '@angular/core';
+import {Injectable} from '@angular/core';
 import {User} from "../entity/User";
 import {Http} from "@angular/http";
 import {Routes, Server} from "../utils/ServerRoutes";
@@ -30,6 +30,15 @@ export class AuthService {
         this.user=res.json();
         return this.user;
     });
+
+  }
+
+  logout() {
+    return this.http.get(Server.routeTo(Routes.LOGOUT))
+      .map(res => {
+        this.user = new User();
+        this.isLoggedIn = false;
+      });
 
   }
 }

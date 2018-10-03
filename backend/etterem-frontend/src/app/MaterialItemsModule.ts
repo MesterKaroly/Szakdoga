@@ -1,7 +1,8 @@
 import {
   MatButtonModule,
   MatFormFieldModule,
-  MatInputModule, MatNativeDateModule,
+  MatInputModule,
+  MatNativeDateModule,
   MatSelectModule,
   MatTableModule,
   MatToolbarModule,

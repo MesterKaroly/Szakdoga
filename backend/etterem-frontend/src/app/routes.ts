@@ -15,13 +15,13 @@ export const appRoutes: Routes = [{
   canActivateChild:[RouteGuard],
   children:[
     {path: '', redirectTo: 'rating', pathMatch:'full'},
-    {path: 'login', component: LoginComponent,data:{roles:[Role.USER]}},
-    {path: 'registration', component: RegistrationComponent,data:{roles:[Role.USER,Role.ADMIN]}},
-    {path: 'carte', component: CarteComponent,data:{roles:[Role.GUEST,Role.USER,Role.WAITER,Role.ADMIN]}},
+    {path: 'login', component: LoginComponent,data:{roles:[Role.GUEST]}},
+    {path: 'registration', component: RegistrationComponent,data:{roles:[Role.GUEST,Role.ADMIN]}},
+    {path: 'carte', component: CarteComponent,data:{roles:[Role.GUEST,Role.USER,Role.WAITER,Role.ADMIN,Role.CHEF]}},
     {path: 'order', component: OrderComponent,data: {roles:[Role.USER,Role.ADMIN,Role.WAITER]}},
     {path: 'orders', component: OrdersComponent, data:{roles: [Role.CHEF,Role.ADMIN]}},
     {path: 'reservation', component: ReservationComponent,data: {roles: [Role.USER,Role.ADMIN,Role.WAITER,Role.GUEST]}},
-    {path: 'rating', component: RatingComponent,data:{roles: [Role.USER,Role.ADMIN, Role.GUEST]}},
+    {path: 'rating', component: RatingComponent,data:{roles: [Role.USER,Role.ADMIN, Role.GUEST,Role.CHEF]}},
     {path: '**', component: ErrorComponent}
   ]
 }];
