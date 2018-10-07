@@ -33,6 +33,7 @@ public class UserController {
         Iterable<User> list = userService.getAll();
         return  ResponseEntity.ok(list);
     }
+
     @Role({User.Role.GUEST})
     @PostMapping("/login")
     public ResponseEntity<User> login(@RequestBody User user) throws UserNotValidException {

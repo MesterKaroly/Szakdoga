@@ -29,8 +29,7 @@ public class Order extends BaseEntity {
     @Column
     private int tablenumber;
 
-    @JoinColumn
-    @OneToMany(cascade = CascadeType.ALL, orphanRemoval = true, targetEntity = Food.class)
-    private List<Food> foods;
+    @Column
+    private String foods;
 
 }

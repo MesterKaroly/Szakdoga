@@ -23,20 +23,18 @@ public class ReservationController {
     public ReservationController(ReservationService reservationService) {
         this.reservationService = reservationService;
     }
-
-    @Role({User.Role.GUEST, User.Role.ADMIN, User.Role.USER, User.Role.WAITER})
     @GetMapping("/all")
     public ResponseEntity<Iterable<Reservation>> getAllReserv(){
         Iterable<Reservation> list = reservationService.getAll();
         return  ResponseEntity.ok(list);
     }
-    @Role({User.Role.ADMIN, User.Role.WAITER})
-    @DeleteMapping("/delete")
-    public  ResponseEntity<Reservation> deleteReserv(@RequestParam Long id){
+    @CrossOrigin(origins = "http://localhost:4200")
+    @DeleteMapping("/delete/{id}")
+    public  ResponseEntity<Reservation> deleteReserv(@PathVariable Long id){
         reservationService.delete(id);
         return ResponseEntity.ok().build();
     }
-    @Role({User.Role.GUEST, User.Role.ADMIN, User.Role.USER, User.Role.WAITER})
+    @CrossOrigin(origins = "http://localhost:4200")
     @PostMapping("/add")
     public ResponseEntity<Reservation> create(@RequestBody Reservation reservation){
         Reservation saved=reservationService.create(reservation);

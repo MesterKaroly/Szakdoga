@@ -1,19 +1,17 @@
 import {Injectable} from '@angular/core';
 import {Order} from "../entity/Order";
 import {Http} from "@angular/http";
+import {Observable} from "rxjs";
 import {Routes, Server} from "../utils/ServerRoutes";
 
-@Injectable({
-  providedIn: 'root'
-})
+@Injectable()
 export class OrderService {
 
   constructor(private http:Http) { }
 
-  update(order: Order) {
+  update(order: Order): Observable<Order>{
     console.log(order);
-    this.http.post(Server.routeTo(Routes.UPDATEORDER),order)
-      .map(res=>res.json(),
-        err=>console.log(err));
+    return this.http.post(Server.routeTo(Routes.UPDATEORDER), order)
+      .map(res=>res.json());
   }
 }

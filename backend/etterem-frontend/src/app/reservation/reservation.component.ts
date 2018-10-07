@@ -43,6 +43,8 @@ export class ReservationComponent implements OnInit {
 
   add(){
     this.reservationService.update(new Reservation(this.username.value,this.phonenumber.value,this.comment.value,this.picker.value))
+      .subscribe(res=>console.log(res),
+        err=>console.log(err));
   }
   toDate(timestamp: number): Date {
     return new Date(timestamp)
@@ -64,7 +66,7 @@ export class ReservationComponent implements OnInit {
         this.reservationer = res
       });
     this.reservationForm.get('username').setValue(this.reservationer.fullname);
-    this.reservationForm.get('phonenumber').setValue(this.reservationer.phoneNumber);
+    this.reservationForm.get('phonenumber').setValue(this.reservationer.phonenumber);
     this.reservationForm.get('picker').setValue(this.reservationer.dates);
     this.reservationForm.get('comment').setValue(this.reservationer.comments);
   }

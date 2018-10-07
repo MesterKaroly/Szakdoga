@@ -3,6 +3,7 @@ import {DataSource} from "@angular/cdk/table";
 import {Observable} from "rxjs";
 import {OrdersService} from "../services/orders.service";
 import {Order} from "../entity/Order";
+import {Food} from "../entity/Food";
 
 
 @Component({
@@ -27,8 +28,15 @@ export class OrdersComponent implements OnInit {
           res=> console.log(res),
           err=> console.log(err)
         );
+      this.ngOnInit();
   }
-
+  toEtelek(food:Food[]):String{
+    let etelek = "";
+    for (let i=0; i<food.length; i++){
+      etelek+=food[i].names + ",";
+    }
+    return etelek;
+  }
 }
 export class OrdersDataSource extends DataSource<any> {
   constructor(private ordersService: OrdersService) {

@@ -49,20 +49,21 @@ export class OrderComponent implements OnInit {
   constructor(private orderService:OrderService,
               private carteService: CarteService,
               private authService: AuthService) {
-    this.order=new Order(this.authService.user.fullname);
   }
 
   ngOnInit() {
-    this.realdataSource = new OrderDataSource(this.carteService);
   }
 
-  add(id: number,name: String,ingredients: String,price: number){
-    this.order.addFood(new Food(name,ingredients,price));
-    this.order.comments=this.comment.value;
-    console.log(this.order);
-    this.orderService.update(this.order);
-    this.ngOnInit();
+  add(name: String){
+    let rendeltkaja = "";
+    rendeltkaja=rendeltkaja+name+",";
+    this.order=new Order(this.authService.user.fullname,"00000000",this.comment.value,rendeltkaja);
+
+    this.orderService.update(this.order)
+      .subscribe(res=>console.log(res),
+        err=>console.log(err));
   }
+
 
   get comment(): AbstractControl{
     return this.orderForm.get('comment');

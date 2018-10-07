@@ -30,7 +30,13 @@ public class OrderService {
     }
 
     public Order update(Order order) {
-        return orderRepository.save(order);
+        Order savedorder=new Order();
+        savedorder.setComments(order.getComments());
+        savedorder.setFullname(order.getFullname());
+        savedorder.setPhonenumber(order.getPhonenumber());
+        savedorder.setTablenumber(order.getTablenumber());
+        savedorder.setFoods(order.getFoods());
+        return orderRepository.save(savedorder);
     }
 
     public void delete(Long id) {

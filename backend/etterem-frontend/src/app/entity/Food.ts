@@ -1,6 +1,6 @@
 export class Food{
 
-  private names:String;
+  public names:String;
   private ingredients:String;
   private price:Number;
 

@@ -3,6 +3,8 @@ package szakdoga.backend.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+import org.springframework.http.HttpHeaders;
+import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
@@ -11,6 +13,8 @@ import szakdoga.backend.Service.Annotation.Role;
 import szakdoga.backend.Service.OrderService;
 import szakdoga.backend.app.module.Order;
 import szakdoga.backend.app.module.User;
+
+import java.lang.reflect.Method;
 
 @EnableAutoConfiguration
 @Controller
@@ -26,24 +30,23 @@ public class OrderController {
         this.orderService = orderService;
     }
 
-    @Role({User.Role.GUEST, User.Role.ADMIN, User.Role.CHEF,User.Role.USER, User.Role.WAITER})
     @GetMapping("/all")
-    public ResponseEntity<Iterable<Order>> getAllOrders(){
+    private ResponseEntity<Iterable<Order>> getAllOrders(){
         Iterable<Order> list=orderService.getAll();
         return ResponseEntity.ok(list);
     }
 
-    @Role({User.Role.ADMIN, User.Role.WAITER, User.Role.USER})
+    @CrossOrigin(origins = "http://localhost:4200")
     @PostMapping("/update")
-    public ResponseEntity<Order> update(@RequestBody Order order){
+    private ResponseEntity<Order> update(@RequestBody Order order){
         Order update=orderService.update(order);
         return ResponseEntity.ok(update);
     }
 
-    @Role({User.Role.ADMIN,User.Role.USER,User.Role.CHEF})
+    @CrossOrigin(origins = "http://localhost:4200")
     @DeleteMapping("/delete/{id}")
-    public ResponseEntity<Order> delete(@PathVariable Long id){
-        orderService.delete(id);
+    private ResponseEntity delete(@PathVariable int id){
+        orderService.delete(Integer.toUnsignedLong(id));
         return ResponseEntity.ok().build();
     }
 

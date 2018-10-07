@@ -4,9 +4,7 @@ import {Order} from "../entity/Order";
 import {Http} from "@angular/http";
 import {Routes, Server} from "../utils/ServerRoutes";
 
-@Injectable({
-  providedIn: 'root'
-})
+@Injectable()
 export class OrdersService {
 
   constructor(private http:Http) { }
@@ -16,10 +14,10 @@ export class OrdersService {
       .map(res => res.json());
   }
 
-  deleteOrder(id: number): Observable<Order> {
-    return this.http.delete(Server.routeTo(Routes.DELETEORDER)+'/'+id.toString())
-      .map(res=> res.json());
-
+  deleteOrder(id: number) {
+    return this.http.delete(Server.routeTo(Routes.DELETEORDER) + '/' + id )
+      .map(res=> console.log(res),
+      err=>console.log(err));
   }
 
 }

@@ -1,23 +1,17 @@
-import {Food} from "./Food";
-
 export class Order {
 
-  public id:number;
-  private fullname:String;
-  private phonenumber: String;
+  public fullname:String;
+  public phonenumber: String;
   public comments: String;
-  private tablenumber: number;
-  private foods:Food[];
+  public tablenumber: number;
+  public foods:String;
 
 
-  constructor(fullname:String, comments?: String,id?:number) {
+  constructor(fullname:String,phonenumber?:String, comments?: String,foods?:String,tablenumber?:number) {
     this.fullname=fullname;
     this.comments = comments || "";
-    this.foods=[];
-    this.id=id;
-  }
-
-  addFood(food:Food){
-    this.foods.push(food);
+    this.phonenumber=phonenumber || "00000000";
+    this.tablenumber=tablenumber || 0;
+    this.foods=foods;
   }
 }
