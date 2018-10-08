@@ -4,8 +4,8 @@
     <form class="container" [formGroup]="raitingForm">
     <div id="megjegyzes" class="form-control">
       <mat-form-field class="adatok">
-        <textarea matInput #message rows="3" maxlength="1600" placeholder="Vélemény" formControlName="comment"></textarea>
-        <mat-hint align="end">{{message.value.length}} / 1600</mat-hint>
+        <textarea matInput #message rows="3" maxlength="254" placeholder="Vélemény" formControlName="comment"></textarea>
+        <mat-hint align="end">{{message.value.length}} / 254</mat-hint>
         <mat-error *ngIf="comment.hasError('required')">
           A mező kitöltése <strong>kötelező</strong>
         </mat-error>

@@ -32,8 +32,8 @@ export class ReservationService {
       .map(res=>res.json());
   }
 
-  save(id: number, tablenumber: number) {
-    this.http.post(Server.routeTo(Routes.RESERVATIONSAVE)+'/'+id,tablenumber)
+  save(reservationer: Reservation): Observable<Reservation> {
+    return this.http.post(Server.routeTo(Routes.RESERVATIONSAVE),reservationer)
       .map(res=>res.json());
   }
 }

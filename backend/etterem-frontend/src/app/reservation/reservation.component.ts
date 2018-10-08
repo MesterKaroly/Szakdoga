@@ -31,6 +31,7 @@ export class ReservationComponent implements OnInit {
   waiterRole: Role= Role.WAITER;
   adminRole: Role=Role.ADMIN;
   reservationer: Reservation;
+  tablenumbers: number;
 
 
   constructor(private authService: AuthService,private reservationService: ReservationService) {
@@ -39,36 +40,47 @@ export class ReservationComponent implements OnInit {
   }
 
   ngOnInit() {
+    this.realdataSource = new ReservationDataSource(this.reservationService);
   }
 
   add(){
     this.reservationService.update(new Reservation(this.username.value,this.phonenumber.value,this.comment.value,this.picker.value))
-      .subscribe(res=>console.log(res),
+      .subscribe(res=>this.ngOnInit(),
         err=>console.log(err));
+
   }
   toDate(timestamp: number): Date {
     return new Date(timestamp)
   }
 
   delete(id: number){
-    this.reservationService.deleteReserv(id).subscribe(
-      res=> console.log(res),
+    this.reservationService.deleteReserv(id)
+      .subscribe(
+      res=> this.ngOnInit(),
       err=> console.log(err)
     );
 
+
   }
   update (){
-    this.reservationService.save(this.reservationer.id,this.reservationForm.get('tablenumber').value);
+    this.tablenumbers=this.reservationForm.get('tablenumber').value;
+    this.reservationer.tablenumber=this.tablenumbers;
+    this.reservationer.dates=this.reservationForm.get('picker').value;
+    this.reservationService.save(this.reservationer)
+      .subscribe(res=>this.ngOnInit(),
+        err=>console.log(err))
+
   }
   load(id: number) {
     this.reservationService.getReservationer(id)
-      .map(res=> {
-        this.reservationer = res
-      });
-    this.reservationForm.get('username').setValue(this.reservationer.fullname);
-    this.reservationForm.get('phonenumber').setValue(this.reservationer.phonenumber);
-    this.reservationForm.get('picker').setValue(this.reservationer.dates);
-    this.reservationForm.get('comment').setValue(this.reservationer.comments);
+      .subscribe(
+        res=> {this.reservationer = res;
+        console.log(res);
+        this.reservationForm.get('username').setValue(res.fullname);
+        this.reservationForm.get('phonenumber').setValue(res.phonenumber);
+        this.reservationForm.get('comment').setValue(res.comments);
+        },
+        err=>console.log(err));
   }
 
   get username(): AbstractControl{

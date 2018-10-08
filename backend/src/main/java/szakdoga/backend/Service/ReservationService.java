@@ -32,4 +32,13 @@ public class ReservationService {
     public Reservation create(Reservation reservation) {
         return reservationRepository.save(reservation);
     }
+
+    public Reservation getOne(Long id) {
+        return reservationRepository.findById(id).get();
+    }
+
+    public Reservation update(Reservation reservation) {
+        reservationRepository.deleteById(reservation.getId());
+        return reservationRepository.save(reservation);
+    }
 }

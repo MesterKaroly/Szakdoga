@@ -56,7 +56,7 @@ export class OrderComponent implements OnInit {
 
   add(name: String){
     let rendeltkaja = "";
-    rendeltkaja=rendeltkaja+name+",";
+    rendeltkaja=rendeltkaja+name+'';
     this.order=new Order(this.authService.user.fullname,"00000000",this.comment.value,rendeltkaja);
 
     this.orderService.update(this.order)
