@@ -24,19 +24,18 @@ export class RatingComponent implements OnInit {
   }
 
   ngOnInit() {
-    this.ratingService.getRating().subscribe(rat=>this.ratings=rat,this.router.navigate['/rating']);
+    this.ratingService.getRating().subscribe(rat=>this.ratings=rat);
   }
 
 
   submit(){
     this.date=new Date();
-    console.log(1);
     this.rat=new Ratings(this.authService.user.fullname,this.date,this.comment.value,5);
     this.ratingService.create(this.rat)
       .subscribe(
-        res=>this.router.navigate['/rating'],
+        res=>this.ngOnInit(),
         err => console.log(err));
-    this.ngOnInit();
+
   }
 
   toDate(timestamp: number): Date {

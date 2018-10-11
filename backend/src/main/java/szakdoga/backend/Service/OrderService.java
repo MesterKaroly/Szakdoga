@@ -6,6 +6,7 @@ import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
 import org.springframework.web.context.annotation.SessionScope;
 import org.springframework.web.servlet.config.annotation.EnableWebMvc;
+import szakdoga.backend.Repository.BasketRepository;
 import szakdoga.backend.Repository.OrderRepository;
 import szakdoga.backend.app.module.Order;
 
@@ -19,9 +20,12 @@ public class OrderService {
 
     private final OrderRepository orderRepository;
 
+    private final BasketRepository basketRepository;
+
     @Autowired
-    public OrderService(OrderRepository orderRepository) {
+    public OrderService(OrderRepository orderRepository, BasketRepository basketRepository) {
         this.orderRepository = orderRepository;
+        this.basketRepository = basketRepository;
     }
 
 

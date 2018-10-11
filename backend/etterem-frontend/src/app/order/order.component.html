@@ -1,19 +1,55 @@
 <h1>Rendelés</h1>
 <div id="top-panel">
   <div id="adatok">
+
     <form class="container" [formGroup]="orderForm" novalidate>
+
+      <h2>Kosár tartalma:</h2>
+      <table mat-table [dataSource]="basketdataSource" class="mat-elevation-z8">
+
+        <!-- Name Column -->
+        <ng-container matColumnDef="name">
+          <th mat-header-cell *matHeaderCellDef> Név </th>
+          <td mat-cell *matCellDef="let element"> {{element.name}} </td>
+        </ng-container>
+
+        <!-- Name Column -->
+        <ng-container matColumnDef="foodname">
+          <th mat-header-cell *matHeaderCellDef> Kaja neve </th>
+          <td mat-cell *matCellDef="let element"> {{element.foodname}} </td>
+        </ng-container>
+
+        <!-- Ingredients Column -->
+        <ng-container matColumnDef="foodingredients">
+          <th mat-header-cell *matHeaderCellDef> Alapanyagok </th>
+          <td mat-cell *matCellDef="let element"> {{element.foodingredients}} </td>
+        </ng-container>
+
+        <!-- Price Column -->
+        <ng-container matColumnDef="price">
+          <th mat-header-cell *matHeaderCellDef> Ár </th>
+          <td mat-cell *matCellDef="let element"> {{element.price}} </td>
+        </ng-container>
+
+
+        <tr mat-header-row *matHeaderRowDef="basketDisplayedColumns"></tr>
+        <tr mat-row *matRowDef="let row; columns: basketDisplayedColumns;"></tr>
+      </table>
+
+
+
       <h2>Egyéb tudnivalók</h2>
       <div id="megjegyzes" class="form-control">
         <mat-form-field>
           <textarea matInput rows="3" placeholder="Megjegyzés" formControlName="comment"></textarea>
         </mat-form-field>
       </div>
+
+      <button mat-button (click)="createorder()">Rendelés leadása</button>
     </form>
   </div>
 
 </div>
-
-  <div class="mat-elevation-z8">
 
     <table mat-table [dataSource]="realdataSource" class="mat-elevation-z8">
 
@@ -40,12 +76,11 @@
       <ng-container matColumnDef="edit">
         <th mat-header-cell *matHeaderCellDef> Rendelés </th>
         <td mat-cell *matCellDef="let element">
-        <button mat-button (click)="add(element.names)">Rendelés</button>
+        <button mat-button (click)="add(element.names,element.ingredients,element.price)">Rendelés</button>
         </td>
       </ng-container>
 
       <tr mat-header-row *matHeaderRowDef="realdisplayedColumns"></tr>
       <tr mat-row *matRowDef="let row; columns: realdisplayedColumns;"></tr>
     </table>
-  </div>
 

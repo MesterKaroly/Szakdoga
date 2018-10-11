@@ -27,8 +27,9 @@ mat-card{
   hyphens: auto;
 }
 mat-grid-list{
-  width: 1000px;
+  width: 800px;
   height: 500px;
+  overflow-y: auto;
 }
 .comments{
   max-height: 400px;

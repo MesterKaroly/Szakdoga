@@ -7,27 +7,8 @@ import {Food} from "../entity/Food";
 import {OrderService} from "../services/order.service";
 import {Order} from "../entity/Order";
 import {AuthService} from "../services/auth.service";
-
-
-export interface PeriodicElement {
-  name: string;
-  position: number;
-  weight: number;
-  symbol: string;
-}
-
-const ELEMENT_DATA: PeriodicElement[] = [
-  {position: 1, name: 'Hydrogen', weight: 1.0079, symbol: 'H'},
-  {position: 2, name: 'Helium', weight: 4.0026, symbol: 'He'},
-  {position: 3, name: 'Lithium', weight: 6.941, symbol: 'Li'},
-  {position: 4, name: 'Beryllium', weight: 9.0122, symbol: 'Be'},
-  {position: 5, name: 'Boron', weight: 10.811, symbol: 'B'},
-  {position: 6, name: 'Carbon', weight: 12.0107, symbol: 'C'},
-  {position: 7, name: 'Nitrogen', weight: 14.0067, symbol: 'N'},
-  {position: 8, name: 'Oxygen', weight: 15.9994, symbol: 'O'},
-  {position: 9, name: 'Fluorine', weight: 18.9984, symbol: 'F'},
-  {position: 10, name: 'Neon', weight: 20.1797, symbol: 'Ne'},
-];
+import {BasketService} from "../services/basket.service";
+import {Basket} from "../entity/Basket";
 
 
 @Component({
@@ -37,31 +18,61 @@ const ELEMENT_DATA: PeriodicElement[] = [
 })
 export class OrderComponent implements OnInit {
 
+  order: Order;
+  basket: Basket= new Basket();
+  helpBasket: Basket[]=[];
+
   realdisplayedColumns: string[] = ['name', 'ingredients', 'price','edit'];
   realdataSource: DataSource<any> = new OrderDataSource(this.carteService);
+
+  basketDisplayedColumns: string[]=['name','foodname','foodingredients','price'];
+  basketdataSource: DataSource<any> = new BasketDataSource(this.basketService,this.basket);
 
   orderForm: FormGroup = new FormGroup({
     comment: new FormControl('')
   });
 
-  order: Order;
+
 
   constructor(private orderService:OrderService,
               private carteService: CarteService,
-              private authService: AuthService) {
+              private authService: AuthService,
+              private basketService:BasketService) {
   }
+
 
   ngOnInit() {
+    this.basketdataSource = new BasketDataSource(this.basketService,this.basket);
   }
 
-  add(name: String){
-    let rendeltkaja = "";
-    rendeltkaja=rendeltkaja+name+'';
-    this.order=new Order(this.authService.user.fullname,"00000000",this.comment.value,rendeltkaja);
-
-    this.orderService.update(this.order)
-      .subscribe(res=>console.log(res),
+  add(name: String,ingredients:String,price:number){
+    this.basket=new Basket(0,this.authService.user.fullname,name,ingredients,price );
+    this.basketService.updateBasket(this.basket)
+      .subscribe(res=>this.ngOnInit(),
         err=>console.log(err));
+    this.basketdataSource = new BasketDataSource(this.basketService,this.basket);
+  }
+  createorder(){
+    this.basketService.getBasket(this.basket)
+      .subscribe(
+        res=>{this.helpBasket=Object.keys(res).map(e=>res[e]);},
+        err=>console.log(err));
+
+    let rendeltkaja="";
+    for (let element of this.helpBasket){
+      rendeltkaja=rendeltkaja+element.foodname+',';
+      this.basketService.deleteBasket(element.id)
+        .subscribe(
+          res=>this.ngOnInit(),
+          err=>console.log(err));
+    }
+
+    if (rendeltkaja!="") {
+      this.order=new Order(this.authService.user.fullname,"000000",this.comment.value,rendeltkaja,4);
+      this.orderService.update(this.order)
+        .subscribe(res=>this.ngOnInit(),
+          err=>console.log(err));
+    }
   }
 
 
@@ -77,6 +88,19 @@ export class OrderDataSource extends DataSource<any> {
 
   connect(): Observable<Food[]> {
     return this.carteService.getCarte();
+  }
+
+  disconnect() {
+  }
+}
+
+export class BasketDataSource extends DataSource<any> {
+  constructor(private basketService: BasketService,private basket:Basket) {
+    super();
+  }
+
+  connect(): Observable<Basket[]> {
+    return this.basketService.getBasket(this.basket);
   }
 
   disconnect() {

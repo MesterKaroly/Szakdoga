@@ -49,9 +49,9 @@
 
 </div>
 
-<div class="mat-elevation-z8" >
+<div class="mat-elevation-z8" *ngIf="role == waiterRole || role == adminRole">
 
-  <table mat-table [dataSource]="realdataSource" class="mat-elevation-z8" *ngIf="role == waiterRole || role == adminRole">
+  <table mat-table [dataSource]="realdataSource" class="mat-elevation-z8" >
 
     <!-- Position Column -->
     <ng-container matColumnDef="position">
@@ -100,48 +100,6 @@
 
     <tr mat-header-row *matHeaderRowDef="realdisplayedColumns"></tr>
     <tr mat-row *matRowDef="let row; columns: realdisplayedColumns;"></tr>
-  </table>
-
-  <table mat-table [dataSource]="realdataSource" class="mat-elevation-z8" *ngIf="role!= waiterRole && role!= adminRole">
-
-    <!-- Position Column -->
-    <ng-container matColumnDef="position">
-      <th mat-header-cell *matHeaderCellDef> Number </th>
-      <td mat-cell *matCellDef="let element"> {{element.id}} </td>
-    </ng-container>
-
-    <!-- Fullname Column -->
-    <ng-container matColumnDef="fullname">
-      <th mat-header-cell *matHeaderCellDef> Name </th>
-      <td mat-cell *matCellDef="let element"> {{element.fullname}} </td>
-    </ng-container>
-
-    <!-- Phonenumber Column -->
-    <ng-container matColumnDef="phonenumber">
-      <th mat-header-cell *matHeaderCellDef> Telefonszám </th>
-      <td mat-cell *matCellDef="let element"> {{element.phonenumber}} </td>
-    </ng-container>
-
-    <!-- Comment Column -->
-    <ng-container matColumnDef="comment">
-      <th mat-header-cell *matHeaderCellDef> Megjegyzés </th>
-      <td mat-cell *matCellDef="let element"> {{element.comments}} </td>
-    </ng-container>
-
-    <!-- Date Column -->
-    <ng-container matColumnDef="date">
-      <th mat-header-cell *matHeaderCellDef> Dátum </th>
-      <td mat-cell *matCellDef="let element"> {{toDate(element.dates) | date:'yyyy.MM.dd HH:mm'}} </td>
-    </ng-container>
-
-    <!-- Tablenumber Column -->
-    <ng-container matColumnDef="tablenumber">
-      <th mat-header-cell *matHeaderCellDef> Asztalszám </th>
-      <td mat-cell *matCellDef="let element"> {{element.tablenumber}} </td>
-    </ng-container>
-
-    <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
-    <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
   </table>
 </div>
 

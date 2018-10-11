@@ -15,7 +15,6 @@ import {Role} from "../entity/Role";
 })
 export class ReservationComponent implements OnInit {
   realdisplayedColumns: string[] = ['position','fullname', 'phonenumber', 'comment','date','tablenumber','edit'];
-  displayedColumns: string[] = ['position','fullname', 'phonenumber', 'comment','date','tablenumber'];
   realdataSource: DataSource<any> = new ReservationDataSource(this.reservationService);
 
   reservationForm: FormGroup = new FormGroup({
