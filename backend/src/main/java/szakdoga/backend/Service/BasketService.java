@@ -9,10 +9,6 @@ import org.springframework.web.context.annotation.SessionScope;
 import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 import szakdoga.backend.Repository.BasketRepository;
 import szakdoga.backend.app.module.Basket;
-import szakdoga.backend.app.module.Order;
-
-import java.util.ArrayList;
-import java.util.List;
 
 @Service
 @SessionScope

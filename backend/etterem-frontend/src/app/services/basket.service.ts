@@ -1,4 +1,4 @@
-import { Injectable } from '@angular/core';
+import {Injectable} from '@angular/core';
 import {Http} from "@angular/http";
 import {Basket} from "../entity/Basket";
 import {Observable} from "rxjs";

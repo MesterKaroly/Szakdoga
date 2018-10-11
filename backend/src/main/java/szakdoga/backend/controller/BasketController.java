@@ -9,7 +9,6 @@ import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 import szakdoga.backend.Service.BasketService;
 import szakdoga.backend.app.module.Basket;
-import szakdoga.backend.app.module.Order;
 
 @EnableAutoConfiguration
 @Controller
