@@ -16,25 +16,25 @@ export class LoginComponent implements OnInit {
     password: new FormControl('', [Validators.required])
   });
 
-  constructor(private authService: AuthService,private router:Router) {
+  constructor(private authService: AuthService, private router: Router) {
+  }
+
+  get username(): AbstractControl {
+    return this.loginForm.get('username')
+  }
+
+  get password(): AbstractControl {
+    return this.loginForm.get('password')
   }
 
   ngOnInit() {
   }
 
-  submit(){
+  submit() {
     this.authService.login(new User(this.username.value, this.password.value))
       .subscribe(
-      res => this.router.navigate(['/rating']),
-      err => console.log(err))
-  }
-
-
-  get username(): AbstractControl{
-    return this.loginForm.get('username')
-  }
-  get password(): AbstractControl{
-    return this.loginForm.get('password')
+        res => this.router.navigate(['/rating']),
+        err => console.log(err))
   }
 
 }

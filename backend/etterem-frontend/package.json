@@ -23,6 +23,8 @@
     "@angular/platform-browser-dynamic": "^6.1.7",
     "@angular/router": "^6.1.7",
     "@ng-bootstrap/ng-bootstrap": "^3.2.2",
+    "@ngx-loading-bar/core": "^2.2.0",
+    "angular-loading-bar": "^0.9.0",
     "core-js": "^2.5.4",
     "hammerjs": "^2.0.8",
     "ng-pick-datetime": "^5.2.6",

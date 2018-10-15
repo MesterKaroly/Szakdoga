@@ -11,26 +11,28 @@ import {Order} from "../entity/Order";
   styleUrls: ['./orders.component.css']
 })
 export class OrdersComponent implements OnInit {
-  realdisplayedColumns: string[] = ['position','name', 'comments' ,'food','tablenumber','edit'];
-  realdataSource: DataSource<any> =new OrdersDataSource(this.ordersService);
+  realdisplayedColumns: string[] = ['position', 'name', 'comments', 'food', 'tablenumber', 'edit'];
+  realdataSource: DataSource<any> = new OrdersDataSource(this.ordersService);
 
 
-  constructor(private ordersService: OrdersService) { }
-
-  ngOnInit() {
-    this.realdataSource=new OrdersDataSource(this.ordersService);
+  constructor(private ordersService: OrdersService) {
   }
 
-  delete(id: number){
-      this.ordersService.deleteOrder(id)
-        .subscribe(
-          res=> this.ngOnInit(),
-          err=> console.log(err)
-        );
+  ngOnInit() {
+    this.realdataSource = new OrdersDataSource(this.ordersService);
+  }
+
+  delete(id: number) {
+    this.ordersService.deleteOrder(id)
+      .subscribe(
+        res => this.ngOnInit(),
+        err => console.log(err)
+      );
 
   }
 
 }
+
 export class OrdersDataSource extends DataSource<any> {
   constructor(private ordersService: OrdersService) {
     super();

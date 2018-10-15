@@ -7,11 +7,11 @@ import {Routes, Server} from "../utils/ServerRoutes";
 @Injectable()
 export class OrderService {
 
-  constructor(private http:Http) { }
+  constructor(private http: Http) {
+  }
 
-  update(order: Order): Observable<Order>{
-    console.log(order);
+  update(order: Order): Observable<Order> {
     return this.http.post(Server.routeTo(Routes.UPDATEORDER), order)
-      .map(res=>res.json());
+      .map(res => res.json());
   }
 }

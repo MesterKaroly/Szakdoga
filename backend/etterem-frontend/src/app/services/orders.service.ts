@@ -7,7 +7,8 @@ import {Routes, Server} from "../utils/ServerRoutes";
 @Injectable()
 export class OrdersService {
 
-  constructor(private http:Http) { }
+  constructor(private http: Http) {
+  }
 
   getOrders(): Observable<Order[]> {
     return this.http.get(Server.routeTo(Routes.ORDERS))
@@ -15,9 +16,9 @@ export class OrdersService {
   }
 
   deleteOrder(id: number) {
-    return this.http.delete(Server.routeTo(Routes.DELETEORDER) + '/' + id )
-      .map(res=> console.log(res),
-      err=>console.log(err));
+    return this.http.delete(Server.routeTo(Routes.DELETEORDER) + '/' + id)
+      .map(res => console.log(res),
+        err => console.log(err));
   }
 
 }

@@ -9,11 +9,12 @@ import {Routes, Server} from "../utils/ServerRoutes";
 })
 export class CarteService {
 
-  constructor(private http: Http) { }
+  constructor(private http: Http) {
+  }
 
   getCarte(): Observable<Food[]> {
     return this.http.get(Server.routeTo(Routes.CARTE))
-      .map(res=>res.json());
+      .map(res => res.json());
 
   }
 

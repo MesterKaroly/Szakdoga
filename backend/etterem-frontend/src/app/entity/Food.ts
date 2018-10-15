@@ -1,8 +1,8 @@
-export class Food{
+export class Food {
 
-  public names:String;
-  private ingredients:String;
-  private price:Number;
+  public names: String;
+  private ingredients: String;
+  private price: Number;
 
 
   constructor(name: String, ingredients: String, price: Number) {

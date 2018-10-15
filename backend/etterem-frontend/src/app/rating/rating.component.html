@@ -2,36 +2,37 @@
   <h1>Értékelés</h1>
   <div id="top-panel" *ngIf="authService.isLoggedIn">
     <form class="container" [formGroup]="raitingForm">
-    <div id="megjegyzes" class="form-control">
-      <mat-form-field class="adatok">
-        <textarea matInput #message rows="3" maxlength="254" placeholder="Vélemény" formControlName="comment"></textarea>
-        <mat-hint align="end">{{message.value.length}} / 254</mat-hint>
-        <mat-error *ngIf="comment.hasError('required')">
-          A mező kitöltése <strong>kötelező</strong>
-        </mat-error>
-      </mat-form-field>
-    </div>
-    <button mat-button (click)="submit()">Beküldés</button>
+      <div id="megjegyzes" class="form-control">
+        <mat-form-field class="adatok">
+          <textarea matInput #message rows="3" maxlength="254" placeholder="Vélemény"
+                    formControlName="comment"></textarea>
+          <mat-hint align="end">{{message.value.length}} / 254</mat-hint>
+          <mat-error *ngIf="comment.hasError('required')">
+            A mező kitöltése <strong>kötelező</strong>
+          </mat-error>
+        </mat-form-field>
+      </div>
+      <button mat-button (click)="submit()">Beküldés</button>
     </form>
   </div>
   <p></p>
-    <mat-grid-list cols="2" rowHeight="fit" id="cardok" gutterSize="10px">
-      <mat-grid-tile *ngFor="let element of ratings">
-        <mat-card class="mat-card comments">
-          <mat-card-header class="mat-card-header">
-            <mat-card-title class="mat-card-title">
-              {{element.fullname}}
-            </mat-card-title>
-            <mat-card-subtitle class="mat-card-subtitle">
-              {{toDate(element.dates) | date:'yyyy.MM.dd HH:mm'}}
-            </mat-card-subtitle>
-          </mat-card-header>
-          <mat-card-content class="mat-card-content">
-            <p>{{element.comments}}</p>
-          </mat-card-content>
-        </mat-card>
-      </mat-grid-tile>
-    </mat-grid-list>
+  <mat-grid-list cols="2" rowHeight="fit" id="cardok" gutterSize="10px">
+    <mat-grid-tile *ngFor="let element of ratings">
+      <mat-card class="mat-card comments">
+        <mat-card-header class="mat-card-header">
+          <mat-card-title class="mat-card-title">
+            {{element.fullname}}
+          </mat-card-title>
+          <mat-card-subtitle class="mat-card-subtitle">
+            {{toDate(element.dates) | date:'yyyy.MM.dd HH:mm'}}
+          </mat-card-subtitle>
+        </mat-card-header>
+        <mat-card-content class="mat-card-content">
+          <p>{{element.comments}}</p>
+        </mat-card-content>
+      </mat-card>
+    </mat-grid-tile>
+  </mat-grid-list>
 
 
 </div>

@@ -41,10 +41,10 @@
 
     <div class="form-control" *ngIf="realRole===Admin">
       <mat-form-field>
-          <mat-select placeholder="Beosztás" (selectionChange)="setRole($event)">
-            <mat-option *ngFor="let role of Roles" value="Role">{{role}}
-            </mat-option>
-          </mat-select>
+        <mat-select placeholder="Beosztás" (selectionChange)="setRole($event)">
+          <mat-option *ngFor="let role of Roles" value="Role">{{role}}
+          </mat-option>
+        </mat-select>
       </mat-form-field>
     </div>
     <button mat-raised-button class="mat-primary" (click)="submit()">Regisztráció</button>

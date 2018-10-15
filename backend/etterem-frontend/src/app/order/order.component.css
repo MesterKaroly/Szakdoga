@@ -1,6 +1,7 @@
-div{
-  margin:2%;
+div {
+  margin: 2%;
 }
+
 table {
   width: 95%;
 }
@@ -10,24 +11,32 @@ table {
   width: 90%;
 }
 
-#top-panel{
-  padding:0;
+#top-panel {
+  padding: 0;
   border: 0.1rem solid gray;
   border-radius: 10px;
   width: 90%;
 }
-#adatok{
+
+#adatok {
   width: 100%;
   padding: 1%;
 }
-textarea{
+
+textarea {
   resize: none;
 }
-.mat-elevation-z8.mat-elevation-z8{
+
+.mat-elevation-z8.mat-elevation-z8 {
   padding-top: 4px;
   padding-left: 4px;
 }
-h1{
+
+h1 {
   text-align: center;
+}
+
+#progressbar {
+  width: 95%;
 }
 

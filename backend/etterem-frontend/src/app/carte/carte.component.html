@@ -1,27 +1,27 @@
 <div class="mat-elevation-z8">
-<h1>Étlap</h1>
+  <h1>Étlap</h1>
 
-<table mat-table [dataSource]="realdataSource" class="mat-elevation-z8">
+  <table mat-table [dataSource]="realdataSource" class="mat-elevation-z8">
 
-  <!-- Name Column -->
-  <ng-container matColumnDef="name">
-    <th mat-header-cell *matHeaderCellDef> Név </th>
-    <td mat-cell *matCellDef="let element"> {{element.names}} </td>
-  </ng-container>
+    <!-- Name Column -->
+    <ng-container matColumnDef="name">
+      <th mat-header-cell *matHeaderCellDef> Név</th>
+      <td mat-cell *matCellDef="let element"> {{element.names}}</td>
+    </ng-container>
 
-  <!-- Ingredients Column -->
-  <ng-container matColumnDef="ingredients">
-    <th mat-header-cell *matHeaderCellDef> Hozzávalók </th>
-    <td mat-cell *matCellDef="let element"> {{element.ingredients}} </td>
-  </ng-container>
+    <!-- Ingredients Column -->
+    <ng-container matColumnDef="ingredients">
+      <th mat-header-cell *matHeaderCellDef> Hozzávalók</th>
+      <td mat-cell *matCellDef="let element"> {{element.ingredients}}</td>
+    </ng-container>
 
-  <!-- Price Column -->
-  <ng-container matColumnDef="price">
-    <th mat-header-cell *matHeaderCellDef> Ár </th>
-    <td mat-cell *matCellDef="let element"> {{element.price}} </td>
-  </ng-container>
+    <!-- Price Column -->
+    <ng-container matColumnDef="price">
+      <th mat-header-cell *matHeaderCellDef> Ár</th>
+      <td mat-cell *matCellDef="let element"> {{element.price}}</td>
+    </ng-container>
 
-  <tr mat-header-row *matHeaderRowDef="realdisplayedColumns"></tr>
-  <tr mat-row *matRowDef="let row; columns: realdisplayedColumns;"></tr>
-</table>
+    <tr mat-header-row *matHeaderRowDef="realdisplayedColumns"></tr>
+    <tr mat-row *matRowDef="let row; columns: realdisplayedColumns;"></tr>
+  </table>
 </div>

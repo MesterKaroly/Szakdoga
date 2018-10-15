@@ -16,23 +16,33 @@ interface MenuItem {
 })
 export class MenuComponent implements OnInit {
 
-  private roleMenus = new Map<String, MenuItem[]>([
-    [Role.GUEST, [{link:'/login',title:'Belépés'},{link: '/registration', title: 'Regisztráció'},{link:'/carte',title:'Étlap'},{link:'/reservation',title:'Foglalások'},{link:'/rating',title:'Értékelés'}]],
-    [Role.USER, [{link:'/carte',title:'Étlap'}, {link: '/order', title: 'Rendelés'}
-    ,{link:'/reservation',title:'Foglalás'},{link:'/rating',title:'Értékelés'}]],
-    [Role.ADMIN, [{link: '/registration', title: 'Regisztráció'}, {link: '/carte', title: 'Étlap'},
-      {link:'/order',title:'Rendelés'},{link:'/orders',title:'Rendelések'},{link:'/reservation',title:'Foglalás'},
-      {link:'/rating',title:'Értékelés'}]],
-    [Role.WAITER,[{link:'/carte',title:'Étlap'},{link:'/order',title:'Rendelés'},{link:'/reservation',title:'Foglalás'}]],
-    [Role.CHEF,[{link:'/orders',title:'Rendelések'},{link:'/carte',title:'Étlap'},{link:'/rating',title:'Értékelés'}]]
-  ]);
-
   menus: MenuItem[];
   isloggedin: boolean;
+  private roleMenus = new Map<String, MenuItem[]>([
+    [Role.GUEST, [{link: '/login', title: 'Belépés'}, {link: '/registration', title: 'Regisztráció'}, {
+      link: '/carte',
+      title: 'Étlap'
+    }, {link: '/reservation', title: 'Foglalások'}, {link: '/rating', title: 'Értékelés'}]],
+    [Role.USER, [{link: '/carte', title: 'Étlap'}, {link: '/order', title: 'Rendelés'}
+      , {link: '/reservation', title: 'Foglalás'}, {link: '/rating', title: 'Értékelés'}]],
+    [Role.ADMIN, [{link: '/registration', title: 'Regisztráció'}, {link: '/carte', title: 'Étlap'},
+      {link: '/order', title: 'Rendelés'}, {link: '/orders', title: 'Rendelések'}, {
+        link: '/reservation',
+        title: 'Foglalás'
+      },
+      {link: '/rating', title: 'Értékelés'}]],
+    [Role.WAITER, [{link: '/carte', title: 'Étlap'}, {link: '/order', title: 'Rendelés'}, {
+      link: '/reservation',
+      title: 'Foglalás'
+    }]],
+    [Role.CHEF, [{link: '/orders', title: 'Rendelések'}, {link: '/carte', title: 'Étlap'}, {
+      link: '/rating',
+      title: 'Értékelés'
+    }]]
+  ]);
 
-
-
-  constructor(private authService: AuthService,private router:Router) { }
+  constructor(private authService: AuthService, private router: Router) {
+  }
 
   ngOnInit() {
     this.router.events.subscribe((event) => {
@@ -48,7 +58,7 @@ export class MenuComponent implements OnInit {
     } else {
       this.menus = this.roleMenus.get(Role.GUEST)
     }
-    this.isloggedin=this.authService.isLoggedIn;
+    this.isloggedin = this.authService.isLoggedIn;
   }
 
   logout() {

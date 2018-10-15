@@ -10,26 +10,28 @@ import "rxjs-compat/add/operator/map";
 })
 export class AuthService {
   user: User;
-  public isLoggedIn:boolean=false;
+  public isLoggedIn: boolean = false;
 
   constructor(private http: Http) {
-    this.user=new User();
+    this.user = new User();
   }
-  login(user:User): Observable<User> {
-    return this.http.post(Server.routeTo(Routes.LOGIN),user)
+
+  login(user: User): Observable<User> {
+    return this.http.post(Server.routeTo(Routes.LOGIN), user)
       .map(res => {
         this.isLoggedIn = true;
         this.user = res.json();
         return this.user;
-    });
+      });
   }
+
   register(user: User): Observable<User> {
     return this.http.post(Server.routeTo(Routes.REGISTER), user)
-      .map(res=>{
-        this.isLoggedIn=true;
-        this.user=res.json();
+      .map(res => {
+        this.isLoggedIn = true;
+        this.user = res.json();
         return this.user;
-    });
+      });
 
   }
 

@@ -26,7 +26,7 @@ public class AuthInterceptor extends HandlerInterceptorAdapter {
     }
 
     @Override
-        public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) throws Exception {
+        public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) {
         // handle OPTIONS methods
         if (!(handler instanceof HandlerMethod)) {
             return true;

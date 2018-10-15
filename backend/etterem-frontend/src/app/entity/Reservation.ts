@@ -1,13 +1,10 @@
+export class Reservation {
 
-
-
-export class Reservation{
-
-  public id:number;
-  public fullname:String;
-  public phonenumber:String;
+  public id: number;
+  public fullname: String;
+  public phonenumber: String;
   public comments: String;
-  public dates:Date;
+  public dates: Date;
   public tablenumber: number;
 
 

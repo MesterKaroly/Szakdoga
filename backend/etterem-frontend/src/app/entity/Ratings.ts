@@ -1,9 +1,9 @@
-export class Ratings{
+export class Ratings {
 
   public fullname: String;
-  public dates:Date;
-  public comments:String;
-  public ratingpoint:number;
+  public dates: Date;
+  public comments: String;
+  public ratingpoint: number;
 
 
   constructor(fullname?: String, date?: Date, comments?: String, ratingpoint?: number) {

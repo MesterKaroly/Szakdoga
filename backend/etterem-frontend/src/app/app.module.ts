@@ -25,6 +25,7 @@ import {RatingService} from "./services/rating.service";
 import {ReservationService} from "./services/reservation.service";
 import {RouteGuard} from "./route.guard";
 import {OwlDateTimeModule, OwlNativeDateTimeModule} from "ng-pick-datetime";
+import {LoadingBarModule} from "@ngx-loading-bar/core";
 
 @NgModule({
   declarations: [
@@ -40,6 +41,7 @@ import {OwlDateTimeModule, OwlNativeDateTimeModule} from "ng-pick-datetime";
     RatingComponent
   ],
   imports: [
+    LoadingBarModule,
     BrowserModule,
     BrowserAnimationsModule,
     OwlDateTimeModule,
@@ -51,7 +53,8 @@ import {OwlDateTimeModule, OwlNativeDateTimeModule} from "ng-pick-datetime";
     BrowserAnimationsModule,
     MaterialItemsModule
   ],
-  providers: [AuthService,CarteService,OrderService,OrdersService,RatingService,ReservationService,RouteGuard],
+  providers: [AuthService, CarteService, OrderService, OrdersService, RatingService, ReservationService, RouteGuard],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {
+}

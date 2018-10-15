@@ -9,14 +9,16 @@ import {Observable} from "rxjs";
 })
 export class RatingService {
 
-  constructor(private http:Http) { }
+  constructor(private http: Http) {
+  }
 
   create(ratings: Ratings): Observable<Ratings> {
-       return this.http.post(Server.routeTo(Routes.RATINGADD),ratings)
-         .map(res => res.json());
+    return this.http.post(Server.routeTo(Routes.RATINGADD), ratings)
+      .map(res => res.json());
   }
-  getRating(): Observable<Ratings[]>{
+
+  getRating(): Observable<Ratings[]> {
     return this.http.get(Server.routeTo(Routes.RATINGGET))
-      .map(res=> res.json());
+      .map(res => res.json());
   }
 }

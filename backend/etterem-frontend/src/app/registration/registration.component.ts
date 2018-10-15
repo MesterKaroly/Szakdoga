@@ -19,40 +19,43 @@ export class RegistrationComponent implements OnInit {
     email: new FormControl('', [Validators.required])
   });
 
-  role:Role;
+  role: Role;
   realRole: Role;
-  Admin:Role=Role.ADMIN;
-  Roles:String[]=[Role.ADMIN,Role.WAITER,Role.GUEST,Role.CHEF,Role.USER];
-  constructor(private authService: AuthService,private router: Router) {
-    this.realRole=this.authService.user.role;
+  Admin: Role = Role.ADMIN;
+  Roles: String[] = [Role.ADMIN, Role.WAITER, Role.GUEST, Role.CHEF, Role.USER];
+
+  constructor(private authService: AuthService, private router: Router) {
+    this.realRole = this.authService.user.role;
+  }
+
+  get fullname(): AbstractControl {
+    return this.registrationForm.get('fullname');
+  }
+
+  get username(): AbstractControl {
+    return this.registrationForm.get('username');
+  }
+
+  get password(): AbstractControl {
+    return this.registrationForm.get('password');
+  }
+
+  get email(): AbstractControl {
+    return this.registrationForm.get('email');
   }
 
   ngOnInit() {
   }
 
-  submit(){
-    this.authService.register(new User(this.username.value,this.password.value,this.email.value,this.fullname.value,this.role))
+  submit() {
+    this.authService.register(new User(this.username.value, this.password.value, this.email.value, this.fullname.value, this.role))
       .subscribe(
         res => this.router.navigate(['/carte']),
         err => console.log(err));
   }
 
-  get fullname(): AbstractControl{
-    return this.registrationForm.get('fullname');
-  }
-
-  get username(): AbstractControl{
-    return this.registrationForm.get('username');
-  }
-  get password(): AbstractControl{
-    return this.registrationForm.get('password');
-  }
-  get email(): AbstractControl{
-    return this.registrationForm.get('email');
-  }
-
-  setRole(event){
-    this.role=event.source.triggerValue;
+  setRole(event) {
+    this.role = event.source.triggerValue;
   }
 
 }
