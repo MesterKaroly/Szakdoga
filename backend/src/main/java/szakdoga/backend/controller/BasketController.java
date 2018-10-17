@@ -44,4 +44,11 @@ public class BasketController {
         basketService.delete(Integer.toUnsignedLong(id));
         return ResponseEntity.ok().build();
     }
+    @CrossOrigin(origins = "http://localhost:4200")
+    @DeleteMapping("/onedelete/{id}")
+    public ResponseEntity deleteOneOfThem(@PathVariable int id){
+        basketService.deleteOneOfThem(Integer.toUnsignedLong(id));
+        return ResponseEntity.ok().build();
+
+    }
 }

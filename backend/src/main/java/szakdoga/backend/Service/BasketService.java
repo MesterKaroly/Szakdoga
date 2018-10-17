@@ -34,4 +34,8 @@ public class BasketService {
     public void delete(Long id){
         basketRepository.deleteById(id);
     }
+
+    public void deleteOneOfThem(long id) {
+        basketRepository.deleteById(id);
+    }
 }

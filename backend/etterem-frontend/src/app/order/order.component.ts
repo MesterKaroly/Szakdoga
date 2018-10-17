@@ -28,7 +28,7 @@ export class OrderComponent implements OnInit {
   realdisplayedColumns: string[] = ['name', 'ingredients', 'price', 'edit'];
   realdataSource: DataSource<any> = new OrderDataSource(this.carteService);
 
-  basketDisplayedColumns: string[] = ['name', 'foodname', 'foodingredients', 'price'];
+  basketDisplayedColumns: string[] = ['name', 'foodname', 'foodingredients', 'price','edit'];
   basketdataSource: DataSource<any> = new BasketDataSource(this.basketService, this.basket);
 
   orderForm: FormGroup = new FormGroup({
@@ -48,6 +48,21 @@ export class OrderComponent implements OnInit {
 
   ngOnInit() {
     this.basketdataSource = new BasketDataSource(this.basketService, this.basket);
+  }
+
+  deleteBasket(id:number){
+
+    this.basketService.deleteOneElementOfBasket(id)
+      .subscribe(res=>this.ngOnInit(),
+        err =>console.log(err));
+
+    this.basketService.getBasket(this.basket)
+      .subscribe(
+        res => {
+          this.helpBasket = Object.keys(res).map(e => res[e]);
+        },
+        err => console.log(err));
+    this.ngOnInit();
   }
 
   add(name: String, ingredients: String, price: number) {

@@ -9,6 +9,7 @@ export class Routes {
   static FINDOWNBASKET: String = 'basket/find';
   static UPDATEBASKET: String = 'basket/update';
   static DELETEBASKET: String = 'basket/delete';
+  static DELETEONEELEMENTOFBASKET: String='basket/onedelete';
   static DELETERESERVATION: String = 'reservation/delete';
   static RESERVATIONS: String = 'reservation/all';
   static RESERVATIONADD: String = 'reservation/add';

@@ -28,4 +28,10 @@ export class BasketService {
       .map(res => res.json());
   }
 
+  deleteOneElementOfBasket(id:number): Observable<Basket>{
+    return this.http.delete(Server.routeTo(Routes.DELETEONEELEMENTOFBASKET)+'/'+id)
+      .map(res=>res.json());
+
+  }
+
 }
