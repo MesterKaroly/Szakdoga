@@ -1,23 +1,23 @@
 import {Injectable} from '@angular/core';
 import {Observable} from "rxjs";
 import {Order} from "../entity/Order";
-import {Http} from "@angular/http";
 import {Routes, Server} from "../utils/ServerRoutes";
+import {HttpClient} from "@angular/common/http";
 
 @Injectable()
 export class OrdersService {
 
-  constructor(private http: Http) {
+  constructor(private http: HttpClient) {
   }
 
   getOrders(): Observable<Order[]> {
-    return this.http.get(Server.routeTo(Routes.ORDERS))
-      .map(res => res.json());
+    return this.http.get<Order[]>(Server.routeTo(Routes.ORDERS))
+      .map(res => res);
   }
 
   deleteOrder(id: number) {
     return this.http.delete(Server.routeTo(Routes.DELETEORDER) + '/' + id)
-      .map(res => console.log(res),
+      .map(res => res,
         err => console.log(err));
   }
 

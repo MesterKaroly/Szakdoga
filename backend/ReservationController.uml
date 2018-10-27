@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>szakdoga.backend.controller.ReservationController</OriginalElement>
+  <nodes>
+    <node x="309.0" y="54.5">org.springframework.boot.autoconfigure.EnableAutoConfiguration</node>
+    <node x="169.5" y="255.0">szakdoga.backend.controller.ReservationController</node>
+    <node x="603.0" y="0.0">org.springframework.web.bind.annotation.RequestMapping</node>
+    <node x="159.0" y="88.0">org.springframework.web.servlet.config.annotation.EnableWebMvc</node>
+    <node x="0.0" y="77.0">org.springframework.stereotype.Controller</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="szakdoga.backend.controller.ReservationController" target="org.springframework.web.servlet.config.annotation.EnableWebMvc">
+      <point x="-41.375" y="-93.0" />
+      <point x="293.625" y="230.0" />
+      <point x="224.0" y="230.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="szakdoga.backend.controller.ReservationController" target="org.springframework.stereotype.Controller">
+      <point x="-124.125" y="-93.0" />
+      <point x="210.875" y="230.0" />
+      <point x="69.5" y="230.0" />
+      <point x="0.0" y="25.5" />
+    </edge>
+    <edge source="szakdoga.backend.controller.ReservationController" target="org.springframework.boot.autoconfigure.EnableAutoConfiguration">
+      <point x="41.375" y="-93.0" />
+      <point x="376.375" y="230.0" />
+      <point x="446.0" y="230.0" />
+      <point x="0.0" y="48.0" />
+    </edge>
+    <edge source="szakdoga.backend.controller.ReservationController" target="org.springframework.web.bind.annotation.RequestMapping">
+      <point x="124.125" y="-93.0" />
+      <point x="459.125" y="230.0" />
+      <point x="709.0" y="230.0" />
+      <point x="0.0" y="102.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="305.0" y="54.0" />
+  <SelectedNodes>
+    <node>szakdoga.backend.controller.ReservationController</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

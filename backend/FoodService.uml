@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>szakdoga.backend.Service.FoodService</OriginalElement>
+  <nodes>
+    <node x="603.0" y="22.5">org.springframework.web.context.annotation.SessionScope</node>
+    <node x="159.0" y="0.0">org.springframework.boot.autoconfigure.EnableAutoConfiguration</node>
+    <node x="0.0" y="22.5">org.springframework.stereotype.Service</node>
+    <node x="288.0" y="146.0">szakdoga.backend.Service.FoodService</node>
+    <node x="453.0" y="33.5">org.springframework.web.servlet.config.annotation.EnableWebMvc</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="szakdoga.backend.Service.FoodService" target="org.springframework.web.context.annotation.SessionScope">
+      <point x="89.25" y="-48.5" />
+      <point x="496.25" y="126.0" />
+      <point x="723.0" y="126.0" />
+      <point x="0.0" y="25.5" />
+    </edge>
+    <edge source="szakdoga.backend.Service.FoodService" target="org.springframework.boot.autoconfigure.EnableAutoConfiguration">
+      <point x="-29.75" y="-48.5" />
+      <point x="377.25" y="116.0" />
+      <point x="296.0" y="116.0" />
+      <point x="0.0" y="48.0" />
+    </edge>
+    <edge source="szakdoga.backend.Service.FoodService" target="org.springframework.stereotype.Service">
+      <point x="-89.25" y="-48.5" />
+      <point x="317.75" y="126.0" />
+      <point x="69.5" y="126.0" />
+      <point x="0.0" y="25.5" />
+    </edge>
+    <edge source="szakdoga.backend.Service.FoodService" target="org.springframework.web.servlet.config.annotation.EnableWebMvc">
+      <point x="29.75" y="-48.5" />
+      <point x="436.75" y="116.0" />
+      <point x="518.0" y="116.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="288.5" y="54.0" />
+  <SelectedNodes>
+    <node>szakdoga.backend.Service.FoodService</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

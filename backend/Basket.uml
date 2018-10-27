@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>szakdoga.backend.app.module.Basket</OriginalElement>
+  <nodes>
+    <node x="1142.75" y="168.0">javax.persistence.Entity</node>
+    <node x="625.25" y="346.0">szakdoga.backend.app.module.Basket</node>
+    <node x="0.0" y="11.0">javax.persistence.MappedSuperclass</node>
+    <node x="23.25" y="101.0">szakdoga.backend.app.module.BaseEntity</node>
+    <node x="677.3563492063494" y="11.0">lombok.AllArgsConstructor.AnyAnnotation</node>
+    <node x="1302.75" y="113.0">lombok.EqualsAndHashCode</node>
+    <node x="1468.620634920635" y="446.0">lombok.EqualsAndHashCode.Include</node>
+    <node x="938.3563492063494" y="11.0">lombok.NoArgsConstructor.AnyAnnotation</node>
+    <node x="1360.620634920635" y="457.0">lombok.EqualsAndHashCode.Exclude</node>
+    <node x="327.75000000000006" y="124.0">javax.persistence.Table</node>
+    <node x="168.0" y="0.0">lombok.Data</node>
+    <node x="620.75" y="146.0">lombok.AllArgsConstructor</node>
+    <node x="1358.3563492063493" y="11.0">lombok.EqualsAndHashCode.AnyAnnotation</node>
+    <node x="881.75" y="135.0">lombok.NoArgsConstructor</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="szakdoga.backend.app.module.Basket" target="lombok.Data">
+      <point x="-66.28571428571422" y="-125.5" />
+      <point x="674.9642857142858" y="316.0" />
+      <point x="317.25" y="316.0" />
+      <point x="49.75" y="25.5" />
+    </edge>
+    <edge source="szakdoga.backend.app.module.Basket" target="szakdoga.backend.app.module.BaseEntity">
+      <point x="-99.42857142857144" y="-125.5" />
+      <point x="641.8214285714287" y="326.0" />
+      <point x="124.75" y="326.0" />
+      <point x="0.0" y="92.5" />
+    </edge>
+    <edge source="szakdoga.backend.app.module.Basket" target="lombok.AllArgsConstructor">
+      <point x="0.0" y="-125.5" />
+      <point x="0.0" y="47.5" />
+    </edge>
+    <edge source="szakdoga.backend.app.module.Basket" target="lombok.NoArgsConstructor">
+      <point x="33.14285714285711" y="-125.5" />
+      <point x="774.3928571428571" y="306.0" />
+      <point x="1002.25" y="306.0" />
+      <point x="0.0" y="58.5" />
+    </edge>
+    <edge source="szakdoga.backend.app.module.Basket" target="lombok.EqualsAndHashCode">
+      <point x="99.42857142857144" y="-125.5" />
+      <point x="840.6785714285716" y="326.0" />
+      <point x="1342.5833333333335" y="326.0" />
+      <point x="-79.66666666666667" y="80.5" />
+    </edge>
+    <edge source="szakdoga.backend.app.module.BaseEntity" target="javax.persistence.MappedSuperclass">
+      <point x="-50.75" y="-92.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="szakdoga.backend.app.module.Basket" target="javax.persistence.Table">
+      <point x="-33.14285714285711" y="-125.5" />
+      <point x="708.1071428571429" y="306.0" />
+      <point x="464.25000000000006" y="306.0" />
+      <point x="0.0" y="69.5" />
+    </edge>
+    <edge source="szakdoga.backend.app.module.Basket" target="javax.persistence.Entity">
+      <point x="66.28571428571433" y="-125.5" />
+      <point x="807.5357142857144" y="316.0" />
+      <point x="1212.75" y="316.0" />
+      <point x="0.0" y="25.5" />
+    </edge>
+    <edge source="lombok.EqualsAndHashCode.Exclude" target="lombok.EqualsAndHashCode">
+      <point x="0.0" y="-14.5" />
+      <point x="1404.620634920635" y="326.0" />
+      <point x="1422.25" y="326.0" />
+      <point x="0.0" y="80.5" />
+    </edge>
+    <edge source="lombok.NoArgsConstructor.AnyAnnotation" target="lombok.NoArgsConstructor">
+      <point x="31.75" y="14.5" />
+      <point x="1033.6063492063495" y="76.0" />
+      <point x="1062.5" y="76.0" />
+      <point x="60.25" y="-58.5" />
+    </edge>
+    <edge source="lombok.EqualsAndHashCode.AnyAnnotation" target="lombok.EqualsAndHashCode">
+      <point x="31.75" y="14.5" />
+      <point x="1453.6063492063493" y="76.0" />
+      <point x="1482.0" y="76.0" />
+      <point x="59.75" y="-80.5" />
+    </edge>
+    <edge source="lombok.EqualsAndHashCode" target="lombok.EqualsAndHashCode.AnyAnnotation">
+      <point x="-59.75" y="-80.5" />
+      <point x="1362.5" y="76.0" />
+      <point x="1390.1063492063493" y="76.0" />
+      <point x="-31.75" y="14.5" />
+    </edge>
+    <edge source="lombok.AllArgsConstructor.AnyAnnotation" target="lombok.AllArgsConstructor">
+      <point x="31.75" y="14.5" />
+      <point x="772.6063492063494" y="76.0" />
+      <point x="801.5" y="76.0" />
+      <point x="60.25" y="-47.5" />
+    </edge>
+    <edge source="lombok.EqualsAndHashCode.Include" target="lombok.EqualsAndHashCode">
+      <point x="0.0" y="-25.5" />
+      <point x="1546.120634920635" y="326.0" />
+      <point x="1501.9166666666667" y="326.0" />
+      <point x="79.66666666666669" y="80.5" />
+    </edge>
+    <edge source="lombok.NoArgsConstructor" target="lombok.NoArgsConstructor.AnyAnnotation">
+      <point x="-60.25" y="-58.5" />
+      <point x="942.0" y="76.0" />
+      <point x="970.1063492063494" y="76.0" />
+      <point x="-31.75" y="14.5" />
+    </edge>
+    <edge source="szakdoga.backend.app.module.BaseEntity" target="lombok.Data">
+      <point x="50.75" y="-92.5" />
+      <point x="175.5" y="76.0" />
+      <point x="217.75" y="76.0" />
+      <point x="-49.75" y="25.5" />
+    </edge>
+    <edge source="lombok.AllArgsConstructor" target="lombok.AllArgsConstructor.AnyAnnotation">
+      <point x="-60.25" y="-47.5" />
+      <point x="681.0" y="76.0" />
+      <point x="709.1063492063494" y="76.0" />
+      <point x="-31.75" y="14.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.7511027095148078" x="783.5" y="298.5" />
+  <SelectedNodes>
+    <node>szakdoga.backend.app.module.Basket</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

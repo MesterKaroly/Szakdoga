@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>szakdoga.backend.Repository.FoodRepository</OriginalElement>
+  <nodes>
+    <node x="169.25" y="79.0">org.springframework.data.repository.Repository</node>
+    <node x="176.25" y="0.0">org.springframework.stereotype.Indexed</node>
+    <node x="159.0" y="158.0">org.springframework.data.repository.CrudRepository</node>
+    <node x="0.0" y="268.0">org.springframework.stereotype.Repository</node>
+    <node x="115.75" y="479.0">szakdoga.backend.Repository.FoodRepository</node>
+    <node x="293.25" y="79.0">org.springframework.data.repository.NoRepositoryBean</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="szakdoga.backend.Repository.FoodRepository" target="org.springframework.stereotype.Repository">
+      <point x="-33.0" y="-14.5" />
+      <point x="148.75" y="454.0" />
+      <point x="69.5" y="454.0" />
+      <point x="0.0" y="25.5" />
+    </edge>
+    <edge source="szakdoga.backend.Repository.FoodRepository" target="org.springframework.data.repository.CrudRepository">
+      <point x="33.0" y="-14.5" />
+      <point x="214.75" y="454.0" />
+      <point x="294.0" y="454.0" />
+      <point x="0.0" y="135.5" />
+    </edge>
+    <edge source="org.springframework.data.repository.CrudRepository" target="org.springframework.data.repository.Repository">
+      <point x="-67.5" y="-135.5" />
+      <point x="226.5" y="133.0" />
+      <point x="221.25" y="133.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.springframework.data.repository.CrudRepository" target="org.springframework.data.repository.NoRepositoryBean">
+      <point x="67.5" y="-135.5" />
+      <point x="361.5" y="133.0" />
+      <point x="366.75" y="133.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.springframework.data.repository.Repository" target="org.springframework.stereotype.Indexed">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="220.5" y="254.0" />
+  <SelectedNodes>
+    <node>szakdoga.backend.Repository.FoodRepository</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Inner Classes</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

@@ -15,7 +15,7 @@ import szakdoga.backend.app.module.Order;
 @SessionScope
 @EnableAutoConfiguration
 @EnableWebMvc
-public class OrderService {
+public class    OrderService {
 
 
     private final OrderRepository orderRepository;

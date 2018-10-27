@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>szakdoga.backend.Service.RatingService</OriginalElement>
+  <nodes>
+    <node x="603.0" y="22.5">org.springframework.web.context.annotation.SessionScope</node>
+    <node x="274.75" y="146.0">szakdoga.backend.Service.RatingService</node>
+    <node x="150.0" y="0.0">org.springframework.boot.autoconfigure.EnableAutoConfiguration</node>
+    <node x="444.0" y="22.5">org.springframework.stereotype.Service</node>
+    <node x="0.0" y="33.5">org.springframework.web.servlet.config.annotation.EnableWebMvc</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="szakdoga.backend.Service.RatingService" target="org.springframework.web.context.annotation.SessionScope">
+      <point x="94.125" y="-60.0" />
+      <point x="494.375" y="126.0" />
+      <point x="723.0" y="126.0" />
+      <point x="0.0" y="25.5" />
+    </edge>
+    <edge source="szakdoga.backend.Service.RatingService" target="org.springframework.stereotype.Service">
+      <point x="31.375" y="-60.0" />
+      <point x="431.625" y="116.0" />
+      <point x="513.5" y="116.0" />
+      <point x="0.0" y="25.5" />
+    </edge>
+    <edge source="szakdoga.backend.Service.RatingService" target="org.springframework.boot.autoconfigure.EnableAutoConfiguration">
+      <point x="-31.375" y="-60.0" />
+      <point x="368.875" y="116.0" />
+      <point x="287.0" y="116.0" />
+      <point x="0.0" y="48.0" />
+    </edge>
+    <edge source="szakdoga.backend.Service.RatingService" target="org.springframework.web.servlet.config.annotation.EnableWebMvc">
+      <point x="-94.125" y="-60.0" />
+      <point x="306.125" y="126.0" />
+      <point x="65.0" y="126.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="421.5" y="133.0" />
+  <SelectedNodes>
+    <node>szakdoga.backend.Service.RatingService</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

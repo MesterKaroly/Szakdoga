@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>szakdoga.backend.app.module.Order</OriginalElement>
+  <nodes>
+    <node x="1119.5" y="168.0">javax.persistence.Entity</node>
+    <node x="498.75" y="11.0">javax.persistence.MappedSuperclass</node>
+    <node x="522.0" y="101.0">szakdoga.backend.app.module.BaseEntity</node>
+    <node x="323.3587301587302" y="11.0">lombok.AllArgsConstructor.AnyAnnotation</node>
+    <node x="1279.5" y="113.0">lombok.EqualsAndHashCode</node>
+    <node x="1448.9325396825398" y="457.0">lombok.EqualsAndHashCode.Include</node>
+    <node x="62.35873015873028" y="11.0">lombok.NoArgsConstructor.AnyAnnotation</node>
+    <node x="1340.9325396825398" y="468.0">lombok.EqualsAndHashCode.Exclude</node>
+    <node x="684.5" y="346.0">szakdoga.backend.app.module.Order</node>
+    <node x="826.5" y="124.0">javax.persistence.Table</node>
+    <node x="666.75" y="0.0">lombok.Data</node>
+    <node x="261.0" y="146.0">lombok.AllArgsConstructor</node>
+    <node x="1340.8587301587304" y="11.0">lombok.EqualsAndHashCode.AnyAnnotation</node>
+    <node x="0.0" y="135.0">lombok.NoArgsConstructor</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="szakdoga.backend.app.module.Order" target="javax.persistence.Table">
+      <point x="37.571428571428555" y="-136.5" />
+      <point x="853.5714285714286" y="306.0" />
+      <point x="963.0" y="306.0" />
+      <point x="0.0" y="69.5" />
+    </edge>
+    <edge source="szakdoga.backend.app.module.Order" target="lombok.AllArgsConstructor">
+      <point x="-75.14285714285722" y="-136.5" />
+      <point x="740.8571428571428" y="316.0" />
+      <point x="381.5" y="316.0" />
+      <point x="0.0" y="47.5" />
+    </edge>
+    <edge source="szakdoga.backend.app.module.BaseEntity" target="javax.persistence.MappedSuperclass">
+      <point x="-50.75" y="-92.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="lombok.EqualsAndHashCode.Exclude" target="lombok.EqualsAndHashCode">
+      <point x="0.0" y="-14.5" />
+      <point x="1384.9325396825398" y="326.0" />
+      <point x="1399.0" y="326.0" />
+      <point x="0.0" y="80.5" />
+    </edge>
+    <edge source="lombok.NoArgsConstructor.AnyAnnotation" target="lombok.NoArgsConstructor">
+      <point x="31.75" y="14.5" />
+      <point x="157.60873015873028" y="76.0" />
+      <point x="180.75" y="76.0" />
+      <point x="60.25" y="-58.5" />
+    </edge>
+    <edge source="szakdoga.backend.app.module.Order" target="javax.persistence.Entity">
+      <point x="75.14285714285711" y="-136.5" />
+      <point x="891.1428571428571" y="316.0" />
+      <point x="1189.5" y="316.0" />
+      <point x="0.0" y="25.5" />
+    </edge>
+    <edge source="lombok.EqualsAndHashCode.AnyAnnotation" target="lombok.EqualsAndHashCode">
+      <point x="31.75" y="14.5" />
+      <point x="1436.1087301587304" y="76.0" />
+      <point x="1458.75" y="76.0" />
+      <point x="59.75" y="-80.5" />
+    </edge>
+    <edge source="lombok.EqualsAndHashCode" target="lombok.EqualsAndHashCode.AnyAnnotation">
+      <point x="-59.75" y="-80.5" />
+      <point x="1339.25" y="76.0" />
+      <point x="1372.6087301587304" y="76.0" />
+      <point x="-31.75" y="14.5" />
+    </edge>
+    <edge source="szakdoga.backend.app.module.Order" target="lombok.NoArgsConstructor">
+      <point x="-112.71428571428578" y="-136.5" />
+      <point x="703.2857142857142" y="326.0" />
+      <point x="120.5" y="326.0" />
+      <point x="0.0" y="58.5" />
+    </edge>
+    <edge source="lombok.AllArgsConstructor.AnyAnnotation" target="lombok.AllArgsConstructor">
+      <point x="31.75" y="14.5" />
+      <point x="418.6087301587302" y="76.0" />
+      <point x="441.75" y="76.0" />
+      <point x="60.25" y="-47.5" />
+    </edge>
+    <edge source="szakdoga.backend.app.module.Order" target="lombok.EqualsAndHashCode">
+      <point x="112.71428571428567" y="-136.5" />
+      <point x="928.7142857142857" y="326.0" />
+      <point x="1319.3333333333333" y="326.0" />
+      <point x="-79.66666666666667" y="80.5" />
+    </edge>
+    <edge source="szakdoga.backend.app.module.Order" target="szakdoga.backend.app.module.BaseEntity">
+      <point x="-37.57142857142867" y="-136.5" />
+      <point x="778.4285714285713" y="306.0" />
+      <point x="623.5" y="306.0" />
+      <point x="0.0" y="92.5" />
+    </edge>
+    <edge source="szakdoga.backend.app.module.Order" target="lombok.Data">
+      <point x="0.0" y="-136.5" />
+      <point x="49.75" y="25.5" />
+    </edge>
+    <edge source="lombok.EqualsAndHashCode.Include" target="lombok.EqualsAndHashCode">
+      <point x="0.0" y="-25.5" />
+      <point x="1526.4325396825398" y="326.0" />
+      <point x="1478.6666666666665" y="326.0" />
+      <point x="79.66666666666669" y="80.5" />
+    </edge>
+    <edge source="lombok.NoArgsConstructor" target="lombok.NoArgsConstructor.AnyAnnotation">
+      <point x="-60.25" y="-58.5" />
+      <point x="60.25" y="76.0" />
+      <point x="94.10873015873028" y="76.0" />
+      <point x="-31.75" y="14.5" />
+    </edge>
+    <edge source="szakdoga.backend.app.module.BaseEntity" target="lombok.Data">
+      <point x="50.75" y="-92.5" />
+      <point x="674.25" y="76.0" />
+      <point x="716.5" y="76.0" />
+      <point x="-49.75" y="25.5" />
+    </edge>
+    <edge source="lombok.AllArgsConstructor" target="lombok.AllArgsConstructor.AnyAnnotation">
+      <point x="-60.25" y="-47.5" />
+      <point x="321.25" y="76.0" />
+      <point x="355.1087301587302" y="76.0" />
+      <point x="-31.75" y="14.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.7496855345911949" x="785.0000000000001" y="309.5" />
+  <SelectedNodes>
+    <node>szakdoga.backend.app.module.Order</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

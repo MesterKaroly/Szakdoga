@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>szakdoga.backend.app.module.Ratings</OriginalElement>
+  <nodes>
+    <node x="554.0" y="168.0">javax.persistence.Entity</node>
+    <node x="683.0" y="346.0">szakdoga.backend.app.module.Ratings</node>
+    <node x="690.75" y="11.0">javax.persistence.MappedSuperclass</node>
+    <node x="714.0" y="101.0">szakdoga.backend.app.module.BaseEntity</node>
+    <node x="356.46587301587306" y="11.0">lombok.AllArgsConstructor.AnyAnnotation</node>
+    <node x="1294.875" y="113.0">lombok.EqualsAndHashCode</node>
+    <node x="1465.993253968254" y="446.0">lombok.EqualsAndHashCode.Include</node>
+    <node x="1096.2238095238097" y="11.0">lombok.NoArgsConstructor.AnyAnnotation</node>
+    <node x="1357.993253968254" y="457.0">lombok.EqualsAndHashCode.Exclude</node>
+    <node x="0.0" y="124.0">javax.persistence.Table</node>
+    <node x="858.75" y="0.0">lombok.Data</node>
+    <node x="293.0" y="146.0">lombok.AllArgsConstructor</node>
+    <node x="1355.7238095238095" y="11.0">lombok.EqualsAndHashCode.AnyAnnotation</node>
+    <node x="1033.875" y="135.0">lombok.NoArgsConstructor</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="szakdoga.backend.app.module.Ratings" target="lombok.AllArgsConstructor">
+      <point x="-75.71428571428578" y="-125.5" />
+      <point x="739.7857142857142" y="316.0" />
+      <point x="413.5" y="316.0" />
+      <point x="0.0" y="47.5" />
+    </edge>
+    <edge source="szakdoga.backend.app.module.Ratings" target="szakdoga.backend.app.module.BaseEntity">
+      <point x="0.0" y="-125.5" />
+      <point x="0.0" y="92.5" />
+    </edge>
+    <edge source="szakdoga.backend.app.module.Ratings" target="lombok.Data">
+      <point x="37.85714285714289" y="-125.5" />
+      <point x="853.3571428571429" y="306.0" />
+      <point x="1008.0" y="306.0" />
+      <point x="49.75" y="25.5" />
+    </edge>
+    <edge source="szakdoga.backend.app.module.BaseEntity" target="javax.persistence.MappedSuperclass">
+      <point x="-50.75000000000006" y="-92.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="szakdoga.backend.app.module.Ratings" target="lombok.EqualsAndHashCode">
+      <point x="113.57142857142856" y="-125.5" />
+      <point x="929.0714285714286" y="326.0" />
+      <point x="1334.7083333333333" y="326.0" />
+      <point x="-79.66666666666667" y="80.5" />
+    </edge>
+    <edge source="lombok.EqualsAndHashCode.Exclude" target="lombok.EqualsAndHashCode">
+      <point x="0.0" y="-14.5" />
+      <point x="1401.993253968254" y="326.0" />
+      <point x="1414.375" y="326.0" />
+      <point x="0.0" y="80.5" />
+    </edge>
+    <edge source="lombok.NoArgsConstructor.AnyAnnotation" target="lombok.NoArgsConstructor">
+      <point x="31.74999999999997" y="14.5" />
+      <point x="1191.4738095238095" y="76.0" />
+      <point x="1214.625" y="76.0" />
+      <point x="60.24999999999997" y="-58.5" />
+    </edge>
+    <edge source="lombok.EqualsAndHashCode.AnyAnnotation" target="lombok.EqualsAndHashCode">
+      <point x="31.75" y="14.5" />
+      <point x="1450.9738095238095" y="76.0" />
+      <point x="1474.125" y="76.0" />
+      <point x="59.75" y="-80.5" />
+    </edge>
+    <edge source="lombok.EqualsAndHashCode" target="lombok.EqualsAndHashCode.AnyAnnotation">
+      <point x="-59.75" y="-80.5" />
+      <point x="1354.625" y="76.0" />
+      <point x="1387.4738095238095" y="76.0" />
+      <point x="-31.75" y="14.5" />
+    </edge>
+    <edge source="szakdoga.backend.app.module.Ratings" target="javax.persistence.Entity">
+      <point x="-37.85714285714289" y="-125.5" />
+      <point x="777.6428571428571" y="306.0" />
+      <point x="624.0" y="306.0" />
+      <point x="0.0" y="25.5" />
+    </edge>
+    <edge source="lombok.AllArgsConstructor.AnyAnnotation" target="lombok.AllArgsConstructor">
+      <point x="31.75" y="14.5" />
+      <point x="451.71587301587306" y="76.0" />
+      <point x="473.75" y="76.0" />
+      <point x="60.25" y="-47.5" />
+    </edge>
+    <edge source="szakdoga.backend.app.module.Ratings" target="javax.persistence.Table">
+      <point x="-113.57142857142856" y="-125.5" />
+      <point x="701.9285714285714" y="326.0" />
+      <point x="136.5" y="326.0" />
+      <point x="0.0" y="69.5" />
+    </edge>
+    <edge source="lombok.EqualsAndHashCode.Include" target="lombok.EqualsAndHashCode">
+      <point x="0.0" y="-25.5" />
+      <point x="1543.493253968254" y="326.0" />
+      <point x="1494.0416666666667" y="326.0" />
+      <point x="79.66666666666669" y="80.5" />
+    </edge>
+    <edge source="lombok.NoArgsConstructor" target="lombok.NoArgsConstructor.AnyAnnotation">
+      <point x="-60.25" y="-58.5" />
+      <point x="1094.125" y="76.0" />
+      <point x="1127.9738095238097" y="76.0" />
+      <point x="-31.75" y="14.5" />
+    </edge>
+    <edge source="szakdoga.backend.app.module.Ratings" target="lombok.NoArgsConstructor">
+      <point x="75.71428571428567" y="-125.5" />
+      <point x="891.2142857142857" y="316.0" />
+      <point x="1154.375" y="316.0" />
+      <point x="0.0" y="58.5" />
+    </edge>
+    <edge source="szakdoga.backend.app.module.BaseEntity" target="lombok.Data">
+      <point x="50.74999999999994" y="-92.5" />
+      <point x="866.25" y="76.0" />
+      <point x="908.5" y="76.0" />
+      <point x="-49.75" y="25.5" />
+    </edge>
+    <edge source="lombok.AllArgsConstructor" target="lombok.AllArgsConstructor.AnyAnnotation">
+      <point x="-60.25" y="-47.5" />
+      <point x="353.25" y="76.0" />
+      <point x="388.21587301587306" y="76.0" />
+      <point x="-31.75" y="14.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.7478042659974906" x="787.0" y="298.5" />
+  <SelectedNodes>
+    <node>szakdoga.backend.app.module.Ratings</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

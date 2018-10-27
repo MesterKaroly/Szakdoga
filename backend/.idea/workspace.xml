@@ -2,52 +2,103 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0be61d12-11d6-4eda-85d3-46f9c359d9f1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/etterem-frontend/src/app/MaterialItemsModule.ts" beforeDir="false" afterPath="$PROJECT_DIR$/etterem-frontend/src/app/MaterialItemsModule.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/etterem-frontend/src/app/app.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/etterem-frontend/src/app/app.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BaseEntity.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BaseEntity.uml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Basket.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Basket.uml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BasketController.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BasketController.uml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BasketRepository.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BasketRepository.uml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BasketService.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BasketService.uml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CarteScreen.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Food.uml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FoodController.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FoodController.uml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FoodRepository.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FoodRepository.uml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FoodService.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FoodService.uml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LoginScreen.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Order.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Order.uml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OrderController.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OrderController.uml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OrderRepository.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OrderRepository.uml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OrderScreen.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OrderService.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OrderService.uml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OrdersScreen.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Package controller.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Package main.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Package module.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RatingController.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RatingController.uml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RatingRepository.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RatingRepository.uml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RatingScreen.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RatingService.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RatingService.uml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ratings.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ratings.uml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RegistrationScreen.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reservation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Reservation.uml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ReservationController.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ReservationController.uml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ReservationRepository.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ReservationRepository.uml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ReservationScreen.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ReservationService.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ReservationService.uml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User.uml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserController.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserController.uml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserRepository.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserRepository.uml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserService.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserService.uml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module.uml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/szakdoga/backend/Repository/FoodRepositoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/szakdoga/backend/Repository/OrderRepositoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/szakdoga/backend/Repository/RatingRepositoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/szakdoga/backend/Repository/ReservationRepositoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/szakdoga/backend/Repository/UserRepositoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Entity.uml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Package Annotation.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Package Controller.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Package Exception.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Package Main.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Package Module.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Package Repository.png" beforeDir="false" afterPath="$PROJECT_DIR$/Package Repository.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Package Service.png" beforeDir="false" afterPath="$PROJECT_DIR$/Package Service.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repository.uml" beforeDir="false" afterPath="$PROJECT_DIR$/Repository.uml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Service.uml" beforeDir="false" afterPath="$PROJECT_DIR$/Service.uml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller.uml" beforeDir="false" afterPath="$PROJECT_DIR$/controller.uml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/etterem-frontend/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/etterem-frontend/src/app/app.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/etterem-frontend/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/etterem-frontend/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/etterem-frontend/src/app/carte/carte.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/etterem-frontend/src/app/carte/carte.component.spec.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/etterem-frontend/src/app/carte/carte.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/etterem-frontend/src/app/carte/carte.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/etterem-frontend/src/app/entity/User.ts" beforeDir="false" afterPath="$PROJECT_DIR$/etterem-frontend/src/app/entity/User.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/etterem-frontend/src/app/error/error.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/etterem-frontend/src/app/error/error.component.spec.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/etterem-frontend/src/app/error/error.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/etterem-frontend/src/app/error/error.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/etterem-frontend/src/app/login/login.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/etterem-frontend/src/app/login/login.component.spec.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/etterem-frontend/src/app/login/login.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/etterem-frontend/src/app/login/login.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/etterem-frontend/src/app/menu/menu.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/etterem-frontend/src/app/menu/menu.component.spec.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/etterem-frontend/src/app/menu/menu.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/etterem-frontend/src/app/menu/menu.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/etterem-frontend/src/app/order/order.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/etterem-frontend/src/app/order/order.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/etterem-frontend/src/app/order/order.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/etterem-frontend/src/app/order/order.component.spec.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/etterem-frontend/src/app/order/order.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/etterem-frontend/src/app/order/order.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/etterem-frontend/src/app/orders/orders.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/etterem-frontend/src/app/orders/orders.component.spec.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/etterem-frontend/src/app/rating/rating.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/etterem-frontend/src/app/rating/rating.component.spec.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/etterem-frontend/src/app/rating/rating.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/etterem-frontend/src/app/rating/rating.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/etterem-frontend/src/app/registration/registration.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/etterem-frontend/src/app/registration/registration.component.spec.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/etterem-frontend/src/app/registration/registration.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/etterem-frontend/src/app/registration/registration.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/etterem-frontend/src/app/reservation/reservation.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/etterem-frontend/src/app/reservation/reservation.component.spec.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/etterem-frontend/src/app/reservation/reservation.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/etterem-frontend/src/app/reservation/reservation.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/etterem-frontend/src/app/route.guard.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/etterem-frontend/src/app/route.guard.spec.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/etterem-frontend/src/app/route.guard.ts" beforeDir="false" afterPath="$PROJECT_DIR$/etterem-frontend/src/app/route.guard.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/etterem-frontend/src/app/routes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/etterem-frontend/src/app/routes.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/etterem-frontend/src/app/services/auth.service.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/etterem-frontend/src/app/services/auth.service.spec.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/etterem-frontend/src/app/services/auth.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/etterem-frontend/src/app/services/auth.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/etterem-frontend/src/app/services/basket.service.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/etterem-frontend/src/app/services/basket.service.spec.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/etterem-frontend/src/app/services/basket.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/etterem-frontend/src/app/services/basket.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/etterem-frontend/src/app/services/carte.service.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/etterem-frontend/src/app/services/carte.service.spec.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/etterem-frontend/src/app/services/carte.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/etterem-frontend/src/app/services/carte.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/etterem-frontend/src/app/services/order.service.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/etterem-frontend/src/app/services/order.service.spec.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/etterem-frontend/src/app/services/order.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/etterem-frontend/src/app/services/order.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/etterem-frontend/src/app/services/orders.service.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/etterem-frontend/src/app/services/orders.service.spec.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/etterem-frontend/src/app/services/orders.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/etterem-frontend/src/app/services/orders.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/etterem-frontend/src/app/services/rating.service.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/etterem-frontend/src/app/services/rating.service.spec.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/etterem-frontend/src/app/services/rating.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/etterem-frontend/src/app/services/rating.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/etterem-frontend/src/app/services/reservation.service.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/etterem-frontend/src/app/services/reservation.service.spec.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/etterem-frontend/src/app/services/reservation.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/etterem-frontend/src/app/services/reservation.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/etterem-frontend/src/app/utils/ServerRoutes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/etterem-frontend/src/app/utils/ServerRoutes.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/etterem-frontend/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/etterem-frontend/src/main.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/etterem-frontend/src/polyfills.ts" beforeDir="false" afterPath="$PROJECT_DIR$/etterem-frontend/src/polyfills.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/etterem-frontend/src/test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/etterem-frontend/src/test.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/szakdoga/backend/Service/BasketService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/szakdoga/backend/Service/BasketService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/szakdoga/backend/controller/BasketController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/szakdoga/backend/controller/BasketController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.uml" beforeDir="false" afterPath="$PROJECT_DIR$/main.uml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module=backend.uml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/szakdoga/backend/Service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/szakdoga/backend/Service/OrderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/szakdoga/backend/Service/RatingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/szakdoga/backend/Service/RatingService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/szakdoga/backend/BackendApplicationTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/szakdoga/backend/BackendApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/szakdoga/backend/Repository/BasketRepositoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/szakdoga/backend/Service/RatingService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/szakdoga/backend/Service/RatingService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/szakdoga/backend/BackendApplicationTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/szakdoga/backend/BackendApplicationTests.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -74,8 +125,10 @@
     <session id="1484793459">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="37" />
+          <entry key="project.closed" value="42" />
           <entry key="project.open.time.104" value="1" />
+          <entry key="project.open.time.106" value="1" />
+          <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.15" value="2" />
           <entry key="project.open.time.16" value="1" />
@@ -90,6 +143,7 @@
           <entry key="project.open.time.46" value="1" />
           <entry key="project.open.time.52" value="1" />
           <entry key="project.open.time.53" value="1" />
+          <entry key="project.open.time.58" value="1" />
           <entry key="project.open.time.65" value="1" />
           <entry key="project.open.time.67" value="1" />
           <entry key="project.open.time.70" value="1" />
@@ -99,6 +153,7 @@
           <entry key="project.open.time.75" value="1" />
           <entry key="project.open.time.76" value="1" />
           <entry key="project.open.time.78" value="1" />
+          <entry key="project.open.time.79" value="2" />
           <entry key="project.open.time.80" value="1" />
           <entry key="project.open.time.81" value="1" />
           <entry key="project.open.time.83" value="1" />
@@ -107,45 +162,71 @@
           <entry key="project.open.time.88" value="1" />
           <entry key="project.open.time.92" value="1" />
           <entry key="project.open.time.93" value="1" />
-          <entry key="project.opened" value="38" />
+          <entry key="project.opened" value="43" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="Annotation" value="1" />
+          <entry key="BackendApplication" value="2" />
+          <entry key="BaseEntity" value="1" />
+          <entry key="Basket" value="1" />
+          <entry key="BasketController" value="2" />
+          <entry key="BasketRepository" value="2" />
+          <entry key="BasketService" value="1" />
           <entry key="Exception" value="1" />
+          <entry key="Food" value="1" />
+          <entry key="FoodController" value="1" />
+          <entry key="FoodRepository" value="1" />
+          <entry key="FoodService" value="1" />
           <entry key="JavaScript-modules-diagram/C:/Users/meste/Desktop/prog/Szakdoga/backend/src/main/java/szakdoga/backend/controller" value="1" />
-          <entry key="Repository" value="1" />
-          <entry key="Service" value="1" />
+          <entry key="Order" value="1" />
+          <entry key="OrderController" value="1" />
+          <entry key="OrderRepository" value="1" />
+          <entry key="OrderService" value="1" />
+          <entry key="RatingController" value="1" />
+          <entry key="RatingRepository" value="1" />
+          <entry key="RatingService" value="1" />
+          <entry key="Ratings" value="1" />
+          <entry key="Repository" value="2" />
+          <entry key="Reservation" value="2" />
+          <entry key="ReservationController" value="1" />
+          <entry key="ReservationRepository" value="1" />
+          <entry key="ReservationService" value="2" />
+          <entry key="Service" value="2" />
           <entry key="SpringLocalModels/module=backend" value="1" />
-          <entry key="backend" value="1" />
+          <entry key="User" value="1" />
+          <entry key="UserController" value="1" />
+          <entry key="UserRepository" value="1" />
+          <entry key="UserService" value="1" />
+          <entry key="backend" value="2" />
           <entry key="browserslist" value="1" />
           <entry key="config" value="1" />
-          <entry key="controller" value="2" />
+          <entry key="controller" value="3" />
           <entry key="css" value="12" />
-          <entry key="gitignore" value="1" />
-          <entry key="html" value="55" />
-          <entry key="java" value="178" />
+          <entry key="gitignore" value="3" />
+          <entry key="html" value="58" />
+          <entry key="java" value="236" />
           <entry key="js" value="1" />
           <entry key="json" value="6" />
-          <entry key="module" value="1" />
+          <entry key="module" value="2" />
           <entry key="mvnw" value="1" />
           <entry key="png" value="1" />
           <entry key="properties" value="5" />
           <entry key="scss" value="2" />
           <entry key="sql" value="9" />
           <entry key="svg" value="1" />
-          <entry key="ts" value="225" />
-          <entry key="uml" value="6" />
+          <entry key="ts" value="240" />
+          <entry key="uml" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="12" />
-          <entry key="Git file" value="1" />
-          <entry key="HTML" value="55" />
+          <entry key="Git file" value="3" />
+          <entry key="HTML" value="58" />
           <entry key="Image" value="1" />
-          <entry key="JAVA" value="178" />
+          <entry key="JAVA" value="236" />
           <entry key="JSON" value="6" />
           <entry key="JavaScript" value="1" />
           <entry key="PLAIN_TEXT" value="2" />
@@ -153,58 +234,56 @@
           <entry key="SCSS" value="2" />
           <entry key="SQL" value="9" />
           <entry key="SVG" value="1" />
-          <entry key="TypeScript" value="225" />
-          <entry key="UML" value="17" />
+          <entry key="TypeScript" value="240" />
+          <entry key="UML" value="56" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="169" />
-          <entry key="html" value="1788" />
-          <entry key="java" value="3802" />
+          <entry key="dummy" value="18" />
+          <entry key="html" value="1800" />
+          <entry key="java" value="5141" />
           <entry key="json" value="2" />
           <entry key="properties" value="125" />
           <entry key="sql" value="109" />
-          <entry key="ts" value="8718" />
+          <entry key="ts" value="8880" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="169" />
-          <entry key="HTML" value="1788" />
-          <entry key="JAVA" value="3802" />
+          <entry key="HTML" value="1800" />
+          <entry key="JAVA" value="5141" />
           <entry key="JSON" value="2" />
+          <entry key="PLAIN_TEXT" value="18" />
           <entry key="Properties" value="125" />
           <entry key="SQL" value="109" />
-          <entry key="TypeScript" value="8718" />
+          <entry key="TypeScript" value="8880" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts">
         <counts>
-          <entry key="Angular2LanguageService" value="30" />
+          <entry key="Angular2LanguageService" value="32" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.spring.boot.run.usages">
+        <counts>
+          <entry key="LiveBeansNavigationHandler.fromCode" value="1" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/etterem-frontend/src/app/order/order.component.ts">
+        <entry file="file://$PROJECT_DIR$/src/test/java/szakdoga/backend/Repository/BasketRepositoryTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="282">
-              <caret line="56" column="32" selection-start-line="56" selection-start-column="32" selection-end-line="56" selection-end-column="32" />
+            <state relative-caret-position="159">
+              <caret line="27" column="16" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
               <folding>
-                <element signature="e#0#48#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/etterem-frontend/src/app/orders/orders.component.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="32" selection-start-line="32" selection-end-line="32" />
             </state>
           </provider>
         </entry>
@@ -216,6 +295,7 @@
       <list>
         <option value="TypeScript File" />
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -233,6 +313,7 @@
       <find>picker</find>
       <find>order</find>
       <find>console.log</find>
+      <find>ratingRepository</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -242,37 +323,20 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/etterem-frontend/src/app/entity/Ratings.ts" />
-        <option value="$PROJECT_DIR$/src/main/java/szakdoga/backend/app/module/BaseEntity.java" />
-        <option value="$PROJECT_DIR$/etterem-frontend/src/app/registration/registration.component.html" />
-        <option value="$PROJECT_DIR$/src/main/java/szakdoga/backend/controller/FoodController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/szakdoga/backend/app/module/Ratings.java" />
-        <option value="$PROJECT_DIR$/etterem-frontend/src/app/services/rating.service.ts" />
-        <option value="$PROJECT_DIR$/src/main/java/szakdoga/backend/Repository/UserRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/szakdoga/backend/app/module/User.java" />
-        <option value="$PROJECT_DIR$/etterem-frontend/src/app/entity/User.ts" />
-        <option value="$PROJECT_DIR$/etterem-frontend/src/app/services/auth.service.ts" />
-        <option value="$PROJECT_DIR$/etterem-frontend/src/app/menu/menu.component.ts" />
-        <option value="$PROJECT_DIR$/etterem-frontend/src/app/registration/registration.component.ts" />
-        <option value="$PROJECT_DIR$/etterem-frontend/src/app/routes.ts" />
-        <option value="$PROJECT_DIR$/src/main/java/szakdoga/backend/controller/RatingController.java" />
         <option value="$PROJECT_DIR$/etterem-frontend/src/app/menu/menu.component.html" />
         <option value="$PROJECT_DIR$/src/main/java/szakdoga/backend/Service/UserService.java" />
         <option value="$PROJECT_DIR$/etterem-frontend/src/app/entity/Food.ts" />
         <option value="$PROJECT_DIR$/etterem-frontend/src/app/error/error.component.css" />
         <option value="$PROJECT_DIR$/etterem-frontend/src/app/error/error.component.html" />
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/etterem-frontend/src/app/services/orders.service.ts" />
         <option value="$PROJECT_DIR$/etterem-frontend/src/app/orders/orders.component.html" />
         <option value="$PROJECT_DIR$/src/main/java/szakdoga/backend/app/module/Order.java" />
         <option value="$PROJECT_DIR$/etterem-frontend/src/app/entity/Order.ts" />
         <option value="$PROJECT_DIR$/src/main/java/szakdoga/backend/controller/OrderController.java" />
         <option value="$PROJECT_DIR$/etterem-frontend/src/app/entity/Reservation.ts" />
-        <option value="$PROJECT_DIR$/etterem-frontend/src/app/services/reservation.service.ts" />
         <option value="$PROJECT_DIR$/src/main/java/szakdoga/backend/Service/ReservationService.java" />
         <option value="$PROJECT_DIR$/src/main/java/szakdoga/backend/controller/ReservationController.java" />
         <option value="$PROJECT_DIR$/etterem-frontend/src/app/orders/orders.component.ts" />
-        <option value="$PROJECT_DIR$/src/main/java/szakdoga/backend/Service/OrderService.java" />
         <option value="$PROJECT_DIR$/src/main/java/szakdoga/backend/controller/UserController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/data.sql" />
         <option value="$PROJECT_DIR$/etterem-frontend/src/app/rating/rating.component.ts" />
@@ -283,16 +347,33 @@
         <option value="$PROJECT_DIR$/etterem-frontend/src/app/rating/rating.component.css" />
         <option value="$PROJECT_DIR$/etterem-frontend/src/app/rating/rating.component.html" />
         <option value="$PROJECT_DIR$/etterem-frontend/src/app/reservation/reservation.component.html" />
-        <option value="$PROJECT_DIR$/etterem-frontend/src/app/app.module.ts" />
         <option value="$PROJECT_DIR$/etterem-frontend/src/app/MaterialItemsModule.ts" />
         <option value="$PROJECT_DIR$/etterem-frontend/src/app/order/order.component.css" />
-        <option value="$PROJECT_DIR$/etterem-frontend/src/app/services/order.service.ts" />
         <option value="$PROJECT_DIR$/etterem-frontend/src/app/order/order.component.html" />
         <option value="$PROJECT_DIR$/etterem-frontend/src/app/utils/ServerRoutes.ts" />
-        <option value="$PROJECT_DIR$/etterem-frontend/src/app/services/basket.service.ts" />
         <option value="$PROJECT_DIR$/src/main/java/szakdoga/backend/controller/BasketController.java" />
         <option value="$PROJECT_DIR$/src/main/java/szakdoga/backend/Service/BasketService.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/etterem-frontend/src/app/services/auth.service.ts" />
+        <option value="$PROJECT_DIR$/etterem-frontend/src/app/services/reservation.service.ts" />
+        <option value="$PROJECT_DIR$/etterem-frontend/src/app/services/rating.service.ts" />
+        <option value="$PROJECT_DIR$/etterem-frontend/src/app/services/orders.service.ts" />
+        <option value="$PROJECT_DIR$/etterem-frontend/src/app/services/order.service.ts" />
+        <option value="$PROJECT_DIR$/etterem-frontend/src/app/services/carte.service.ts" />
+        <option value="$PROJECT_DIR$/etterem-frontend/src/app/services/basket.service.ts" />
         <option value="$PROJECT_DIR$/etterem-frontend/src/app/order/order.component.ts" />
+        <option value="$PROJECT_DIR$/etterem-frontend/src/app/app.component.ts" />
+        <option value="$PROJECT_DIR$/etterem-frontend/src/app/app.module.ts" />
+        <option value="$PROJECT_DIR$/etterem-frontend/src/app/app.component.html" />
+        <option value="$PROJECT_DIR$/src/test/java/szakdoga/backend/controller/ReservationControllerTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/szakdoga/backend/Repository/ReservationRepositoryTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/szakdoga/backend/Service/OrderService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/szakdoga/backend/Service/RatingService.java" />
+        <option value="$PROJECT_DIR$/src/test/java/szakdoga/backend/Repository/RatingRepositoryTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/szakdoga/backend/Repository/OrderRepositoryTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/szakdoga/backend/Repository/FoodRepositoryTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/szakdoga/backend/Repository/BasketRepositoryTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/szakdoga/backend/Repository/UserRepositoryTest.java" />
       </list>
     </option>
   </component>
@@ -350,6 +431,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -360,59 +443,72 @@
             <path>
               <item name="backend" type="b2602c69:ProjectViewProjectNode" />
               <item name="backend" type="462c0819:PsiDirectoryNode" />
-              <item name="etterem-frontend" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="backend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="backend" type="462c0819:PsiDirectoryNode" />
-              <item name="etterem-frontend" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="backend" type="b2602c69:ProjectViewProjectNode" />
               <item name="backend" type="462c0819:PsiDirectoryNode" />
-              <item name="etterem-frontend" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="backend" type="b2602c69:ProjectViewProjectNode" />
               <item name="backend" type="462c0819:PsiDirectoryNode" />
-              <item name="etterem-frontend" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="order" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="backend" type="b2602c69:ProjectViewProjectNode" />
               <item name="backend" type="462c0819:PsiDirectoryNode" />
-              <item name="etterem-frontend" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="orders" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="backend" type="b2602c69:ProjectViewProjectNode" />
               <item name="backend" type="462c0819:PsiDirectoryNode" />
-              <item name="etterem-frontend" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="services" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+              <item name="Repository" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="backend" type="b2602c69:ProjectViewProjectNode" />
               <item name="backend" type="462c0819:PsiDirectoryNode" />
-              <item name="etterem-frontend" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+              <item name="Service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="backend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="backend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="backend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Repository" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -423,7 +519,10 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="add_unversioned_files" value="$PROJECT_DIR$/etterem-frontend/node_modules/css-star-rating/scss/star-rating.scss" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539626410817" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540650676689" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.0" />
@@ -433,6 +532,13 @@
     <property name="ts.external.directory.path" value="C:\Users\meste\Desktop\prog\Szakdoga\backend\etterem-frontend\node_modules\typescript\lib" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="szakdoga.backend.Repository" />
+      <recent name="szakdoga.backend.controller" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\meste\Desktop\prog\Szakdoga\backend\etterem-frontend\src\assets" />
     </key>
@@ -449,7 +555,81 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.szakdoga.backend.Repository in backend">
+    <configuration name="RatingRepositoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="backend" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="szakdoga.backend.Repository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="szakdoga.backend.Repository" />
+      <option name="MAIN_CLASS_NAME" value="szakdoga.backend.Repository.RatingRepositoryTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReservationRepositoryTest.delete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="backend" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="szakdoga.backend.Repository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="szakdoga.backend.Repository" />
+      <option name="MAIN_CLASS_NAME" value="szakdoga.backend.Repository.ReservationRepositoryTest" />
+      <option name="METHOD_NAME" value="delete" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserRepositoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="backend" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="szakdoga.backend.Repository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="szakdoga.backend.Repository" />
+      <option name="MAIN_CLASS_NAME" value="szakdoga.backend.Repository.UserRepositoryTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserRepositoryTest.Save" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="backend" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="szakdoga.backend.Repository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="szakdoga.backend.Repository" />
+      <option name="MAIN_CLASS_NAME" value="szakdoga.backend.Repository.UserRepositoryTest" />
+      <option name="METHOD_NAME" value="Save" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="szakdoga.backend.Repository in backend" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="backend" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="szakdoga.backend.Repository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="szakdoga.backend.Repository" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Server" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="backend" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="szakdoga.backend.BackendApplication" />
@@ -466,6 +646,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Spring Boot.Server" />
+      <item itemvalue="JUnit.ReservationRepositoryTest.delete" />
+      <item itemvalue="JUnit.UserRepositoryTest" />
+      <item itemvalue="JUnit.UserRepositoryTest.Save" />
+      <item itemvalue="JUnit.RatingRepositoryTest" />
+      <item itemvalue="JUnit.szakdoga.backend.Repository in backend" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.szakdoga.backend.Repository in backend" />
+        <item itemvalue="JUnit.RatingRepositoryTest" />
+        <item itemvalue="JUnit.UserRepositoryTest.Save" />
+        <item itemvalue="JUnit.UserRepositoryTest" />
+        <item itemvalue="JUnit.ReservationRepositoryTest.delete" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpringBeansView">
     <option name="beanDetailsProportion" value="0.3" />
@@ -518,11 +715,48 @@
       <workItem from="1539785948810" duration="92000" />
       <workItem from="1539786286544" duration="1588000" />
       <workItem from="1539787919457" duration="166000" />
+      <workItem from="1540295671861" duration="1232000" />
+      <workItem from="1540300362440" duration="653000" />
+      <workItem from="1540390142592" duration="1660000" />
+      <workItem from="1540626152947" duration="369000" />
+      <workItem from="1540626598324" duration="14817000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="ReservationRepositoryTest_delete - 2018.10.27 at 15h 49m 52s.xml">
+      <configuration name="ReservationRepositoryTest.delete" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ReservationRepositoryTest_delete - 2018.10.27 at 15h 50m 45s.xml">
+      <configuration name="ReservationRepositoryTest.delete" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ReservationRepositoryTest_delete - 2018.10.27 at 15h 51m 34s.xml">
+      <configuration name="ReservationRepositoryTest.delete" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ReservationRepositoryTest_delete - 2018.10.27 at 15h 52m 50s.xml">
+      <configuration name="ReservationRepositoryTest.delete" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserRepositoryTest - 2018.10.27 at 16h 01m 28s.xml">
+      <configuration name="UserRepositoryTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserRepositoryTest_Save - 2018.10.27 at 16h 02m 22s.xml">
+      <configuration name="UserRepositoryTest.Save" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RatingRepositoryTest - 2018.10.27 at 16h 06m 35s.xml">
+      <configuration name="RatingRepositoryTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="szakdoga_backend_Repository_in_backend - 2018.10.27 at 16h 28m 49s.xml">
+      <configuration name="szakdoga.backend.Repository in backend" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="szakdoga_backend_Repository_in_backend - 2018.10.27 at 16h 29m 18s.xml">
+      <configuration name="szakdoga.backend.Repository in backend" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="szakdoga_backend_Repository_in_backend - 2018.10.27 at 16h 30m 22s.xml">
+      <configuration name="szakdoga.backend.Repository in backend" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="134383000" />
+    <option name="totallyTimeSpent" value="153114000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -536,7 +770,7 @@
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33154362" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20536913" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -546,15 +780,15 @@
       <window_info id="Learn" order="7" />
       <window_info id="Web" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.35043988" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32991204" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.271261" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39149562" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32991204" />
       <window_info anchor="bottom" id="Spring" order="7" weight="0.32991204" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.4986577" visible="true" weight="0.29178885" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5013423" side_tool="true" weight="0.29765397" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49798658" weight="0.30938417" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50201344" side_tool="true" weight="0.29178885" />
       <window_info anchor="bottom" id="Java Enterprise" order="10" weight="0.32844576" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="12" sideWeight="0.49925372" weight="0.12463343" />
@@ -575,7 +809,7 @@
       <window_info anchor="right" id="Preview" order="10" weight="0.3295302" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29194632" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20536913" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -585,20 +819,22 @@
       <window_info id="Learn" order="7" />
       <window_info id="Web" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32991204" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.35043988" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39149562" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32991204" />
       <window_info anchor="bottom" id="Spring" order="7" weight="0.32991204" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.4986577" weight="0.29178885" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5013423" side_tool="true" weight="0.29765397" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49798658" weight="0.30938417" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50201344" side_tool="true" weight="0.29178885" />
       <window_info anchor="bottom" id="Java Enterprise" order="10" weight="0.32844576" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="12" sideWeight="0.49925372" weight="0.12463343" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.32991204" />
       <window_info anchor="bottom" id="TypeScript" order="14" weight="0.32991204" />
+      <window_info anchor="bottom" id="Duplicates" order="15" weight="0.32991204" />
+      <window_info anchor="bottom" id="Dependency Viewer" order="16" weight="0.32991204" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24966443" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -654,100 +890,1061 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/etterem-frontend/src/test.ts">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="uml://JAVA/szakdoga.backend.app.module.BaseEntity">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>szakdoga.backend.app.module.BaseEntity</OriginalElement>
+          <nodes>
+            <node x="" y="">javax.persistence.MappedSuperclass</node>
+            <node x="" y="">szakdoga.backend.app.module.BaseEntity</node>
+            <node x="" y="">lombok.Data</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="184.0" y="143.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+            <Category>Properties</Category>
+            <Category>Inner Classes</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/szakdoga.backend.app.module.Basket">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>szakdoga.backend.app.module.Basket</OriginalElement>
+          <nodes>
+            <node x="" y="">javax.persistence.Entity</node>
+            <node x="" y="">szakdoga.backend.app.module.Basket</node>
+            <node x="" y="">javax.persistence.MappedSuperclass</node>
+            <node x="" y="">szakdoga.backend.app.module.BaseEntity</node>
+            <node x="" y="">lombok.AllArgsConstructor.AnyAnnotation</node>
+            <node x="" y="">lombok.EqualsAndHashCode</node>
+            <node x="" y="">lombok.EqualsAndHashCode.Include</node>
+            <node x="" y="">lombok.NoArgsConstructor.AnyAnnotation</node>
+            <node x="" y="">lombok.EqualsAndHashCode.Exclude</node>
+            <node x="" y="">javax.persistence.Table</node>
+            <node x="" y="">lombok.Data</node>
+            <node x="" y="">lombok.AllArgsConstructor</node>
+            <node x="" y="">lombok.EqualsAndHashCode.AnyAnnotation</node>
+            <node x="" y="">lombok.NoArgsConstructor</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.7511027095148078" x="784.0" y="299.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+            <Category>Properties</Category>
+            <Category>Inner Classes</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/szakdoga/backend/app/module/Basket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/szakdoga.backend.app.module.Food">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>szakdoga.backend.app.module.Food</OriginalElement>
+          <nodes>
+            <node x="" y="">javax.persistence.Entity</node>
+            <node x="" y="">javax.persistence.MappedSuperclass</node>
+            <node x="" y="">szakdoga.backend.app.module.BaseEntity</node>
+            <node x="" y="">lombok.AllArgsConstructor.AnyAnnotation</node>
+            <node x="" y="">lombok.EqualsAndHashCode</node>
+            <node x="" y="">lombok.EqualsAndHashCode.Include</node>
+            <node x="" y="">lombok.NoArgsConstructor.AnyAnnotation</node>
+            <node x="" y="">lombok.EqualsAndHashCode.Exclude</node>
+            <node x="" y="">javax.persistence.Table</node>
+            <node x="" y="">szakdoga.backend.app.module.Food</node>
+            <node x="" y="">lombok.Data</node>
+            <node x="" y="">lombok.AllArgsConstructor</node>
+            <node x="" y="">lombok.EqualsAndHashCode.AnyAnnotation</node>
+            <node x="" y="">lombok.NoArgsConstructor</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.7496855345911949" x="785.0" y="299.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+            <Category>Properties</Category>
+            <Category>Inner Classes</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/szakdoga/backend/app/module/Order.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/szakdoga.backend.app.module.Order">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>szakdoga.backend.app.module.Order</OriginalElement>
+          <nodes>
+            <node x="" y="">javax.persistence.Entity</node>
+            <node x="" y="">javax.persistence.MappedSuperclass</node>
+            <node x="" y="">szakdoga.backend.app.module.BaseEntity</node>
+            <node x="" y="">lombok.AllArgsConstructor.AnyAnnotation</node>
+            <node x="" y="">lombok.EqualsAndHashCode</node>
+            <node x="" y="">lombok.EqualsAndHashCode.Include</node>
+            <node x="" y="">lombok.NoArgsConstructor.AnyAnnotation</node>
+            <node x="" y="">lombok.EqualsAndHashCode.Exclude</node>
+            <node x="" y="">szakdoga.backend.app.module.Order</node>
+            <node x="" y="">javax.persistence.Table</node>
+            <node x="" y="">lombok.Data</node>
+            <node x="" y="">lombok.AllArgsConstructor</node>
+            <node x="" y="">lombok.EqualsAndHashCode.AnyAnnotation</node>
+            <node x="" y="">lombok.NoArgsConstructor</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.7496855345911949" x="785.0" y="310.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+            <Category>Properties</Category>
+            <Category>Inner Classes</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/szakdoga.backend.app.module.Ratings">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>szakdoga.backend.app.module.Ratings</OriginalElement>
+          <nodes>
+            <node x="" y="">javax.persistence.Entity</node>
+            <node x="" y="">szakdoga.backend.app.module.Ratings</node>
+            <node x="" y="">javax.persistence.MappedSuperclass</node>
+            <node x="" y="">szakdoga.backend.app.module.BaseEntity</node>
+            <node x="" y="">lombok.AllArgsConstructor.AnyAnnotation</node>
+            <node x="" y="">lombok.EqualsAndHashCode</node>
+            <node x="" y="">lombok.EqualsAndHashCode.Include</node>
+            <node x="" y="">lombok.NoArgsConstructor.AnyAnnotation</node>
+            <node x="" y="">lombok.EqualsAndHashCode.Exclude</node>
+            <node x="" y="">javax.persistence.Table</node>
+            <node x="" y="">lombok.Data</node>
+            <node x="" y="">lombok.AllArgsConstructor</node>
+            <node x="" y="">lombok.EqualsAndHashCode.AnyAnnotation</node>
+            <node x="" y="">lombok.NoArgsConstructor</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.7478042659974906" x="787.0" y="299.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+            <Category>Properties</Category>
+            <Category>Inner Classes</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/szakdoga.backend.app.module.Reservation">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>szakdoga.backend.app.module.Reservation</OriginalElement>
+          <nodes>
+            <node x="603.0015873015873" y="168.0">javax.persistence.Entity</node>
+            <node x="739.7515873015873" y="11.0">javax.persistence.MappedSuperclass</node>
+            <node x="763.0015873015873" y="101.0">szakdoga.backend.app.module.BaseEntity</node>
+            <node x="1175.013095238095" y="468.0">lombok.AllArgsConstructor.AnyAnnotation</node>
+            <node x="51.00158730158739" y="113.0">lombok.EqualsAndHashCode</node>
+            <node x="108.0" y="457.0">lombok.EqualsAndHashCode.Include</node>
+            <node x="1436.013095238095" y="468.0">lombok.NoArgsConstructor.AnyAnnotation</node>
+            <node x="0.0" y="468.0">lombok.EqualsAndHashCode.Exclude</node>
+            <node x="310.00158730158734" y="124.0">javax.persistence.Table</node>
+            <node x="704.0015873015873" y="346.0">szakdoga.backend.app.module.Reservation</node>
+            <node x="907.7515873015873" y="0.0">lombok.Data</node>
+            <node x="1077.8464285714285" y="146.0">lombok.AllArgsConstructor</node>
+            <node x="113.51507936507937" y="11.0">lombok.EqualsAndHashCode.AnyAnnotation</node>
+            <node x="1338.8464285714285" y="135.0">lombok.NoArgsConstructor</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="szakdoga.backend.app.module.Reservation" target="lombok.AllArgsConstructor">
+              <point x="91.71428571428567" y="-136.5" />
+              <point x="956.2158730158731" y="316.0" />
+              <point x="1118.013095238095" y="316.0" />
+              <point x="-80.33333333333337" y="47.5" />
+            </edge>
+            <edge source="szakdoga.backend.app.module.BaseEntity" target="javax.persistence.MappedSuperclass">
+              <point x="-50.75" y="-92.5" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="szakdoga.backend.app.module.Reservation" target="javax.persistence.Table">
+              <point x="-91.71428571428578" y="-136.5" />
+              <point x="772.7873015873015" y="316.0" />
+              <point x="446.50158730158734" y="316.0" />
+              <point x="0.0" y="69.5" />
+            </edge>
+            <edge source="szakdoga.backend.app.module.Reservation" target="lombok.EqualsAndHashCode">
+              <point x="-137.57142857142867" y="-136.5" />
+              <point x="726.9301587301586" y="326.0" />
+              <point x="250.16825396825413" y="326.0" />
+              <point x="79.66666666666674" y="80.5" />
+            </edge>
+            <edge source="lombok.EqualsAndHashCode.Exclude" target="lombok.EqualsAndHashCode">
+              <point x="0.0" y="-14.5" />
+              <point x="44.0" y="326.0" />
+              <point x="90.83492063492065" y="326.0" />
+              <point x="-79.66666666666674" y="80.5" />
+            </edge>
+            <edge source="szakdoga.backend.app.module.Reservation" target="javax.persistence.Entity">
+              <point x="-45.85714285714289" y="-136.5" />
+              <point x="818.6444444444444" y="306.0" />
+              <point x="673.0015873015873" y="306.0" />
+              <point x="0.0" y="25.5" />
+            </edge>
+            <edge source="lombok.NoArgsConstructor.AnyAnnotation" target="lombok.NoArgsConstructor">
+              <point x="-31.75" y="-14.5" />
+              <point x="1467.763095238095" y="326.0" />
+              <point x="1459.3464285714285" y="326.0" />
+              <point x="-1.4210854715202004E-14" y="58.5" />
+            </edge>
+            <edge source="lombok.EqualsAndHashCode.AnyAnnotation" target="lombok.EqualsAndHashCode">
+              <point x="31.75" y="14.5" />
+              <point x="208.76507936507937" y="76.0" />
+              <point x="230.2515873015874" y="76.0" />
+              <point x="59.75" y="-80.5" />
+            </edge>
+            <edge source="lombok.EqualsAndHashCode" target="lombok.EqualsAndHashCode.AnyAnnotation">
+              <point x="-59.75" y="-80.5" />
+              <point x="110.75158730158739" y="76.0" />
+              <point x="145.26507936507937" y="76.0" />
+              <point x="-31.75" y="14.5" />
+            </edge>
+            <edge source="lombok.AllArgsConstructor.AnyAnnotation" target="lombok.AllArgsConstructor">
+              <point x="-31.75" y="-14.5" />
+              <point x="1206.763095238095" y="316.0" />
+              <point x="1198.3464285714285" y="316.0" />
+              <point x="0.0" y="47.5" />
+            </edge>
+            <edge source="szakdoga.backend.app.module.Reservation" target="lombok.NoArgsConstructor">
+              <point x="137.57142857142856" y="-136.5" />
+              <point x="1002.073015873016" y="326.0" />
+              <point x="1379.013095238095" y="326.0" />
+              <point x="-80.33333333333333" y="58.5" />
+            </edge>
+            <edge source="lombok.EqualsAndHashCode.Include" target="lombok.EqualsAndHashCode">
+              <point x="0.0" y="-25.5" />
+              <point x="185.5" y="326.0" />
+              <point x="170.5015873015874" y="326.0" />
+              <point x="0.0" y="80.5" />
+            </edge>
+            <edge source="szakdoga.backend.app.module.Reservation" target="szakdoga.backend.app.module.BaseEntity">
+              <point x="0.0" y="-136.5" />
+              <point x="0.0" y="92.5" />
+            </edge>
+            <edge source="szakdoga.backend.app.module.Reservation" target="lombok.Data">
+              <point x="45.85714285714289" y="-136.5" />
+              <point x="910.3587301587302" y="306.0" />
+              <point x="1057.0015873015873" y="306.0" />
+              <point x="49.75" y="25.5" />
+            </edge>
+            <edge source="lombok.NoArgsConstructor" target="lombok.NoArgsConstructor.AnyAnnotation">
+              <point x="80.33333333333337" y="58.5" />
+              <point x="1539.679761904762" y="326.0" />
+              <point x="1531.263095238095" y="326.0" />
+              <point x="31.75" y="-14.5" />
+            </edge>
+            <edge source="szakdoga.backend.app.module.BaseEntity" target="lombok.Data">
+              <point x="50.75" y="-92.5" />
+              <point x="915.2515873015873" y="76.0" />
+              <point x="957.5015873015873" y="76.0" />
+              <point x="-49.75" y="25.5" />
+            </edge>
+            <edge source="lombok.AllArgsConstructor" target="lombok.AllArgsConstructor.AnyAnnotation">
+              <point x="80.33333333333326" y="47.5" />
+              <point x="1278.6797619047618" y="316.0" />
+              <point x="1270.263095238095" y="316.0" />
+              <point x="31.75" y="-14.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.7277167277167277" x="320.0" y="206.0" />
+          <SelectedNodes>
+            <node>szakdoga.backend.app.module.Reservation</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+            <Category>Properties</Category>
+            <Category>Inner Classes</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/szakdoga.backend.app.module.User">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>szakdoga.backend.app.module.User</OriginalElement>
+          <nodes>
+            <node x="" y="">javax.persistence.Entity</node>
+            <node x="" y="">szakdoga.backend.app.module.User.Role</node>
+            <node x="" y="">javax.persistence.MappedSuperclass</node>
+            <node x="" y="">szakdoga.backend.app.module.BaseEntity</node>
+            <node x="" y="">lombok.AllArgsConstructor.AnyAnnotation</node>
+            <node x="" y="">lombok.EqualsAndHashCode</node>
+            <node x="" y="">lombok.EqualsAndHashCode.Include</node>
+            <node x="" y="">lombok.NoArgsConstructor.AnyAnnotation</node>
+            <node x="" y="">lombok.EqualsAndHashCode.Exclude</node>
+            <node x="" y="">szakdoga.backend.app.module.User</node>
+            <node x="" y="">javax.persistence.Table</node>
+            <node x="" y="">lombok.Data</node>
+            <node x="" y="">lombok.AllArgsConstructor</node>
+            <node x="" y="">lombok.EqualsAndHashCode.AnyAnnotation</node>
+            <node x="" y="">lombok.NoArgsConstructor</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.7620772946859904" x="760.0" y="394.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+            <Category>Properties</Category>
+            <Category>Inner Classes</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://SpringLocalModels/szakdoga.backend.BackendApplication">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>SpringLocalModels</ID>
+          <OriginalElement>szakdoga.backend.BackendApplication</OriginalElement>
+          <nodes>
+            <node x="" y="">szakdoga.backend.BackendApplication</node>
+            <node x="" y="">org.springframework.boot.autoconfigure.domain.EntityScan</node>
+            <node x="" y="">org.springframework.boot.autoconfigure.SpringBootApplication</node>
+            <node x="" y="">org.springframework.boot.context.properties.EnableConfigurationProperties</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="198.0" y="100.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Show filesets as groups</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://SPRING/mappedClass=szakdoga.backend.BackendApplication">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>SPRING</ID>
+          <OriginalElement>mappedClass=szakdoga.backend.BackendApplication</OriginalElement>
+          <nodes>
+            <node x="" y="">module=backend;bean_class=szakdoga.backend.BackendApplication;bean_name=backendApplication</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.boot.context.properties.EnableConfigurationPropertiesImportSelector;bean_name=enableConfigurationPropertiesImportSelector</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.boot.autoconfigure.domain.EntityScanPackages.Registrar;bean_name=registrar</node>
+            <node x="" y="">module=backend;bean_class=szakdoga.backend.config.AuthInterceptor;bean_name=authInterceptor</node>
+            <node x="" y="">module=backend;bean_class=szakdoga.backend.Service.UserService;bean_name=userService</node>
+            <node x="" y="">module=backend;bean_class=szakdoga.backend.Service.OrderService;bean_name=orderService</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration.EnableWebMvcConfiguration;bean_name=enableWebMvcConfiguration</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter;bean_name=requestMappingHandlerAdapter</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping;bean_name=requestMappingHandlerMapping</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.format.support.FormattingConversionService;bean_name=mvcConversionService</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.validation.Validator;bean_name=mvcValidator</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.web.accept.ContentNegotiationManager;bean_name=mvcContentNegotiationManager</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.util.PathMatcher;bean_name=mvcPathMatcher</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.web.util.UrlPathHelper;bean_name=mvcUrlPathHelper</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.web.servlet.HandlerMapping;bean_name=viewControllerHandlerMapping</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping;bean_name=beanNameHandlerMapping</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.web.servlet.HandlerMapping;bean_name=resourceHandlerMapping</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.web.servlet.resource.ResourceUrlProvider;bean_name=mvcResourceUrlProvider</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.web.servlet.HandlerMapping;bean_name=defaultServletHandlerMapping</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.web.method.support.CompositeUriComponentsContributor;bean_name=mvcUriComponentsContributor</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.web.servlet.mvc.HttpRequestHandlerAdapter;bean_name=httpRequestHandlerAdapter</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter;bean_name=simpleControllerHandlerAdapter</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.web.servlet.HandlerExceptionResolver;bean_name=handlerExceptionResolver</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.web.servlet.ViewResolver;bean_name=mvcViewResolver</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.web.servlet.handler.HandlerMappingIntrospector;bean_name=mvcHandlerMappingIntrospector</node>
+            <node x="" y="">module=backend;bean_class=szakdoga.backend.Repository.OrderRepository;bean_name=orderRepository</node>
+            <node x="" y="">module=backend;bean_class=szakdoga.backend.Repository.BasketRepository;bean_name=basketRepository</node>
+            <node x="" y="">module=backend;bean_class=szakdoga.backend.controller.RatingController;bean_name=ratingController</node>
+            <node x="" y="">module=backend;bean_class=szakdoga.backend.Service.RatingService;bean_name=ratingService</node>
+            <node x="" y="">module=backend;bean_class=szakdoga.backend.controller.UserController;bean_name=userController</node>
+            <node x="" y="">module=backend;bean_class=szakdoga.backend.controller.FoodController;bean_name=foodController</node>
+            <node x="" y="">module=backend;bean_class=szakdoga.backend.Service.FoodService;bean_name=foodService</node>
+            <node x="" y="">module=backend;bean_class=szakdoga.backend.controller.OrderController;bean_name=orderController</node>
+            <node x="" y="">module=backend;bean_class=szakdoga.backend.controller.ReservationController;bean_name=reservationController</node>
+            <node x="" y="">module=backend;bean_class=szakdoga.backend.Service.ReservationService;bean_name=reservationService</node>
+            <node x="" y="">module=backend;bean_class=szakdoga.backend.controller.BasketController;bean_name=basketController</node>
+            <node x="" y="">module=backend;bean_class=szakdoga.backend.Service.BasketService;bean_name=basketService</node>
+            <node x="" y="">module=backend;bean_class=szakdoga.backend.Repository.UserRepository;bean_name=userRepository</node>
+            <node x="" y="">module=backend;bean_class=szakdoga.backend.Repository.ReservationRepository;bean_name=reservationRepository</node>
+            <node x="" y="">module=backend;bean_class=szakdoga.backend.Repository.RatingRepository;bean_name=ratingRepository</node>
+            <node x="" y="">module=backend;bean_class=szakdoga.backend.Repository.FoodRepository;bean_name=foodRepository</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.boot.autoconfigure.web.client.RestTemplateAutoConfiguration;bean_name=restTemplateAutoConfiguration</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.boot.web.client.RestTemplateBuilder;bean_name=restTemplateBuilder</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration;bean_name=webMvcAutoConfiguration</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.boot.web.servlet.filter.OrderedHiddenHttpMethodFilter;bean_name=hiddenHttpMethodFilter</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.boot.web.servlet.filter.OrderedHttpPutFormContentFilter;bean_name=httpPutFormContentFilter</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration.WebMvcAutoConfigurationAdapter;bean_name=webMvcAutoConfigurationAdapter</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.web.servlet.view.InternalResourceViewResolver;bean_name=defaultViewResolver</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.web.servlet.view.BeanNameViewResolver;bean_name=beanNameViewResolver</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.web.servlet.view.ContentNegotiatingViewResolver;bean_name=viewResolver</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.web.servlet.LocaleResolver;bean_name=localeResolver</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping;bean_name=welcomePageHandlerMapping</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.web.filter.RequestContextFilter;bean_name=requestContextFilter</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration.WebMvcAutoConfigurationAdapter.FaviconConfiguration;bean_name=faviconConfiguration</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.web.servlet.handler.SimpleUrlHandlerMapping;bean_name=faviconHandlerMapping</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.web.servlet.resource.ResourceHttpRequestHandler;bean_name=faviconRequestHandler</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.boot.autoconfigure.web.servlet.WebMvcProperties;bean_name=spring.mvc-org.springframework.boot.autoconfigure.web.servlet.WebMvcProperties</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.boot.autoconfigure.web.ResourceProperties;bean_name=spring.resources-org.springframework.boot.autoconfigure.web.ResourceProperties</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration.EnableTransactionManagementConfiguration;bean_name=enableTransactionManagementConfiguration</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration.EnableTransactionManagementConfiguration.CglibAutoProxyConfiguration;bean_name=cglibAutoProxyConfiguration</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.transaction.annotation.TransactionManagementConfigurationSelector;bean_name=transactionManagementConfigurationSelector</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration;bean_name=errorMvcAutoConfiguration</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.boot.web.servlet.error.DefaultErrorAttributes;bean_name=errorAttributes</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController;bean_name=basicErrorController</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration.ErrorPageCustomizer;bean_name=errorPageCustomizer</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration.PreserveErrorControllerTargetClassPostProcessor;bean_name=preserveErrorControllerTargetClassPostProcessor</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.boot.autoconfigure.web.ServerProperties;bean_name=server-org.springframework.boot.autoconfigure.web.ServerProperties</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration.DefaultErrorViewResolverConfiguration;bean_name=defaultErrorViewResolverConfiguration</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.boot.autoconfigure.web.servlet.error.DefaultErrorViewResolver;bean_name=conventionErrorViewResolver</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration.WhitelabelErrorViewConfiguration;bean_name=whitelabelErrorViewConfiguration</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.web.servlet.View;bean_name=error</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration;bean_name=transactionAutoConfiguration</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.boot.autoconfigure.transaction.TransactionManagerCustomizers;bean_name=platformTransactionManagerCustomizers</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.boot.autoconfigure.transaction.TransactionProperties;bean_name=spring.transaction-org.springframework.boot.autoconfigure.transaction.TransactionProperties</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration.TransactionTemplateConfiguration;bean_name=transactionTemplateConfiguration</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.transaction.support.TransactionTemplate;bean_name=transactionTemplate</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.boot.autoconfigure.jdbc.XADataSourceAutoConfiguration;bean_name=XADataSourceAutoConfiguration</node>
+            <node x="" y="">module=backend;bean_class=javax.sql.DataSource;bean_name=dataSource</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.boot.autoconfigure.jdbc.DataSourceProperties;bean_name=spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration;bean_name=h2ConsoleAutoConfiguration</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.boot.web.servlet.ServletRegistrationBean;bean_name=h2Console</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.boot.autoconfigure.h2.H2ConsoleProperties;bean_name=spring.h2.console-org.springframework.boot.autoconfigure.h2.H2ConsoleProperties</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.boot.autoconfigure.http.codec.CodecsAutoConfiguration;bean_name=codecsAutoConfiguration</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.boot.autoconfigure.http.codec.CodecsAutoConfiguration.JacksonCodecConfiguration;bean_name=jacksonCodecConfiguration</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.boot.web.codec.CodecCustomizer;bean_name=jacksonCodecCustomizer</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.boot.autoconfigure.web.servlet.HttpEncodingAutoConfiguration;bean_name=httpEncodingAutoConfiguration</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.web.filter.CharacterEncodingFilter;bean_name=characterEncodingFilter</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.boot.autoconfigure.web.servlet.HttpEncodingAutoConfiguration.LocaleCharsetMappingsCustomizer;bean_name=localeCharsetMappingsCustomizer</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.boot.autoconfigure.http.HttpEncodingProperties;bean_name=spring.http.encoding-org.springframework.boot.autoconfigure.http.HttpEncodingProperties</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.boot.autoconfigure.dao.PersistenceExceptionTranslationAutoConfiguration;bean_name=persistenceExceptionTranslationAutoConfiguration</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.dao.annotation.PersistenceExceptionTranslationPostProcessor;bean_name=persistenceExceptionTranslationPostProcessor</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.boot.autoconfigure.transaction.jta.JtaAutoConfiguration;bean_name=jtaAutoConfiguration</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.boot.autoconfigure.transaction.jta.JndiJtaConfiguration;bean_name=jndiJtaConfiguration</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.transaction.jta.JtaTransactionManager;bean_name=transactionManager</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.boot.autoconfigure.transaction.jta.JtaProperties;bean_name=spring.jta-org.springframework.boot.autoconfigure.transaction.jta.JtaProperties</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.boot.autoconfigure.security.reactive.ReactiveSecurityAutoConfiguration;bean_name=reactiveSecurityAutoConfiguration</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.boot.autoconfigure.security.SecurityProperties;bean_name=spring.security-org.springframework.boot.autoconfigure.security.SecurityProperties</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryAutoConfiguration;bean_name=servletWebServerFactoryAutoConfiguration</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryAutoConfiguration.BeanPostProcessorsRegistrar;bean_name=beanPostProcessorsRegistrar</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryConfiguration.EmbeddedTomcat;bean_name=embeddedTomcat</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory;bean_name=tomcatServletWebServerFactory</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryCustomizer;bean_name=servletWebServerFactoryCustomizer</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.boot.autoconfigure.web.servlet.TomcatServletWebServerFactoryCustomizer;bean_name=tomcatServletWebServerFactoryCustomizer</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.boot.devtools.autoconfigure.DevToolsDataSourceAutoConfiguration;bean_name=devToolsDataSourceAutoConfiguration</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.boot.devtools.autoconfigure.DevToolsDataSourceAutoConfiguration.NonEmbeddedInMemoryDatabaseShutdownExecutor;bean_name=inMemoryDatabaseShutdownExecutor</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.boot.devtools.autoconfigure.DevToolsDataSourceAutoConfiguration.DatabaseShutdownExecutorJpaDependencyConfiguration;bean_name=databaseShutdownExecutorJpaDependencyConfiguration</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.boot.autoconfigure.data.jpa.JpaRepositoriesAutoConfiguration;bean_name=jpaRepositoriesAutoConfiguration</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.boot.autoconfigure.data.jpa.JpaRepositoriesAutoConfigureRegistrar;bean_name=jpaRepositoriesAutoConfigureRegistrar</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;bean_name=dataSourceAutoConfiguration</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.boot.autoconfigure.jdbc.metadata.DataSourcePoolMetadataProvidersConfiguration;bean_name=dataSourcePoolMetadataProvidersConfiguration</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.boot.autoconfigure.jdbc.DataSourceInitializationConfiguration;bean_name=dataSourceInitializationConfiguration</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker;bean_name=dataSourceInitializerInvoker</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.boot.autoconfigure.jdbc.DataSourceInitializationConfiguration.Registrar;bean_name=registrar</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.boot.autoconfigure.jdbc.metadata.DataSourcePoolMetadataProvidersConfiguration.HikariPoolDataSourceMetadataProviderConfiguration;bean_name=hikariPoolDataSourceMetadataProviderConfiguration</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.boot.jdbc.metadata.DataSourcePoolMetadataProvider;bean_name=hikariPoolDataSourceMetadataProvider</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration.PooledDataSourceConfiguration;bean_name=pooledDataSourceConfiguration</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration.Hikari;bean_name=hikari</node>
+            <node x="" y="">module=backend;bean_class=com.zaxxer.hikari.HikariDataSource;bean_name=dataSource</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.boot.autoconfigure.jdbc.DataSourceJmxConfiguration;bean_name=dataSourceJmxConfiguration</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.boot.autoconfigure.jdbc.DataSourceJmxConfiguration.Hikari;bean_name=hikari</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration;bean_name=jacksonAutoConfiguration</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.boot.jackson.JsonComponentModule;bean_name=jsonComponentModule</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration.JacksonObjectMapperConfiguration;bean_name=jacksonObjectMapperConfiguration</node>
+            <node x="" y="">module=backend;bean_class=com.fasterxml.jackson.databind.ObjectMapper;bean_name=jacksonObjectMapper</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration.Jackson2ObjectMapperBuilderCustomizerConfiguration;bean_name=jackson2ObjectMapperBuilderCustomizerConfiguration</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration.Jackson2ObjectMapperBuilderCustomizerConfiguration.StandardJackson2ObjectMapperBuilderCustomizer;bean_name=standardJacksonObjectMapperBuilderCustomizer</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.boot.autoconfigure.jackson.JacksonProperties;bean_name=spring.jackson-org.springframework.boot.autoconfigure.jackson.JacksonProperties</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration.ParameterNamesModuleConfiguration;bean_name=parameterNamesModuleConfiguration</node>
+            <node x="" y="">module=backend;bean_class=com.fasterxml.jackson.module.paramnames.ParameterNamesModule;bean_name=parameterNamesModule</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration.JacksonObjectMapperBuilderConfiguration;bean_name=jacksonObjectMapperBuilderConfiguration</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.http.converter.json.Jackson2ObjectMapperBuilder;bean_name=jacksonObjectMapperBuilder</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration.CacheManagerJpaDependencyConfiguration;bean_name=cacheManagerJpaDependencyConfiguration</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration;bean_name=localDevToolsAutoConfiguration</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration.RestartConfiguration;bean_name=restartConfiguration</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.boot.devtools.classpath.ClassPathFileSystemWatcher;bean_name=classPathFileSystemWatcher</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.boot.devtools.classpath.ClassPathRestartStrategy;bean_name=classPathRestartStrategy</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.boot.devtools.autoconfigure.HateoasObjenesisCacheDisabler;bean_name=hateoasObjenesisCacheDisabler</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.boot.devtools.filewatch.FileSystemWatcherFactory;bean_name=fileSystemWatcherFactory</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener;bean_name=conditionEvaluationDeltaLoggingListener</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration.LiveReloadConfiguration;bean_name=liveReloadConfiguration</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.boot.devtools.livereload.LiveReloadServer;bean_name=liveReloadServer</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer;bean_name=optionalLiveReloadServer</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration.LiveReloadServerEventListener;bean_name=liveReloadServerEventListener</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.boot.devtools.autoconfigure.DevToolsProperties;bean_name=spring.devtools-org.springframework.boot.devtools.autoconfigure.DevToolsProperties</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.boot.autoconfigure.aop.AopAutoConfiguration.CglibAutoProxyConfiguration;bean_name=cglibAutoProxyConfiguration</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.context.annotation.AspectJAutoProxyRegistrar;bean_name=aspectJAutoProxyRegistrar</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.boot.autoconfigure.web.embedded.EmbeddedWebServerFactoryCustomizerAutoConfiguration;bean_name=embeddedWebServerFactoryCustomizerAutoConfiguration</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.boot.autoconfigure.jdbc.JdbcTemplateAutoConfiguration.NamedParameterJdbcTemplateConfiguration;bean_name=namedParameterJdbcTemplateConfiguration</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.boot.autoconfigure.jdbc.JdbcTemplateAutoConfiguration.JdbcTemplateConfiguration;bean_name=jdbcTemplateConfiguration</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.jdbc.core.JdbcTemplate;bean_name=jdbcTemplate</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate;bean_name=namedParameterJdbcTemplate</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.boot.autoconfigure.jmx.JmxAutoConfiguration;bean_name=jmxAutoConfiguration</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.jmx.export.annotation.AnnotationMBeanExporter;bean_name=mbeanExporter</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.boot.autoconfigure.jmx.ParentAwareNamingStrategy;bean_name=objectNamingStrategy</node>
+            <node x="" y="">module=backend;bean_class=javax.management.MBeanServer;bean_name=mbeanServer</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.boot.autoconfigure.info.ProjectInfoAutoConfiguration;bean_name=projectInfoAutoConfiguration</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.boot.info.GitProperties;bean_name=gitProperties</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.boot.info.BuildProperties;bean_name=buildProperties</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.boot.autoconfigure.info.ProjectInfoProperties;bean_name=spring.info-org.springframework.boot.autoconfigure.info.ProjectInfoProperties</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.boot.autoconfigure.websocket.servlet.WebSocketServletAutoConfiguration.TomcatWebSocketConfiguration;bean_name=tomcatWebSocketConfiguration</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.boot.autoconfigure.websocket.servlet.TomcatWebSocketServletWebServerCustomizer;bean_name=websocketContainerCustomizer</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.boot.autoconfigure.context.ConfigurationPropertiesAutoConfiguration;bean_name=configurationPropertiesAutoConfiguration</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.boot.autoconfigure.websocket.servlet.WebSocketServletAutoConfiguration;bean_name=webSocketServletAutoConfiguration</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.boot.autoconfigure.web.servlet.DispatcherServletAutoConfiguration;bean_name=dispatcherServletAutoConfiguration</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.boot.autoconfigure.web.servlet.DispatcherServletAutoConfiguration.DispatcherServletRegistrationConfiguration;bean_name=dispatcherServletRegistrationConfiguration</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.boot.autoconfigure.web.servlet.DispatcherServletAutoConfiguration.DispatcherServletConfiguration;bean_name=dispatcherServletConfiguration</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.web.servlet.DispatcherServlet;bean_name=dispatcherServlet</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.web.multipart.MultipartResolver;bean_name=multipartResolver</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.boot.autoconfigure.web.servlet.DispatcherServletPathProvider;bean_name=mainDispatcherServletPathProvider</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.boot.web.servlet.ServletRegistrationBean;bean_name=dispatcherServletRegistration</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.boot.autoconfigure.jdbc.JdbcTemplateAutoConfiguration;bean_name=jdbcTemplateAutoConfiguration</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.boot.autoconfigure.jdbc.JdbcProperties;bean_name=spring.jdbc-org.springframework.boot.autoconfigure.jdbc.JdbcProperties</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.boot.autoconfigure.http.HttpMessageConvertersAutoConfiguration;bean_name=httpMessageConvertersAutoConfiguration</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.boot.autoconfigure.http.JacksonHttpMessageConvertersConfiguration;bean_name=jacksonHttpMessageConvertersConfiguration</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.boot.autoconfigure.http.HttpMessageConverters;bean_name=messageConverters</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.boot.autoconfigure.http.HttpMessageConvertersAutoConfiguration.StringHttpMessageConverterConfiguration;bean_name=stringHttpMessageConverterConfiguration</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.http.converter.StringHttpMessageConverter;bean_name=stringHttpMessageConverter</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.boot.autoconfigure.http.JacksonHttpMessageConvertersConfiguration.MappingJackson2HttpMessageConverterConfiguration;bean_name=mappingJackson2HttpMessageConverterConfiguration</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.http.converter.json.MappingJackson2HttpMessageConverter;bean_name=mappingJackson2HttpMessageConverter</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration.DataSourceTransactionManagerConfiguration;bean_name=dataSourceTransactionManagerConfiguration</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.jdbc.datasource.DataSourceTransactionManager;bean_name=transactionManager</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.boot.autoconfigure.context.PropertyPlaceholderAutoConfiguration;bean_name=propertyPlaceholderAutoConfiguration</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.context.support.PropertySourcesPlaceholderConfigurer;bean_name=propertySourcesPlaceholderConfigurer</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.boot.autoconfigure.validation.ValidationAutoConfiguration;bean_name=validationAutoConfiguration</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.boot.autoconfigure.validation.PrimaryDefaultValidatorPostProcessor;bean_name=primaryDefaultValidatorPostProcessor</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.validation.beanvalidation.LocalValidatorFactoryBean;bean_name=defaultValidator</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.validation.beanvalidation.MethodValidationPostProcessor;bean_name=methodValidationPostProcessor</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.future.FutureValidatorForZonedDateTime;bean_name=futureValidatorForZonedDateTime</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.future.FutureValidatorForMonthDay;bean_name=futureValidatorForMonthDay</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.number.bound.MinValidatorForNumber;bean_name=minValidatorForNumber</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.number.bound.MaxValidatorForBigDecimal;bean_name=maxValidatorForBigDecimal</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.future.FutureValidatorForOffsetTime;bean_name=futureValidatorForOffsetTime</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.number.bound.MaxValidatorForLong;bean_name=maxValidatorForLong</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.future.FutureValidatorForOffsetDateTime;bean_name=futureValidatorForOffsetDateTime</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.number.bound.MinValidatorForDouble;bean_name=minValidatorForDouble</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.future.FutureValidatorForJapaneseDate;bean_name=futureValidatorForJapaneseDate</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.future.FutureValidatorForLocalTime;bean_name=futureValidatorForLocalTime</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.number.bound.MinValidatorForBigInteger;bean_name=minValidatorForBigInteger</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.number.bound.MaxValidatorForNumber;bean_name=maxValidatorForNumber</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.future.FutureValidatorForReadableInstant;bean_name=futureValidatorForReadableInstant</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.number.bound.MaxValidatorForDouble;bean_name=maxValidatorForDouble</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.number.bound.MinValidatorForBigDecimal;bean_name=minValidatorForBigDecimal</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.future.FutureValidatorForMinguoDate;bean_name=futureValidatorForMinguoDate</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.number.bound.MaxValidatorForFloat;bean_name=maxValidatorForFloat</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.future.FutureValidatorForYearMonth;bean_name=futureValidatorForYearMonth</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.future.FutureValidatorForLocalDate;bean_name=futureValidatorForLocalDate</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.number.bound.MaxValidatorForBigInteger;bean_name=maxValidatorForBigInteger</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.future.FutureValidatorForInstant;bean_name=futureValidatorForInstant</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.future.FutureValidatorForReadablePartial;bean_name=futureValidatorForReadablePartial</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.future.FutureValidatorForHijrahDate;bean_name=futureValidatorForHijrahDate</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.future.FutureValidatorForDate;bean_name=futureValidatorForDate</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.number.bound.MinValidatorForFloat;bean_name=minValidatorForFloat</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.future.FutureValidatorForYear;bean_name=futureValidatorForYear</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.number.bound.MinValidatorForLong;bean_name=minValidatorForLong</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.number.bound.decimal.DecimalMinValidatorForBigInteger;bean_name=decimalMinValidatorForBigInteger</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.number.bound.decimal.DecimalMinValidatorForBigDecimal;bean_name=decimalMinValidatorForBigDecimal</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.number.bound.decimal.DecimalMinValidatorForNumber;bean_name=decimalMinValidatorForNumber</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.number.bound.decimal.DecimalMinValidatorForDouble;bean_name=decimalMinValidatorForDouble</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.number.bound.decimal.DecimalMaxValidatorForBigInteger;bean_name=decimalMaxValidatorForBigInteger</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.number.bound.decimal.DecimalMinValidatorForFloat;bean_name=decimalMinValidatorForFloat</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.number.bound.decimal.DecimalMaxValidatorForDouble;bean_name=decimalMaxValidatorForDouble</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.number.bound.decimal.DecimalMinValidatorForLong;bean_name=decimalMinValidatorForLong</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.number.bound.decimal.DecimalMaxValidatorForFloat;bean_name=decimalMaxValidatorForFloat</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.number.bound.decimal.DecimalMaxValidatorForBigDecimal;bean_name=decimalMaxValidatorForBigDecimal</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.number.bound.decimal.DecimalMaxValidatorForNumber;bean_name=decimalMaxValidatorForNumber</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.number.bound.decimal.DecimalMaxValidatorForLong;bean_name=decimalMaxValidatorForLong</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.pastorpresent.PastOrPresentValidatorForCalendar;bean_name=pastOrPresentValidatorForCalendar</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.pastorpresent.PastOrPresentValidatorForYearMonth;bean_name=pastOrPresentValidatorForYearMonth</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.pastorpresent.PastOrPresentValidatorForLocalDate;bean_name=pastOrPresentValidatorForLocalDate</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.pastorpresent.PastOrPresentValidatorForReadableInstant;bean_name=pastOrPresentValidatorForReadableInstant</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.pastorpresent.PastOrPresentValidatorForMonthDay;bean_name=pastOrPresentValidatorForMonthDay</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.pastorpresent.PastOrPresentValidatorForHijrahDate;bean_name=pastOrPresentValidatorForHijrahDate</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.pastorpresent.PastOrPresentValidatorForOffsetDateTime;bean_name=pastOrPresentValidatorForOffsetDateTime</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.pastorpresent.PastOrPresentValidatorForLocalTime;bean_name=pastOrPresentValidatorForLocalTime</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.pastorpresent.PastOrPresentValidatorForOffsetTime;bean_name=pastOrPresentValidatorForOffsetTime</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.pastorpresent.PastOrPresentValidatorForZonedDateTime;bean_name=pastOrPresentValidatorForZonedDateTime</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.pastorpresent.PastOrPresentValidatorForThaiBuddhistDate;bean_name=pastOrPresentValidatorForThaiBuddhistDate</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.pastorpresent.PastOrPresentValidatorForReadablePartial;bean_name=pastOrPresentValidatorForReadablePartial</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.pastorpresent.PastOrPresentValidatorForInstant;bean_name=pastOrPresentValidatorForInstant</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.pastorpresent.PastOrPresentValidatorForLocalDateTime;bean_name=pastOrPresentValidatorForLocalDateTime</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.pastorpresent.PastOrPresentValidatorForDate;bean_name=pastOrPresentValidatorForDate</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.pastorpresent.PastOrPresentValidatorForJapaneseDate;bean_name=pastOrPresentValidatorForJapaneseDate</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.pastorpresent.PastOrPresentValidatorForMinguoDate;bean_name=pastOrPresentValidatorForMinguoDate</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.pastorpresent.PastOrPresentValidatorForYear;bean_name=pastOrPresentValidatorForYear</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.engine.constraintvalidation.LambdaBasedValidatorDescriptor.LambdaExecutor;bean_name=lambdaExecutor</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.notempty.NotEmptyValidatorForArraysOfChar;bean_name=notEmptyValidatorForArraysOfChar</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.notempty.NotEmptyValidatorForArraysOfFloat;bean_name=notEmptyValidatorForArraysOfFloat</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.notempty.NotEmptyValidatorForCharSequence;bean_name=notEmptyValidatorForCharSequence</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.notempty.NotEmptyValidatorForArraysOfLong;bean_name=notEmptyValidatorForArraysOfLong</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.notempty.NotEmptyValidatorForCollection;bean_name=notEmptyValidatorForCollection</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.notempty.NotEmptyValidatorForArraysOfShort;bean_name=notEmptyValidatorForArraysOfShort</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.notempty.NotEmptyValidatorForArraysOfInt;bean_name=notEmptyValidatorForArraysOfInt</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.notempty.NotEmptyValidatorForArraysOfBoolean;bean_name=notEmptyValidatorForArraysOfBoolean</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.notempty.NotEmptyValidatorForArray;bean_name=notEmptyValidatorForArray</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.notempty.NotEmptyValidatorForArraysOfDouble;bean_name=notEmptyValidatorForArraysOfDouble</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.notempty.NotEmptyValidatorForMap;bean_name=notEmptyValidatorForMap</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.notempty.NotEmptyValidatorForArraysOfByte;bean_name=notEmptyValidatorForArraysOfByte</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.AbstractEmailValidator;bean_name=abstractEmailValidator</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.NotBlankValidator;bean_name=notBlankValidator</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.EmailValidator;bean_name=emailValidator</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.DecimalMinValidatorForCharSequence;bean_name=decimalMinValidatorForCharSequence</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.NotNullValidator;bean_name=notNullValidator</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.PatternValidator;bean_name=patternValidator</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.MaxValidatorForCharSequence;bean_name=maxValidatorForCharSequence</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.MinValidatorForCharSequence;bean_name=minValidatorForCharSequence</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.AssertFalseValidator;bean_name=assertFalseValidator</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.DigitsValidatorForCharSequence;bean_name=digitsValidatorForCharSequence</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.DecimalMaxValidatorForCharSequence;bean_name=decimalMaxValidatorForCharSequence</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.DigitsValidatorForNumber;bean_name=digitsValidatorForNumber</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.NullValidator;bean_name=nullValidator</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.futureorpresent.FutureOrPresentValidatorForReadableInstant;bean_name=futureOrPresentValidatorForReadableInstant</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.futureorpresent.FutureOrPresentValidatorForInstant;bean_name=futureOrPresentValidatorForInstant</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.AssertTrueValidator;bean_name=assertTrueValidator</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.futureorpresent.FutureOrPresentValidatorForLocalTime;bean_name=futureOrPresentValidatorForLocalTime</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.futureorpresent.FutureOrPresentValidatorForJapaneseDate;bean_name=futureOrPresentValidatorForJapaneseDate</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.constraintvalidators.RegexpURLValidator;bean_name=regexpURLValidator</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.futureorpresent.FutureOrPresentValidatorForZonedDateTime;bean_name=futureOrPresentValidatorForZonedDateTime</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.futureorpresent.FutureOrPresentValidatorForHijrahDate;bean_name=futureOrPresentValidatorForHijrahDate</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.futureorpresent.FutureOrPresentValidatorForLocalDateTime;bean_name=futureOrPresentValidatorForLocalDateTime</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.futureorpresent.FutureOrPresentValidatorForCalendar;bean_name=futureOrPresentValidatorForCalendar</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.futureorpresent.FutureOrPresentValidatorForMonthDay;bean_name=futureOrPresentValidatorForMonthDay</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.size.SizeValidatorForArraysOfByte;bean_name=sizeValidatorForArraysOfByte</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.size.SizeValidatorForMap;bean_name=sizeValidatorForMap</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.futureorpresent.FutureOrPresentValidatorForOffsetTime;bean_name=futureOrPresentValidatorForOffsetTime</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.futureorpresent.FutureOrPresentValidatorForThaiBuddhistDate;bean_name=futureOrPresentValidatorForThaiBuddhistDate</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.size.SizeValidatorForArray;bean_name=sizeValidatorForArray</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.futureorpresent.FutureOrPresentValidatorForOffsetDateTime;bean_name=futureOrPresentValidatorForOffsetDateTime</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.size.SizeValidatorForArraysOfBoolean;bean_name=sizeValidatorForArraysOfBoolean</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.futureorpresent.FutureOrPresentValidatorForLocalDate;bean_name=futureOrPresentValidatorForLocalDate</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.size.SizeValidatorForCharSequence;bean_name=sizeValidatorForCharSequence</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.futureorpresent.FutureOrPresentValidatorForReadablePartial;bean_name=futureOrPresentValidatorForReadablePartial</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.futureorpresent.FutureOrPresentValidatorForYearMonth;bean_name=futureOrPresentValidatorForYearMonth</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.futureorpresent.FutureOrPresentValidatorForMinguoDate;bean_name=futureOrPresentValidatorForMinguoDate</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.futureorpresent.FutureOrPresentValidatorForDate;bean_name=futureOrPresentValidatorForDate</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.size.SizeValidatorForArraysOfShort;bean_name=sizeValidatorForArraysOfShort</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.hv.EmailValidator;bean_name=emailValidator</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.futureorpresent.FutureOrPresentValidatorForYear;bean_name=futureOrPresentValidatorForYear</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.size.SizeValidatorForCollection;bean_name=sizeValidatorForCollection</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.hv.EANValidator;bean_name=EANValidator</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.hv.ScriptAssertValidator;bean_name=scriptAssertValidator</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.size.SizeValidatorForArraysOfChar;bean_name=sizeValidatorForArraysOfChar</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.hv.URLValidator;bean_name=URLValidator</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.hv.SafeHtmlValidator;bean_name=safeHtmlValidator</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.size.SizeValidatorForArraysOfDouble;bean_name=sizeValidatorForArraysOfDouble</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.hv.Mod11CheckValidator;bean_name=mod11CheckValidator</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.hv.Mod10CheckValidator;bean_name=mod10CheckValidator</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.hv.LuhnCheckValidator;bean_name=luhnCheckValidator</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.size.SizeValidatorForArraysOfLong;bean_name=sizeValidatorForArraysOfLong</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.hv.NotBlankValidator;bean_name=notBlankValidator</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.hv.ParameterScriptAssertValidator;bean_name=parameterScriptAssertValidator</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.hv.CodePointLengthValidator;bean_name=codePointLengthValidator</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.size.SizeValidatorForArraysOfFloat;bean_name=sizeValidatorForArraysOfFloat</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.size.SizeValidatorForArraysOfInt;bean_name=sizeValidatorForArraysOfInt</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.hv.UniqueElementsValidator;bean_name=uniqueElementsValidator</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.hv.LengthValidator;bean_name=lengthValidator</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.hv.ModCheckValidator;bean_name=modCheckValidator</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.hv.ISBNValidator;bean_name=ISBNValidator</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.hv.br.CNPJValidator;bean_name=CNPJValidator</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.hv.br.CPFValidator;bean_name=CPFValidator</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.money.PositiveOrZeroValidatorForMonetaryAmount;bean_name=positiveOrZeroValidatorForMonetaryAmount</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.money.MinValidatorForMonetaryAmount;bean_name=minValidatorForMonetaryAmount</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.money.DecimalMinValidatorForMonetaryAmount;bean_name=decimalMinValidatorForMonetaryAmount</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.money.NegativeValidatorForMonetaryAmount;bean_name=negativeValidatorForMonetaryAmount</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.money.NegativeOrZeroValidatorForMonetaryAmount;bean_name=negativeOrZeroValidatorForMonetaryAmount</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.money.CurrencyValidatorForMonetaryAmount;bean_name=currencyValidatorForMonetaryAmount</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.money.DecimalMaxValidatorForMonetaryAmount;bean_name=decimalMaxValidatorForMonetaryAmount</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.money.MaxValidatorForMonetaryAmount;bean_name=maxValidatorForMonetaryAmount</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.money.PositiveValidatorForMonetaryAmount;bean_name=positiveValidatorForMonetaryAmount</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.hv.pl.NIPValidator;bean_name=NIPValidator</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.hv.pl.REGONValidator;bean_name=REGONValidator</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.number.sign.NegativeValidatorForShort;bean_name=negativeValidatorForShort</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.number.sign.NegativeOrZeroValidatorForNumber;bean_name=negativeOrZeroValidatorForNumber</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.number.sign.NegativeOrZeroValidatorForShort;bean_name=negativeOrZeroValidatorForShort</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.number.sign.PositiveOrZeroValidatorForInteger;bean_name=positiveOrZeroValidatorForInteger</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.hv.pl.PESELValidator;bean_name=PESELValidator</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.number.sign.PositiveOrZeroValidatorForLong;bean_name=positiveOrZeroValidatorForLong</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.number.sign.NegativeValidatorForDouble;bean_name=negativeValidatorForDouble</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.number.sign.NegativeOrZeroValidatorForDouble;bean_name=negativeOrZeroValidatorForDouble</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.number.sign.NegativeOrZeroValidatorForBigInteger;bean_name=negativeOrZeroValidatorForBigInteger</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.number.sign.PositiveValidatorForDouble;bean_name=positiveValidatorForDouble</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.number.sign.NegativeOrZeroValidatorForBigDecimal;bean_name=negativeOrZeroValidatorForBigDecimal</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.number.sign.NegativeValidatorForInteger;bean_name=negativeValidatorForInteger</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.number.sign.NegativeValidatorForFloat;bean_name=negativeValidatorForFloat</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.number.sign.PositiveOrZeroValidatorForBigDecimal;bean_name=positiveOrZeroValidatorForBigDecimal</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.number.sign.NegativeValidatorForByte;bean_name=negativeValidatorForByte</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.number.sign.PositiveOrZeroValidatorForByte;bean_name=positiveOrZeroValidatorForByte</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.number.sign.PositiveValidatorForLong;bean_name=positiveValidatorForLong</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.number.sign.PositiveValidatorForNumber;bean_name=positiveValidatorForNumber</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.number.sign.PositiveOrZeroValidatorForDouble;bean_name=positiveOrZeroValidatorForDouble</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.number.sign.NegativeOrZeroValidatorForLong;bean_name=negativeOrZeroValidatorForLong</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.number.sign.PositiveOrZeroValidatorForFloat;bean_name=positiveOrZeroValidatorForFloat</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.number.sign.PositiveValidatorForShort;bean_name=positiveValidatorForShort</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.number.sign.NegativeOrZeroValidatorForInteger;bean_name=negativeOrZeroValidatorForInteger</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.number.sign.NegativeValidatorForLong;bean_name=negativeValidatorForLong</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.hv.time.DurationMaxValidator;bean_name=durationMaxValidator</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.number.sign.NegativeOrZeroValidatorForByte;bean_name=negativeOrZeroValidatorForByte</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.hv.time.DurationMinValidator;bean_name=durationMinValidator</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.number.sign.PositiveOrZeroValidatorForBigInteger;bean_name=positiveOrZeroValidatorForBigInteger</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.number.sign.NegativeValidatorForNumber;bean_name=negativeValidatorForNumber</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.number.sign.PositiveValidatorForBigDecimal;bean_name=positiveValidatorForBigDecimal</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.number.sign.NegativeValidatorForBigInteger;bean_name=negativeValidatorForBigInteger</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.number.sign.PositiveValidatorForFloat;bean_name=positiveValidatorForFloat</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.number.sign.PositiveValidatorForInteger;bean_name=positiveValidatorForInteger</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.past.PastValidatorForLocalDate;bean_name=pastValidatorForLocalDate</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.past.PastValidatorForLocalDateTime;bean_name=pastValidatorForLocalDateTime</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.number.sign.PositiveOrZeroValidatorForNumber;bean_name=positiveOrZeroValidatorForNumber</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.past.PastValidatorForJapaneseDate;bean_name=pastValidatorForJapaneseDate</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.number.sign.NegativeOrZeroValidatorForFloat;bean_name=negativeOrZeroValidatorForFloat</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.past.PastValidatorForReadableInstant;bean_name=pastValidatorForReadableInstant</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.number.sign.PositiveValidatorForByte;bean_name=positiveValidatorForByte</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.number.sign.NegativeValidatorForBigDecimal;bean_name=negativeValidatorForBigDecimal</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.past.PastValidatorForCalendar;bean_name=pastValidatorForCalendar</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.past.PastValidatorForThaiBuddhistDate;bean_name=pastValidatorForThaiBuddhistDate</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.number.sign.PositiveValidatorForBigInteger;bean_name=positiveValidatorForBigInteger</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.past.PastValidatorForHijrahDate;bean_name=pastValidatorForHijrahDate</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.number.sign.PositiveOrZeroValidatorForShort;bean_name=positiveOrZeroValidatorForShort</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.past.PastValidatorForYearMonth;bean_name=pastValidatorForYearMonth</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.past.PastValidatorForDate;bean_name=pastValidatorForDate</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.past.PastValidatorForYear;bean_name=pastValidatorForYear</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.past.PastValidatorForReadablePartial;bean_name=pastValidatorForReadablePartial</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.past.PastValidatorForOffsetTime;bean_name=pastValidatorForOffsetTime</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.past.PastValidatorForMonthDay;bean_name=pastValidatorForMonthDay</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.past.PastValidatorForLocalTime;bean_name=pastValidatorForLocalTime</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.past.PastValidatorForMinguoDate;bean_name=pastValidatorForMinguoDate</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.past.PastValidatorForInstant;bean_name=pastValidatorForInstant</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.past.PastValidatorForZonedDateTime;bean_name=pastValidatorForZonedDateTime</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.past.PastValidatorForOffsetDateTime;bean_name=pastValidatorForOffsetDateTime</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.future.FutureValidatorForThaiBuddhistDate;bean_name=futureValidatorForThaiBuddhistDate</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.future.FutureValidatorForLocalDateTime;bean_name=futureValidatorForLocalDateTime</node>
+            <node x="" y="">module=backend;bean_class=org.hibernate.validator.internal.constraintvalidators.bv.time.future.FutureValidatorForCalendar;bean_name=futureValidatorForCalendar</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.boot.autoconfigure.data.web.SpringDataWebAutoConfiguration;bean_name=springDataWebAutoConfiguration</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.data.web.config.PageableHandlerMethodArgumentResolverCustomizer;bean_name=pageableCustomizer</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.data.web.config.SortHandlerMethodArgumentResolverCustomizer;bean_name=sortCustomizer</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.data.web.config.EnableSpringDataWebSupport.QuerydslActivator;bean_name=querydslActivator</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.data.web.config.SpringDataWebConfiguration;bean_name=springDataWebConfiguration</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.data.web.PageableHandlerMethodArgumentResolver;bean_name=pageableResolver</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.data.web.SortHandlerMethodArgumentResolver;bean_name=sortResolver</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.data.web.config.EnableSpringDataWebSupport.SpringDataWebConfigurationImportSelector;bean_name=springDataWebConfigurationImportSelector</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.boot.autoconfigure.data.web.SpringDataWebProperties;bean_name=spring.data.web-org.springframework.boot.autoconfigure.data.web.SpringDataWebProperties</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration;bean_name=cacheAutoConfiguration</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration.CacheConfigurationImportSelector;bean_name=cacheConfigurationImportSelector</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.boot.autoconfigure.cache.CacheManagerCustomizers;bean_name=cacheManagerCustomizers</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration.CacheManagerValidator;bean_name=cacheAutoConfigurationValidator</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.boot.autoconfigure.cache.CacheProperties;bean_name=spring.cache-org.springframework.boot.autoconfigure.cache.CacheProperties</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.boot.autoconfigure.web.servlet.MultipartAutoConfiguration;bean_name=multipartAutoConfiguration</node>
+            <node x="" y="">module=backend;bean_class=javax.servlet.MultipartConfigElement;bean_name=multipartConfigElement</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.web.multipart.support.StandardServletMultipartResolver;bean_name=multipartResolver</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.boot.autoconfigure.web.servlet.MultipartProperties;bean_name=spring.servlet.multipart-org.springframework.boot.autoconfigure.web.servlet.MultipartProperties</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration;bean_name=hibernateJpaAutoConfiguration</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration;bean_name=hibernateJpaConfiguration</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.transaction.PlatformTransactionManager;bean_name=transactionManager</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.orm.jpa.JpaVendorAdapter;bean_name=jpaVendorAdapter</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.boot.orm.jpa.EntityManagerFactoryBuilder;bean_name=entityManagerFactoryBuilder</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean;bean_name=entityManagerFactory</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.boot.autoconfigure.orm.jpa.JpaProperties;bean_name=spring.jpa-org.springframework.boot.autoconfigure.orm.jpa.JpaProperties</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration.JpaWebConfiguration;bean_name=jpaWebConfiguration</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration.JpaWebConfiguration.JpaWebMvcConfiguration;bean_name=jpaWebMvcConfiguration</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.orm.jpa.support.OpenEntityManagerInViewInterceptor;bean_name=openEntityManagerInViewInterceptor</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration;bean_name=dataSourceTransactionManagerAutoConfiguration</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.boot.autoconfigure.aop.AopAutoConfiguration;bean_name=aopAutoConfiguration</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.boot.autoconfigure.context.MessageSourceAutoConfiguration;bean_name=messageSourceAutoConfiguration</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.boot.autoconfigure.context.MessageSourceProperties;bean_name=messageSourceProperties</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.context.MessageSource;bean_name=messageSource</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.core.env.Environment;bean_name=environment</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.core.env.PropertyResolver;bean_name=propertyResolver</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.core.convert.ConversionService;bean_name=conversionService</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.web.context.WebApplicationContext;bean_name=webApplicationContext</node>
+            <node x="" y="">module=backend;bean_class=javax.servlet.ServletConfig;bean_name=servletConfig</node>
+            <node x="" y="">module=backend;bean_class=javax.servlet.http.HttpServletRequest;bean_name=httpServletRequest</node>
+            <node x="" y="">module=backend;bean_class=javax.servlet.ServletContext;bean_name=servletContext</node>
+            <node x="" y="">module=backend;bean_class=javax.servlet.http.HttpSession;bean_name=httpSession</node>
+            <node x="" y="">module=backend;bean_class=org.springframework.boot.ApplicationArguments;bean_name=springApplicationArguments</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.368716577540106" x="1577.0" y="629.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Local context</Category>
+            <Category>Properties</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/etterem-frontend/src/app/reservation/reservation.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-561">
+          <folding>
+            <element signature="e#0#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/etterem-frontend/src/app/menu/menu.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="34" column="33" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/etterem-frontend/src/app/menu/menu.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/etterem-frontend/src/app/entity/User.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="85" selection-start-line="11" selection-start-column="85" selection-end-line="11" selection-end-column="85" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/etterem-frontend/src/app/entity/Food.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/etterem-frontend/src/app/error/error.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/etterem-frontend/src/app/error/error.component.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/etterem-frontend/src/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/szakdoga/backend/controller/RatingController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/szakdoga/backend/controller/FoodController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="29" column="94" selection-start-line="29" selection-start-column="93" selection-end-line="29" selection-end-column="94" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/szakdoga/backend/app/module/Reservation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="23" column="28" lean-forward="true" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/etterem-frontend/src/app/entity/Reservation.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="15" column="15" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
+        <state relative-caret-position="-19">
+          <folding>
+            <element signature="e#0#48#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/etterem-frontend/src/app/services/reservation.service.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="34" column="26" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="26" />
+        <state>
+          <caret column="41" selection-start-column="41" selection-end-column="41" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/etterem-frontend/package.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/etterem-frontend/src/app/orders/orders.component.html">
+    <entry file="file://$PROJECT_DIR$/etterem-frontend/src/app/services/rating.service.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="24" column="59" selection-start-line="24" selection-start-column="59" selection-end-line="24" selection-end-column="59" />
+        <state relative-caret-position="17">
+          <caret line="1" column="42" selection-start-line="1" selection-start-column="42" selection-end-line="1" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/etterem-frontend/src/app/services/orders.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/etterem-frontend/src/app/services/carte.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/etterem-frontend/src/app/services/auth.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-187">
+          <caret line="1" column="36" selection-start-line="1" selection-start-column="36" selection-end-line="1" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/etterem-frontend/src/app/services/order.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/etterem-frontend/src/app/order/order.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="41" column="50" selection-start-line="41" selection-start-column="50" selection-end-line="41" selection-end-column="50" />
+          <folding>
+            <element signature="e#0#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/etterem-frontend/src/app/services/basket.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="3" lean-forward="true" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/etterem-frontend/src/app/app.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="23" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/etterem-frontend/src/app/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="413">
+          <caret line="63" column="19" selection-start-line="63" selection-start-column="19" selection-end-line="63" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#56#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/etterem-frontend/src/app/app.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/szakdoga/backend/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="73">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/szakdoga/backend/BackendApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/szakdoga/backend/controller/ReservationController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="24" column="53" selection-start-line="24" selection-start-column="53" selection-end-line="24" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/szakdoga/backend/controller/RatingController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/szakdoga/backend/controller/OrderController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/szakdoga/backend/controller/FoodController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/szakdoga/backend/controller/BasketController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-51">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/szakdoga/backend/Repository/ReservationRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="7" column="2" lean-forward="true" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/szakdoga/backend/Service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="48" column="34" selection-start-line="48" selection-start-column="26" selection-end-line="48" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#766#767#0" expanded="true" />
+            <element signature="e#816#817#0" expanded="true" />
+            <element signature="e#958#959#0" expanded="true" />
+            <element signature="e#1041#1042#0" expanded="true" />
+            <element signature="e#1313#1314#0" expanded="true" />
+            <element signature="e#1348#1349#0" expanded="true" />
+            <element signature="e#1386#1387#0" expanded="true" />
+            <element signature="e#1432#1433#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/szakdoga/backend/Service/ReservationService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/szakdoga/backend/Service/BasketService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/szakdoga/backend/BackendApplicationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/szakdoga/backend/controller/ReservationControllerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -758,250 +1955,117 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/szakdoga/backend/Service/UserService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/szakdoga/backend/Repository/BasketRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="13" selection-start-line="13" selection-end-line="17" selection-end-column="13" />
+        <state relative-caret-position="85">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/szakdoga/backend/Service/FoodService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/szakdoga/backend/Repository/UserRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        <state relative-caret-position="85">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/szakdoga/backend/BackendApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" selection-start-line="7" selection-end-line="8" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/szakdoga/backend/Repository/ReservationRepositoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="44" column="66" selection-start-line="44" selection-start-column="66" selection-end-line="44" selection-end-column="66" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/szakdoga/backend/Service/RatingService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        <state relative-caret-position="221">
+          <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#615#616#0" expanded="true" />
+            <element signature="e#671#672#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/szakdoga/backend/Repository/OrderRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/szakdoga/backend/Repository/RatingRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/szakdoga/backend/Service/OrderService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="41" column="46" selection-start-line="41" selection-start-column="46" selection-end-line="41" selection-end-column="46" />
+        <state relative-caret-position="204">
+          <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/szakdoga/backend/controller/OrderController.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/szakdoga/backend/Repository/OrderRepositoryTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="39" column="4" lean-forward="true" selection-start-line="39" selection-start-column="4" selection-end-line="44" selection-end-column="5" />
+        <state relative-caret-position="39">
+          <caret line="14" column="28" lean-forward="true" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/szakdoga/backend/app/module/Order.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="12" selection-start-line="12" selection-end-line="17" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/szakdoga/backend/app/module/Ratings.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/etterem-frontend/src/app/entity/Order.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/etterem-frontend/src/app/services/carte.service.ts">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/etterem-frontend/src/app/services/orders.service.ts">
+    <entry file="file://$PROJECT_DIR$/src/test/java/szakdoga/backend/Repository/UserRepositoryTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
-          <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/szakdoga/backend/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="36" column="94" selection-start-line="36" selection-start-column="94" selection-end-line="36" selection-end-column="94" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/szakdoga/backend/Service/ReservationService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="38" selection-start-line="38" selection-end-line="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/szakdoga/backend/controller/ReservationController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="443">
-          <caret line="52" column="41" lean-forward="true" selection-start-line="52" selection-start-column="41" selection-end-line="52" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="40" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/data.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="96" lean-forward="true" selection-start-column="96" selection-end-column="96" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/etterem-frontend/src/app/rating/rating.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="31" column="25" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/etterem-frontend/src/app/reservation/reservation.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1350">
-          <caret line="16" column="113" selection-start-line="16" selection-start-column="113" selection-end-line="16" selection-end-column="113" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/szakdoga/backend/Repository/BasketRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/etterem-frontend/src/app/entity/Basket.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/szakdoga/backend/app/module/Basket.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/etterem-frontend/src/app/rating/rating.component.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="30" column="11" selection-start-line="30" selection-start-column="11" selection-end-line="30" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/etterem-frontend/src/app/rating/rating.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/etterem-frontend/src/app/reservation/reservation.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="51" column="77" selection-start-line="51" selection-start-column="77" selection-end-line="51" selection-end-column="77" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/etterem-frontend/src/app/order/order.component.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/etterem-frontend/src/app/MaterialItemsModule.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/etterem-frontend/src/app/app.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="43" column="21" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/etterem-frontend/src/app/services/order.service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="15" column="3" lean-forward="true" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/etterem-frontend/src/app/services/basket.service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="31" column="34" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/etterem-frontend/src/app/order/order.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="37" column="52" selection-start-line="37" selection-start-column="40" selection-end-line="37" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/szakdoga/backend/Service/BasketService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="39" selection-start-line="39" selection-end-line="39" />
+          <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
           <folding>
-            <element signature="e#1101#1102#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/szakdoga/backend/controller/BasketController.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/szakdoga/backend/Repository/FoodRepositoryTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="49" column="33" selection-start-line="49" selection-start-column="33" selection-end-line="49" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/etterem-frontend/src/app/utils/ServerRoutes.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="50" lean-forward="true" selection-start-line="11" selection-start-column="50" selection-end-line="11" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/etterem-frontend/src/app/order/order.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="56" column="32" selection-start-line="56" selection-start-column="32" selection-end-line="56" selection-end-column="32" />
+        <state relative-caret-position="323">
+          <caret line="19" selection-start-line="19" selection-end-line="54" selection-end-column="1" />
           <folding>
-            <element signature="e#0#48#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/etterem-frontend/src/app/orders/orders.component.ts">
+    <entry file="file://$PROJECT_DIR$/src/test/java/szakdoga/backend/Repository/RatingRepositoryTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        <state relative-caret-position="255">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/szakdoga/backend/Repository/BasketRepositoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="27" column="16" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
