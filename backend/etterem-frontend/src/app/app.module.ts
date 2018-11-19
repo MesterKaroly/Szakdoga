@@ -63,7 +63,7 @@ import {BasketService} from "./services/basket.service";
     OrdersComponent,
     RatingComponent
   ],
-  providers: [AuthService, CarteService, OrderService, OrdersService, RatingService, ReservationService,BasketService, RouteGuard],
+  providers: [AuthService, CarteService, OrderService, OrdersService, RatingService, ReservationService,BasketService, RouteGuard,AppComponent],
   bootstrap: [AppComponent]
 })
 export class AppModule {
