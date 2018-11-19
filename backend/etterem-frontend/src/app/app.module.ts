@@ -1,7 +1,6 @@
 import {BrowserModule} from '@angular/platform-browser';
 import {NgModule} from '@angular/core';
 
-import {AppComponent} from './app.component';
 import {LoginComponent} from './login/login.component';
 import {RegistrationComponent} from './registration/registration.component';
 import {FormsModule, ReactiveFormsModule} from "@angular/forms";
@@ -27,6 +26,8 @@ import {RouteGuard} from "./route.guard";
 import {OwlDateTimeModule, OwlNativeDateTimeModule} from "ng-pick-datetime";
 import {HttpClientModule} from "@angular/common/http";
 import {BasketService} from "./services/basket.service";
+import {AppComponent} from "./app.component";
+import {CookieService} from "ngx-cookie-service";
 
 @NgModule({
   declarations: [
@@ -51,19 +52,9 @@ import {BasketService} from "./services/basket.service";
     ReactiveFormsModule,
     RouterModule.forRoot(appRoutes),
     BrowserAnimationsModule,
-    MaterialItemsModule,
-    AppComponent,
-    LoginComponent,
-    RegistrationComponent,
-    MenuComponent,
-    ErrorComponent,
-    CarteComponent,
-    OrderComponent,
-    ReservationComponent,
-    OrdersComponent,
-    RatingComponent
+    MaterialItemsModule
   ],
-  providers: [AuthService, CarteService, OrderService, OrdersService, RatingService, ReservationService,BasketService, RouteGuard,AppComponent],
+  providers: [AuthService, CarteService, OrderService, OrdersService, RatingService, ReservationService,BasketService, RouteGuard,CookieService],
   bootstrap: [AppComponent]
 })
 export class AppModule {

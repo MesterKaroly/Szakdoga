@@ -34,7 +34,7 @@ public class UserController {
         return  ResponseEntity.ok(list);
     }
 
-    @Role({User.Role.GUEST, User.Role.ADMIN, User.Role.CHEF,User.Role.USER, User.Role.WAITER})
+    @Role({User.Role.GUEST})
     @PostMapping("/login")
     public ResponseEntity<User> login(@RequestBody User user) throws UserNotValidException {
         return ResponseEntity.ok(userService.login(user));

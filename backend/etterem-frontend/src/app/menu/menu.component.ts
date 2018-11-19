@@ -2,6 +2,7 @@ import {Component, OnInit} from '@angular/core';
 import {Role} from "../entity/Role";
 import {AuthService} from "../services/auth.service";
 import {NavigationEnd, Router} from "@angular/router";
+import {CookieService} from "ngx-cookie-service";
 
 
 interface MenuItem {
@@ -41,7 +42,7 @@ export class MenuComponent implements OnInit {
     }]]
   ]);
 
-  constructor(private authService: AuthService, private router: Router) {
+  constructor(private authService: AuthService, private router: Router,private cookieService: CookieService) {
   }
 
   ngOnInit() {
@@ -62,6 +63,7 @@ export class MenuComponent implements OnInit {
   }
 
   logout() {
+    this.cookieService.delete('JSESSIONID');
     this.authService.logout().subscribe(
       res => this.router.navigate(['/login']),
       err => err
